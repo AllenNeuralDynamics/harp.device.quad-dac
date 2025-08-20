@@ -28,7 +28,7 @@ set(CMAKE_CXX_STANDARD 17)
 project(harp_quad_dac)
 
 pico_sdk_init()
-add_subdirectory(core.pico/firmware build) # Path to core.pico's CMakeLists.txt
+add_subdirectory(libs/firmware build) # Path to core.pico's CMakeLists.txt
 
 add_executable(${PROJECT_NAME}
     src/main.cpp
