@@ -5,12 +5,17 @@
 #include <reg_types.h>
 #include <config.h>
 #include <cstdio> // for printf
+#include "hardware/flash.h"
 #ifdef DEBUG
     #include <pico/stdlib.h> // for uart printing
     #include <cstdio> // for printf
 #endif
 
 #define DEBUG_HARP_MSG_IN
+
+#define FLASH_TARGET_OFFSET (256 * 1024)  // Start writing at 256KB  = 
+#define PAGE_SIZE FLASH_PAGE_SIZE         // 1024 bytes
+#define SECTOR_SIZE FLASH_SECTOR_SIZE     // 4096 bytes
 
 
 // Create device name array.
@@ -121,6 +126,18 @@ void erase_flash_memory(msg_t& msg)
     if(app_regs.erase_flash == 1)
     {
         printf("Erasing Flash Memory !\r\n");
+        uint32_t ints = save_and_disable_interrupts();
+        // for PI PICO RP2530
+        // we need to ereas (4 Mbyte - 256 Kbyte) = 3932160 byte 
+        // (write it in term of Sector_Size as follow  960*4*1024 = 3932160 bytes = 3840 Kbyte)
+        // flash_range_erase(FLASH_TARGET_OFFSET  , 960*SECTOR_SIZE);
+        // for PI PICO RP2040
+        // we need to ereas (2 Mbyte - 256 Kbyte) = 1835008 byte 
+        // (write it in term of Sector_Size as follow  448*4*1024 = 1835008 bytes = 1792 Kbyte)
+        flash_range_erase(FLASH_TARGET_OFFSET  , 448*SECTOR_SIZE);
+        // Restore interrupts
+        restore_interrupts(ints);
+        printf("Done Erasing Flash Memory !\r\n");
     }
 }
 
