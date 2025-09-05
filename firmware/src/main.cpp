@@ -59,7 +59,7 @@ void app_reset()
 void update_app_state()
 {
     // update here!
-    printf("Hello, from an RP2040!\r\n");
+    printf("Hello, from an Quad DAC!\r\n");
     // If app registers update their states outside the read/write handler
     // functions, update them here.
     // (Called inside run() function.)
@@ -110,7 +110,7 @@ HarpCApp& app = HarpCApp::init(HARP_DEVICE_ID,
                                HW_ASSEMBLY_VERSION,
                                HARP_VERSION_MAJOR, HARP_VERSION_MINOR,
                                FW_VERSION_MAJOR, FW_VERSION_MINOR,
-                               UNUSED_SERIAL_NUMBER, "widget",
+                               UNUSED_SERIAL_NUMBER, "Quad DAC",
                                (uint8_t*)GIT_HASH,
                                &app_regs, app_reg_specs,
                                reg_handler_fns, reg_count, update_app_state,
@@ -126,11 +126,11 @@ int main()
     configure_gpio();
     #ifdef DEBUG
     stdio_uart_init_full(uart0, 921600, UART_TX_PIN, -1); // use uart1 tx only.
-    printf("Hello, from an RP2040!\r\n");
+    printf("Hello, from Quad DAC!\r\n");
 #endif
     while(true)
     {
-        printf("Hello, from an RP2040!\r\n");
+        printf("Hello, from Quad DAC!\r\n");
         app.run();
     }
 }
