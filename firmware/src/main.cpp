@@ -25,10 +25,11 @@ const uint8_t fw_version_minor = 0;
 const uint16_t serial_number = 0xCAFE;
 
 // Harp App Register Setup.
-const size_t reg_count = 9;
+const size_t reg_count = 17;
 
 void write_any_channel(msg_t& msg);
 void erase_flash_memory(msg_t& msg);
+void specific_any_waveform(msg_t& msg);
 // Define register contents.
 #pragma pack(push, 1)
 struct app_regs_t
@@ -36,12 +37,22 @@ struct app_regs_t
     volatile uint8_t start_channel_1;  // app register 0
     volatile uint8_t start_channel_2;
     volatile uint8_t start_channel_3; 
-    volatile uint8_t start_channel_4; 
-    
+    volatile uint8_t start_channel_4;
+
     volatile uint8_t stop_channel_1;
     volatile uint8_t stop_channel_2;
     volatile uint8_t stop_channel_3; 
     volatile uint8_t stop_channel_4;
+    
+    volatile uint32_t update_rate_1;
+    volatile uint32_t update_rate_2;
+    volatile uint32_t update_rate_3; 
+    volatile uint32_t update_rate_4; 
+
+    volatile uint32_t samples_wave_1;
+    volatile uint32_t samples_wave_2;
+    volatile uint32_t samples_wave_3; 
+    volatile uint32_t samples_wave_4; 
 
     volatile uint8_t erase_flash;
 } app_regs;
@@ -58,6 +69,14 @@ RegSpecs app_reg_specs[reg_count]
     {(uint8_t*)&app_regs.stop_channel_2, sizeof(app_regs.stop_channel_2), U8},
     {(uint8_t*)&app_regs.stop_channel_3, sizeof(app_regs.stop_channel_3), U8},
     {(uint8_t*)&app_regs.stop_channel_4, sizeof(app_regs.stop_channel_4), U8},
+    {(uint8_t*)&app_regs.update_rate_1, sizeof(app_regs.update_rate_1), U32},
+    {(uint8_t*)&app_regs.update_rate_2, sizeof(app_regs.update_rate_2), U32},
+    {(uint8_t*)&app_regs.update_rate_3, sizeof(app_regs.update_rate_3), U32},
+    {(uint8_t*)&app_regs.update_rate_4, sizeof(app_regs.update_rate_4), U32},
+    {(uint8_t*)&app_regs.samples_wave_1, sizeof(app_regs.samples_wave_1), U32},
+    {(uint8_t*)&app_regs.samples_wave_2, sizeof(app_regs.samples_wave_2), U32},
+    {(uint8_t*)&app_regs.samples_wave_3, sizeof(app_regs.samples_wave_3), U32},
+    {(uint8_t*)&app_regs.samples_wave_4, sizeof(app_regs.samples_wave_4), U32},
     {(uint8_t*)&app_regs.erase_flash, sizeof(app_regs.erase_flash), U8}
 };
 
@@ -72,6 +91,16 @@ RegFnPair reg_handler_fns[reg_count]
     {&HarpCore::read_reg_generic, write_any_channel},
     {&HarpCore::read_reg_generic, write_any_channel},
     {&HarpCore::read_reg_generic, write_any_channel},
+    
+    {&HarpCore::read_reg_generic, specific_any_waveform},
+    {&HarpCore::read_reg_generic, specific_any_waveform},
+    {&HarpCore::read_reg_generic, specific_any_waveform},
+    {&HarpCore::read_reg_generic, specific_any_waveform},
+    {&HarpCore::read_reg_generic, specific_any_waveform},
+    {&HarpCore::read_reg_generic, specific_any_waveform},
+    {&HarpCore::read_reg_generic, specific_any_waveform},
+    {&HarpCore::read_reg_generic, specific_any_waveform},
+
     {&HarpCore::read_reg_generic, erase_flash_memory}
 };
 
@@ -79,6 +108,11 @@ void write_any_channel(msg_t& msg)
 {
     HarpCore::copy_msg_payload_to_register(msg);
     uint8_t channel_index = msg.header.address - APP_REG_START_ADDRESS;
+}
+
+void specific_any_waveform(msg_t& msg)
+{
+    HarpCore::copy_msg_payload_to_register(msg);
 }
 
 void erase_flash_memory(msg_t& msg)
@@ -101,6 +135,16 @@ void app_reset()
     app_regs.stop_channel_2 = 0;
     app_regs.stop_channel_3 = 0;
     app_regs.stop_channel_4 = 0;
+
+    app_regs.update_rate_1 = 0;
+    app_regs.update_rate_2 = 0;
+    app_regs.update_rate_3 = 0;
+    app_regs.update_rate_4 = 0;
+
+    app_regs.samples_wave_1 = 0;
+    app_regs.samples_wave_2 = 0;
+    app_regs.samples_wave_3 = 0;
+    app_regs.samples_wave_4 = 0;
 
     app_regs.erase_flash = 0;
 
