@@ -25,9 +25,10 @@ const uint8_t fw_version_minor = 0;
 const uint16_t serial_number = 0xCAFE;
 
 // Harp App Register Setup.
-const size_t reg_count = 8;
+const size_t reg_count = 9;
 
 void write_any_channel(msg_t& msg);
+void erase_flash_memory(msg_t& msg);
 // Define register contents.
 #pragma pack(push, 1)
 struct app_regs_t
@@ -41,6 +42,8 @@ struct app_regs_t
     volatile uint8_t stop_channel_2;
     volatile uint8_t stop_channel_3; 
     volatile uint8_t stop_channel_4;
+
+    volatile uint8_t erase_flash;
 } app_regs;
 #pragma pack(pop)
 
@@ -54,7 +57,8 @@ RegSpecs app_reg_specs[reg_count]
     {(uint8_t*)&app_regs.stop_channel_1, sizeof(app_regs.stop_channel_1), U8},
     {(uint8_t*)&app_regs.stop_channel_2, sizeof(app_regs.stop_channel_2), U8},
     {(uint8_t*)&app_regs.stop_channel_3, sizeof(app_regs.stop_channel_3), U8},
-    {(uint8_t*)&app_regs.stop_channel_4, sizeof(app_regs.stop_channel_4), U8}
+    {(uint8_t*)&app_regs.stop_channel_4, sizeof(app_regs.stop_channel_4), U8},
+    {(uint8_t*)&app_regs.erase_flash, sizeof(app_regs.erase_flash), U8}
 };
 
 // Define register read-and-write handler functions.
@@ -67,13 +71,23 @@ RegFnPair reg_handler_fns[reg_count]
     {&HarpCore::read_reg_generic, write_any_channel},
     {&HarpCore::read_reg_generic, write_any_channel},
     {&HarpCore::read_reg_generic, write_any_channel},
-    {&HarpCore::read_reg_generic, write_any_channel}
+    {&HarpCore::read_reg_generic, write_any_channel},
+    {&HarpCore::read_reg_generic, erase_flash_memory}
 };
 
 void write_any_channel(msg_t& msg)
 {
     HarpCore::copy_msg_payload_to_register(msg);
     uint8_t channel_index = msg.header.address - APP_REG_START_ADDRESS;
+}
+
+void erase_flash_memory(msg_t& msg)
+{
+    HarpCore::copy_msg_payload_to_register(msg);
+    if(app_regs.erase_flash == 1)
+    {
+        printf("Erasing Flash Memory !\r\n");
+    }
 }
 
 void app_reset()
@@ -87,6 +101,8 @@ void app_reset()
     app_regs.stop_channel_2 = 0;
     app_regs.stop_channel_3 = 0;
     app_regs.stop_channel_4 = 0;
+
+    app_regs.erase_flash = 0;
 
 }
 
