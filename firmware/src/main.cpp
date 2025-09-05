@@ -25,35 +25,69 @@ const uint8_t fw_version_minor = 0;
 const uint16_t serial_number = 0xCAFE;
 
 // Harp App Register Setup.
-const size_t reg_count = 2;
+const size_t reg_count = 8;
 
+void write_any_channel(msg_t& msg);
 // Define register contents.
 #pragma pack(push, 1)
 struct app_regs_t
 {
-    volatile uint8_t test_byte;  // app register 0
-    volatile uint32_t test_uint; // app register 1
+    volatile uint8_t start_channel_1;  // app register 0
+    volatile uint8_t start_channel_2;
+    volatile uint8_t start_channel_3; 
+    volatile uint8_t start_channel_4; 
+    
+    volatile uint8_t stop_channel_1;
+    volatile uint8_t stop_channel_2;
+    volatile uint8_t stop_channel_3; 
+    volatile uint8_t stop_channel_4;
 } app_regs;
 #pragma pack(pop)
 
 // Define register "specs."
 RegSpecs app_reg_specs[reg_count]
 {
-    {(uint8_t*)&app_regs.test_byte, sizeof(app_regs.test_byte), U8},
-    {(uint8_t*)&app_regs.test_uint, sizeof(app_regs.test_uint), U32}
+    {(uint8_t*)&app_regs.start_channel_1, sizeof(app_regs.start_channel_1), U8},
+    {(uint8_t*)&app_regs.start_channel_2, sizeof(app_regs.start_channel_2), U8},
+    {(uint8_t*)&app_regs.start_channel_3, sizeof(app_regs.start_channel_3), U8},
+    {(uint8_t*)&app_regs.start_channel_4, sizeof(app_regs.start_channel_4), U8},
+    {(uint8_t*)&app_regs.stop_channel_1, sizeof(app_regs.stop_channel_1), U8},
+    {(uint8_t*)&app_regs.stop_channel_2, sizeof(app_regs.stop_channel_2), U8},
+    {(uint8_t*)&app_regs.stop_channel_3, sizeof(app_regs.stop_channel_3), U8},
+    {(uint8_t*)&app_regs.stop_channel_4, sizeof(app_regs.stop_channel_4), U8}
 };
 
 // Define register read-and-write handler functions.
 RegFnPair reg_handler_fns[reg_count]
 {
-    {&HarpCore::read_reg_generic, &HarpCore::write_reg_generic},
-    {&HarpCore::read_reg_generic, &HarpCore::write_to_read_only_reg_error}
+    {&HarpCore::read_reg_generic, write_any_channel},
+    {&HarpCore::read_reg_generic, write_any_channel},
+    {&HarpCore::read_reg_generic, write_any_channel},
+    {&HarpCore::read_reg_generic, write_any_channel},
+    {&HarpCore::read_reg_generic, write_any_channel},
+    {&HarpCore::read_reg_generic, write_any_channel},
+    {&HarpCore::read_reg_generic, write_any_channel},
+    {&HarpCore::read_reg_generic, write_any_channel}
 };
+
+void write_any_channel(msg_t& msg)
+{
+    HarpCore::copy_msg_payload_to_register(msg);
+    uint8_t channel_index = msg.header.address - APP_REG_START_ADDRESS;
+}
 
 void app_reset()
 {
-    app_regs.test_byte = 0;
-    app_regs.test_uint = 0;
+    app_regs.start_channel_1 = 0;
+    app_regs.start_channel_2 = 0;
+    app_regs.start_channel_3 = 0;
+    app_regs.start_channel_4 = 0;
+
+    app_regs.stop_channel_1 = 0;
+    app_regs.stop_channel_2 = 0;
+    app_regs.stop_channel_3 = 0;
+    app_regs.stop_channel_4 = 0;
+
 }
 
 void update_app_state()
