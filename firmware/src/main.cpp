@@ -14,9 +14,22 @@
 #define DEBUG_HARP_MSG_IN
 
 #define FLASH_TARGET_OFFSET (256 * 1024)  // Start writing at 256KB  = 
-#define PAGE_SIZE FLASH_PAGE_SIZE         // 1024 bytes
 #define SECTOR_SIZE FLASH_SECTOR_SIZE     // 4096 bytes
-
+#define BUF_SIZE 64
+// Define your constants and buffers
+#define TOTAL_DATA_SIZE 102400 // This is the total number of bytes
+#define TOTAL_16BIT_WORDS (TOTAL_DATA_SIZE / 2) // Total number of 16-bit words
+// Temporary buffer for each incoming USB packet (64 bytes)
+uint8_t rx_packet_buffer[BUF_SIZE];
+// Main buffer to store the complete 16-bit data
+uint16_t rx_data_buffer[TOTAL_16BIT_WORDS];
+bool write_to_flash = false;
+// Keep track of how much data we've received
+static uint32_t bytes_received = 0;
+static uint16_t words_received = 0;
+uint32_t count;
+// Buffers for data transfer
+uint8_t read_data_buffer[100];
 
 // Create device name array.
 const uint16_t who_am_i = 1234;
@@ -35,6 +48,13 @@ const size_t reg_count = 17;
 void write_any_channel(msg_t& msg);
 void erase_flash_memory(msg_t& msg);
 void specific_any_waveform(msg_t& msg);
+
+// Function to call the flash programming
+// Note: The flash programming function still works with 8-bit bytes
+static void call_flash_range_program(void *params) {
+    uintptr_t *p = (uintptr_t *)params;
+    flash_range_program(p[0], (const uint8_t*)p[1], TOTAL_DATA_SIZE);
+}
 // Define register contents.
 #pragma pack(push, 1)
 struct app_regs_t
@@ -242,6 +262,62 @@ int main()
     while(true)
     {
         printf("Hello, from Quad DAC!\r\n");
+
+        if (tud_vendor_available()) {
+            uint32_t count = tud_vendor_read(rx_packet_buffer, sizeof(rx_packet_buffer));
+
+            // Ensure the data size is an even number for 16-bit conversion
+            if (count % 2 != 0) {
+                printf("Error: Received odd number of bytes, 16-bit data expected.\n");
+                bytes_received = 0;
+                words_received = 0;
+                continue;
+            }
+
+            // Check if we have enough space in our main buffer (in bytes)
+            if (bytes_received + count <= TOTAL_DATA_SIZE) {
+                // Manually convert 8-bit bytes into 16-bit words
+                for (uint32_t i = 0; i < count; i += 2) {
+                    // Combine two 8-bit bytes into a single 16-bit word
+                    rx_data_buffer[words_received] = (uint16_t)rx_packet_buffer[i] | ((uint16_t)rx_packet_buffer[i + 1] << 8);
+                    words_received++;
+                }
+                bytes_received += count;
+
+                if (bytes_received == TOTAL_DATA_SIZE) {
+                    write_to_flash = true;
+                    printf("Full 16-bit data array received, preparing to write to flash.\n");
+                }
+            } else {
+                printf("Error: Buffer overflow. Data dropped.\n");
+                bytes_received = 0;
+                words_received = 0;
+            }
+        }
+
+        if (write_to_flash) {
+            uintptr_t params[] = {FLASH_TARGET_OFFSET, (uintptr_t)rx_data_buffer};
+            uint32_t rc;
+
+            printf("Writing to flash... DO NOT unplug.\n");
+            // Cast the 16-bit buffer to a void pointer for the flash function
+            rc = flash_safe_execute(call_flash_range_program, params, TOTAL_DATA_SIZE);
+
+            if (rc == PICO_OK) {
+                printf("Flash write completed successfully.\n");
+                const uint8_t *flash_read_address = (const uint8_t *)(XIP_BASE + FLASH_TARGET_OFFSET);
+
+                memcpy(read_data_buffer, flash_read_address, 100);
+
+                printf("Read for 16-bit data...\n");
+            } else {
+                printf("Flash write failed with error code: %d\n", rc);
+            }
+            
+            bytes_received = 0;
+            words_received = 0;
+            write_to_flash = false;
+        }
         app.run();
     }
 }
