@@ -1,0 +1,336 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bcebacf6-3a3d-4b86-825a-a573788c489f")
+	(paper "A4")
+	(title_block
+		(title "Multi Channel HARP DAC")
+		(date "2025-07-15")
+		(rev "1.1")
+		(company "The Allen Institute")
+		(comment 1 "Hexabitz")
+	)
+	(lib_symbols)
+	(sheet
+		(at 17.78 54.61)
+		(size 50.8 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.6096)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(color 255 255 160 1.0000)
+		)
+		(uuid "3d5c816b-acda-40a0-af6b-bbc77a846000")
+		(property "Sheetname" "Input"
+			(at 17.78 53.2634 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Input.kicad_sch"
+			(at 17.78 79.3246 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "multi_ch_harp_dac"
+				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 17.78)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.6096)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(color 255 255 160 1.0000)
+		)
+		(uuid "5977558f-8422-48fd-a5d8-f6ede9b51b88")
+		(property "Sheetname" "DACs"
+			(at 77.47 16.2048 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DACs.kicad_sch"
+			(at 77.47 43.9932 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "multi_ch_harp_dac"
+				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 17.78)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.6096)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(color 255 255 160 1.0000)
+		)
+		(uuid "6653b3c8-ef60-4dc9-a69a-734c2ef8c15b")
+		(property "Sheetname" "SC_Detection"
+			(at 137.16 16.4334 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SC_Detection.kicad_sch"
+			(at 137.16 43.7646 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "multi_ch_harp_dac"
+				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 54.61)
+		(size 50.8 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.6096)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(color 255 255 160 1.0000)
+		)
+		(uuid "adb478b6-3e26-4690-99b3-d05998c9cb12")
+		(property "Sheetname" "Power_Supply"
+			(at 77.47 53.2634 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply.kicad_sch"
+			(at 77.47 79.3246 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "multi_ch_harp_dac"
+				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 17.78)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.6096)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(color 255 255 160 1.0000)
+		)
+		(uuid "cdcf055f-9bf3-404c-8523-cd00817ffdb6")
+		(property "Sheetname" "Core_RP2350"
+			(at 17.78 16.2048 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Core_RP2350.kicad_sch"
+			(at 17.78 43.9932 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "multi_ch_harp_dac"
+				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 54.61)
+		(size 50.8 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.6096)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(color 255 255 160 1.0000)
+		)
+		(uuid "d4d9c700-4ed9-4ec5-9edd-cee713f405f5")
+		(property "Sheetname" "Output"
+			(at 137.16 53.2634 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Output.kicad_sch"
+			(at 137.16 79.3246 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "multi_ch_harp_dac"
+				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 17.78)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.6096)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(color 255 255 160 1.0000)
+		)
+		(uuid "e39fc2ef-50b8-4bcb-bb27-38e85fa8106c")
+		(property "Sheetname" "Communication"
+			(at 195.58 16.4334 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Communication.kicad_sch"
+			(at 195.58 43.7646 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "multi_ch_harp_dac"
+				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
