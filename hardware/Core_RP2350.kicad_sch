@@ -5,7 +5,7 @@
 	(uuid "7e50f2b3-ad7c-4ca1-aa67-f754ca02f837")
 	(paper "A4")
 	(title_block
-		(title "Multi Channel HARP DAC")
+		(title "harp device quad dac")
 		(date "2025-07-15")
 		(rev "1.1")
 		(company "The Allen Institute")
@@ -4117,17 +4117,6 @@
 		)
 		(uuid "2b357e17-f1e9-4b2e-873d-0406bd1029e2")
 	)
-	(text "all caps in this sheet 10V rated\nall resistors 0603 or bigger, 0805 is perfect"
-		(exclude_from_sim no)
-		(at 13.716 15.494 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "35b3dedf-e40a-4a8a-830b-8993fee8d46a")
-	)
 	(text "UART0RX"
 		(exclude_from_sim no)
 		(at 149.86 55.88 0)
@@ -4382,6 +4371,27 @@
 			)
 		)
 		(uuid "fa623d2a-7d5b-419b-9a50-4e712979ea99")
+	)
+	(text_box "in this sheet:\ncapacitors: 10V rated\nresistors: 0805"
+		(exclude_from_sim no)
+		(at 177.038 157.734 0)
+		(size 22.86 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "847cdc75-680e-49b0-87ec-0332d621d760")
 	)
 	(junction
 		(at 41.91 63.5)
@@ -9730,9 +9740,15 @@
 			)
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "FID1")
+					(reference "FID?")
 					(unit 1)
 				)
 			)
@@ -9862,9 +9878,15 @@
 			(uuid "9934e4a5-255e-4c1e-9e78-ec04c0476374")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C29")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C29")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -9927,9 +9949,15 @@
 			(uuid "3c7bfeaf-7cc1-4cef-abff-6b572c2bcc22")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR016")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9992,9 +10020,15 @@
 			(uuid "f8e48377-964a-4363-be7f-1fa4babbbcbc")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR029")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10057,9 +10091,15 @@
 			(uuid "bb3af112-908c-4880-8d36-ac8f7e75d6e3")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR017")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10169,9 +10209,15 @@
 			(uuid "5d13e807-c1d0-4cbc-a607-57912bade2dc")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R10")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10291,9 +10337,15 @@
 			(uuid "89cb1914-8b7b-46ad-9929-84bc1bed7cad")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "SW2")
+					(reference "SW?")
 					(unit 1)
 				)
 			)
@@ -10382,9 +10434,15 @@
 			)
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "FID2")
+					(reference "FID?")
 					(unit 1)
 				)
 			)
@@ -10487,9 +10545,15 @@
 			(uuid "799f827d-ea35-48bd-933b-6cf5318818b3")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R13")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10601,9 +10665,15 @@
 			(uuid "a1595830-3e3d-4bad-bb17-83306f170e0b")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "LED1")
+					(reference "LED?")
 					(unit 1)
 				)
 			)
@@ -10733,9 +10803,15 @@
 			(uuid "2556f970-b3ce-4203-998f-4317fceba62f")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C1")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -10856,9 +10932,15 @@
 			(uuid "90096010-fe83-4195-84ce-5a0c5b617012")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C6")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -10968,9 +11050,15 @@
 			(uuid "bfb8f7de-2e10-435e-85bb-82831bd9d2b6")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R9")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11034,9 +11122,15 @@
 			(uuid "8d7969c7-0e6a-444a-aa38-f77fb24118b2")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR012")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11146,9 +11240,15 @@
 			(uuid "1898f9bd-e34b-410b-8f91-1688328851ad")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R1")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11212,9 +11312,15 @@
 			(uuid "eca8b347-ae6c-4a63-a2a6-a3ea1d72bad8")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR026")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11317,9 +11423,15 @@
 			(uuid "bd523193-2ea1-4e5e-91b3-a23475f18c63")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R14")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11449,9 +11561,15 @@
 			(uuid "58c09a51-3293-48d0-be03-48946f6c8dc5")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C2")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -11515,9 +11633,15 @@
 			(uuid "d87b87e8-d4eb-4ed1-8f7b-52cd41c49072")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR011")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11627,9 +11751,15 @@
 			(uuid "072bc47a-4292-4a6f-8b41-df00ff71b28a")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R5")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11759,9 +11889,15 @@
 			(uuid "58ae65df-ddb5-448c-b7dd-909acd9b9ac8")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C24")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C24")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -11825,9 +11961,15 @@
 			(uuid "553d43c0-b1e7-4e89-90fb-a249c5822fee")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR013")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11890,9 +12032,15 @@
 			(uuid "93e2fc0b-200a-4bcf-ba2e-f28f05183214")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR03")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11956,9 +12104,15 @@
 			(uuid "efe159e5-a144-4081-84cc-067a010278f8")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR08")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12079,9 +12233,15 @@
 			(uuid "9070b7f6-43ca-4f18-8ba3-5d076ef39e47")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C16")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -12167,9 +12327,15 @@
 			(uuid "b962e4c4-cc22-4685-aad0-5ec21314ef49")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "U3")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -12281,9 +12447,15 @@
 			(uuid "ce4411c2-b39b-49bb-a789-1ae9029adbab")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "LED3")
+					(reference "LED?")
 					(unit 1)
 				)
 			)
@@ -12347,9 +12519,15 @@
 			(uuid "27187c56-32e9-41fb-a6be-07cea375bff8")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR025")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12479,9 +12657,15 @@
 			(uuid "d4efba3f-cdbb-41da-bc7c-2acb41618e7c")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C22")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -12545,9 +12729,15 @@
 			(uuid "c0f085e2-9167-4998-ac2f-765639756716")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR015")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12650,9 +12840,15 @@
 			(uuid "0dcae127-e239-4af7-8a09-b6cf383d43f8")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R12")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -12782,9 +12978,15 @@
 			(uuid "deb6fb19-cc45-4514-b115-94251e782c02")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C25")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C25")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -12931,9 +13133,15 @@
 			(uuid "a2cb8fc9-925d-4856-a5b9-4343188e66c0")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "L1")
+					(reference "L?")
 					(unit 1)
 				)
 			)
@@ -13054,9 +13262,15 @@
 			(uuid "82d298c5-599b-4e68-aa2b-2e7800e21a7c")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C11")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C11")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -13120,9 +13334,15 @@
 			(uuid "f37655d7-f9f5-474d-993c-b48c7a427f8d")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR038")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13208,9 +13428,15 @@
 			(uuid "7e45415b-b5a2-43ec-9338-b4981c6dd6fe")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "U4")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -13331,9 +13557,15 @@
 			(uuid "13430895-1a10-4bd5-9074-f048a9560045")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C3")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -13453,9 +13685,15 @@
 			(uuid "b765cb52-ec3c-4dd2-a611-9f6cb3bf968b")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "SW1")
+					(reference "SW?")
 					(unit 1)
 				)
 			)
@@ -13518,9 +13756,15 @@
 			(uuid "f0f67e5b-2df5-4689-a9c3-56720e6c924f")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR027")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13650,9 +13894,15 @@
 			(uuid "d9d966e3-0ed7-485d-a29f-49ab27841538")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C4")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -13782,9 +14032,15 @@
 			(uuid "58275409-0e6e-4a85-9906-52406693d56a")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C26")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C26")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -13894,9 +14150,15 @@
 			(uuid "ec55ca4e-dc96-4b60-95c0-d7b829567c68")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R11")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -14026,9 +14288,15 @@
 			(uuid "c873a261-fd51-4054-a9dc-2ff2ff391172")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C20")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -14092,9 +14360,15 @@
 			(uuid "1a765196-0a3b-4c20-a441-bdf48dbe20f3")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR021")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -14157,9 +14431,15 @@
 			(uuid "2049226a-d541-4c43-9f70-c2259d8d109a")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR024")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -14280,9 +14560,15 @@
 			(uuid "a0fe0e14-bfc2-4169-b3e4-da9f5e2cb99e")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C10")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C10")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -14346,9 +14632,15 @@
 			(uuid "f9f6da9e-e93a-4c47-9148-1c6450961cad")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR037")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -14411,9 +14703,15 @@
 			(uuid "c4f234fd-f4d8-47c4-8894-dcdf179e1061")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR01")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -14477,9 +14775,15 @@
 			(uuid "3a3dd455-5af0-4597-af83-070c2ff0de9f")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR020")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -14565,9 +14869,15 @@
 			(uuid "6ce1f5cd-4a47-47c2-a5c0-5c388f571996")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "U5")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "U5")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -14630,9 +14940,15 @@
 			(uuid "ca715778-11ac-436c-9306-6e3d668c7a55")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR031")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -14696,9 +15012,15 @@
 			(uuid "04e00a3d-4d60-4f9c-ae66-3496a5cdca49")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR028")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -14762,9 +15084,15 @@
 			(uuid "3b8d790e-9e6c-4d00-9f3a-047e465f33fc")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR039")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -14876,9 +15204,15 @@
 			(uuid "07555658-3a28-4fa1-ab18-d1565e8c8d17")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "LED2")
+					(reference "LED?")
 					(unit 1)
 				)
 			)
@@ -15008,9 +15342,15 @@
 			(uuid "da74cd11-cb17-4434-be31-f8c3a515f446")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C15")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -15074,9 +15414,15 @@
 			(uuid "c9f19e73-f83e-4a2d-86d5-d6cfbf97875b")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR06")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -15206,9 +15552,15 @@
 			(uuid "8dcd0bac-cbd6-492b-a3c7-c04754898bfa")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C5")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -15318,9 +15670,15 @@
 			(uuid "3ad019dc-fe45-47c3-b468-ac03d5c80dea")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R8")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -15385,9 +15743,15 @@
 			(uuid "ec2d9a93-ba44-4fce-b5a3-3577018ffd29")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "Jump1")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "Jump1")
+					(reference "Jump?")
 					(unit 1)
 				)
 			)
@@ -15517,9 +15881,15 @@
 			(uuid "f31feb88-0210-4a4d-84c4-13dccc39533a")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C14")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -15583,9 +15953,15 @@
 			(uuid "3668da27-8ced-4883-b19f-0a575c272856")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR033")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -15715,9 +16091,15 @@
 			(uuid "559ba0f7-2864-4c7b-892e-e4a4354cb433")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C8")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -15780,9 +16162,15 @@
 			(uuid "fbfb274c-320c-4fad-ae8f-502992cd00a7")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR018")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -15846,9 +16234,15 @@
 			(uuid "fc110681-00ba-4750-9c81-287d176a2285")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR04")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -15958,9 +16352,15 @@
 			(uuid "ccfa64ac-ed3c-4772-9a7e-f7fbf617e36f")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R3")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -16024,9 +16424,15 @@
 			(uuid "32d6cb63-d6f1-4c03-9230-03f6fde857ef")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR09")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -16090,9 +16496,15 @@
 			(uuid "c0d2f210-a5ef-433e-87be-dcaee42c5b53")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR034")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -16222,9 +16634,15 @@
 			(uuid "7705d332-2481-4327-a32d-572444860af0")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C21")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -16313,9 +16731,15 @@
 			)
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "FID3")
+					(reference "FID?")
 					(unit 1)
 				)
 			)
@@ -16379,9 +16803,15 @@
 			(uuid "7a00b484-5ddb-4c02-a827-9c329d618a29")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR023")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -16511,9 +16941,15 @@
 			(uuid "15bb2be4-e6fd-4e4b-93db-030b2cb04f04")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C13")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -16623,9 +17059,15 @@
 			(uuid "3d0a2f1a-1335-49be-95a9-563d89f3be12")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R4")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -16746,9 +17188,15 @@
 			(uuid "86a00639-eefe-47cd-beeb-e767e221f1d0")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C17")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -16878,9 +17326,15 @@
 			(uuid "5e377e4d-decf-4eb9-8bd5-c57fedccb074")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C12")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -16983,9 +17437,15 @@
 			(uuid "20516e75-264a-40bc-9705-2eaa37c3ecdd")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R16")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -17115,9 +17575,15 @@
 			(uuid "bf3fe3c8-ed65-41ac-af73-7cc5dad0fe85")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C19")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -17237,9 +17703,15 @@
 			(uuid "c1324bc4-2192-44f7-ab3d-95a4bdde8431")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "SW4")
+					(reference "SW?")
 					(unit 1)
 				)
 			)
@@ -17369,9 +17841,15 @@
 			(uuid "b9c5d903-ee6a-4b03-9ef5-8696911e8c3f")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C9")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -17481,9 +17959,15 @@
 			(uuid "bb7f6196-ae5a-4e9e-9ba6-b36842c81d33")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R2")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -17613,9 +18097,15 @@
 			(uuid "5879eb97-1871-4e75-a273-8059429ef109")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C27")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C27")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -17735,9 +18225,15 @@
 			(uuid "6739c9cb-0d39-4ce4-a0e8-cb731d188b8f")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "SW3")
+					(reference "SW?")
 					(unit 1)
 				)
 			)
@@ -17867,9 +18363,15 @@
 			(uuid "b2856c23-9af7-47b4-8164-09ad845b6548")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C28")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C28")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -17933,9 +18435,15 @@
 			(uuid "546d5ba9-60bf-4ccd-a4bd-285ce2623084")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR035")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -18239,9 +18747,15 @@
 			(uuid "975a0874-8d96-44a2-8bdd-f89af093be7c")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "U1")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -18305,9 +18819,15 @@
 			(uuid "fd2973a8-d985-4c79-ae00-a85e2347139d")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR036")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -18410,9 +18930,15 @@
 			(uuid "bf799e14-c8f8-4856-8631-e25f7b2a33a0")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R15")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -18562,9 +19088,15 @@
 			(uuid "0363b8d1-4f41-4368-9dd6-721267380290")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "U2")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -18684,9 +19216,15 @@
 			(uuid "edc1e26a-d7ed-4322-bcab-ca54414b8fca")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "SW5")
+					(reference "SW?")
 					(unit 1)
 				)
 			)
@@ -18816,9 +19354,15 @@
 			(uuid "80414204-9155-4f05-88b9-937c55df85e3")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C23")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C23")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -18881,9 +19425,15 @@
 			(uuid "6130eea6-c1f9-41a5-ba9b-da5595d7892a")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR019")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -18946,9 +19496,15 @@
 			(uuid "b2aca6ba-098f-4b4a-a3f7-403ee49d5961")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR022")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -19037,9 +19593,15 @@
 			)
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "FID4")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "FID4")
+					(reference "FID?")
 					(unit 1)
 				)
 			)
@@ -19103,9 +19665,15 @@
 			(uuid "182f9808-b26a-4a42-ad18-7e69d11ee87b")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR02")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -19235,9 +19803,15 @@
 			(uuid "619f03f5-c248-42f6-9484-fb43101f293d")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C7")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -19301,9 +19875,15 @@
 			(uuid "ea790121-7efb-4896-b502-b65d1b4e1d3e")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR040")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -19429,9 +20009,15 @@
 			(uuid "e2bd8ea9-9f03-4abb-90a4-f17d4dc6627f")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "Xtal1")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "Xtal1")
+					(reference "Xtal?")
 					(unit 1)
 				)
 			)
@@ -19552,9 +20138,15 @@
 			(uuid "a0dfd618-ef29-4415-b07e-b4297947044d")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "C18")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -19664,9 +20256,15 @@
 			(uuid "e4196b57-6736-49ba-8ff7-c44d4de24ae8")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R6")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -19769,9 +20367,15 @@
 			(uuid "bcab28b5-8d00-46fa-aac1-00d545fe7c60")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R17")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -19835,9 +20439,15 @@
 			(uuid "cdc3d51b-759d-4dbe-8f87-c332740ae332")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR014")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -19901,9 +20511,15 @@
 			(uuid "f0528a4b-1272-4fb7-ab68-b6bf81bfbe0c")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR07")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -19966,9 +20582,15 @@
 			(uuid "e576ea5e-3f14-421f-aa22-e77cdb6719fa")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR030")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -20031,9 +20653,15 @@
 			(uuid "9873d5b1-784a-4479-98f7-f200aa10561a")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR05")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -20143,9 +20771,15 @@
 			(uuid "18ecc408-0aec-49b7-ab8d-5082b5613792")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R7")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -20209,9 +20843,15 @@
 			(uuid "9a33a04f-24f3-4511-bda3-d6f2233a3c58")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR032")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -20275,9 +20915,15 @@
 			(uuid "c086effc-2802-4d93-bdea-dc7eb1f11518")
 		)
 		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "#PWR010")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)

@@ -449,7 +449,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "multi_ch_harp_dac.kicad_pro",
+    "filename": "harp.device.quad.dac.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -558,138 +558,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Price/Stock",
-          "name": "Arrow Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Link",
-          "name": "Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer Number",
-          "name": "Manufacturer Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Notes",
-          "name": "Notes",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PCBWay Link",
-          "name": "PCBWay Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Rated Voltage",
-          "name": "Rated Voltage",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Temperature Coefficient",
-          "name": "Temperature Coefficient",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Tolerance",
-          "name": "Tolerance",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Alternate",
-          "name": "Alternate",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Vendor Reel Link",
-          "name": "Vendor Reel Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Vendor Number",
-          "name": "Vendor Number",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -722,7 +596,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "C:/Users/lenovo/Desktop/",
+    "plot_directory": "./",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -735,36 +609,40 @@
   },
   "sheets": [
     [
-      "bcebacf6-3a3d-4b86-825a-a573788c489f",
+      "6b47c519-21c4-43bd-9777-b273999e4447",
       "Root"
     ],
     [
-      "cdcf055f-9bf3-404c-8523-cd00817ffdb6",
+      "5973743b-c3fc-4963-acef-26c8fa426708",
       "Core_RP2350"
     ],
     [
-      "3d5c816b-acda-40a0-af6b-bbc77a846000",
-      "Input"
-    ],
-    [
-      "5977558f-8422-48fd-a5d8-f6ede9b51b88",
+      "50574cb8-ffd5-42a3-a56c-0f0945fbd245",
       "DACs"
     ],
     [
-      "adb478b6-3e26-4690-99b3-d05998c9cb12",
-      "Power_Supply"
-    ],
-    [
-      "6653b3c8-ef60-4dc9-a69a-734c2ef8c15b",
+      "1945aa77-a929-44fd-b3b6-12787633d2f2",
       "SC_Detection"
     ],
     [
-      "d4d9c700-4ed9-4ec5-9edd-cee713f405f5",
+      "08506a40-9943-41e4-b528-13f6a4c7e855",
+      "Communication"
+    ],
+    [
+      "8b495cef-3a6a-4801-9796-978978016448",
+      "Input"
+    ],
+    [
+      "df92df4e-37ce-471e-93c1-358fcc45baf3",
+      "Power_Supply"
+    ],
+    [
+      "1783abfe-3faf-469b-a509-8e70c13c0682",
       "Output"
     ],
     [
-      "e39fc2ef-50b8-4bcb-bb27-38e85fa8106c",
-      "Communication"
+      "0ccdaeff-cab2-4ff1-b218-5d9a4a178a6f",
+      "Block_Diagram"
     ]
   ],
   "text_variables": {}
