@@ -3001,17 +3001,6 @@
 		)
 		(uuid "11cea4f4-d645-4b7e-93e7-544dcaf2351f")
 	)
-	(text "resistors precision =< 1%"
-		(exclude_from_sim no)
-		(at 198.12 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "171ac902-4a95-4f6d-9dd3-c7bf447ee8f9")
-	)
 	(text "operational\namplifier"
 		(exclude_from_sim no)
 		(at 132.08 120.904 0)
@@ -3066,17 +3055,6 @@
 		)
 		(uuid "532182a9-eddd-4aea-97db-495ddfc116d3")
 	)
-	(text "resistors precision =< 1%"
-		(exclude_from_sim no)
-		(at 198.12 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f3c27a9-98fd-46d2-b7f3-3710340b8f41")
-	)
 	(text "operational\namplifier"
 		(exclude_from_sim no)
 		(at 132.334 160.274 0)
@@ -3110,17 +3088,6 @@
 		)
 		(uuid "690fbe12-03d9-4f47-b1c4-391a87c91432")
 	)
-	(text "resistors precision =< 1%"
-		(exclude_from_sim no)
-		(at 198.12 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e293dea-038e-4706-b835-d9c159b2e13e")
-	)
 	(text "digital to analog\nconverter"
 		(exclude_from_sim no)
 		(at 67.056 43.688 0)
@@ -3153,17 +3120,6 @@
 		)
 		(uuid "e07e1b80-c6f4-4b81-857e-b0746b33ae5e")
 	)
-	(text "resistors precision =< 1%"
-		(exclude_from_sim no)
-		(at 198.12 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e73a472b-bf28-4d70-be44-2c233dbd00a4")
-	)
 	(text "gain=40.2/10=4.02"
 		(exclude_from_sim no)
 		(at 177.8 41.91 0)
@@ -3195,10 +3151,10 @@
 		)
 		(uuid "25d4fef9-ffad-4546-adce-a457c24ad41e")
 	)
-	(text_box "in this sheet:\nunless otherwise noted\ncapacitors: 10V rated \nresistors: 0805"
+	(text_box "in this sheet:\nunless otherwise noted\ncapacitors: 10V rated \nresistors: 0603, 0.1W"
 		(exclude_from_sim no)
-		(at 260.096 155.448 0)
-		(size 24.384 9.906)
+		(at 256.032 155.448 0)
+		(size 28.448 9.906)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3212,7 +3168,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+			(justify left)
 		)
 		(uuid "2aef24b0-4f5c-453f-b593-efb5ca88223e")
 	)
@@ -3376,6 +3332,26 @@
 		)
 		(uuid "7096e1aa-440d-4c01-8f0e-30ad09cc18ef")
 	)
+	(text_box "the four resistors precision =<0.5%"
+		(exclude_from_sim no)
+		(at 210.058 148.336 0)
+		(size 37.846 3.302)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8046d632-382a-4842-b462-de2127202437")
+	)
 	(text_box "25V"
 		(exclude_from_sim no)
 		(at 205.74 117.856 0)
@@ -3496,6 +3472,26 @@
 		)
 		(uuid "9ff3d063-444a-40d0-882a-aac6f4ba3ea7")
 	)
+	(text_box "the four resistors precision =<0.5%"
+		(exclude_from_sim no)
+		(at 210.058 30.226 0)
+		(size 37.846 3.302)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0b1f564-19af-4200-8af2-8d4ce75c1bc0")
+	)
 	(text_box "25V"
 		(exclude_from_sim no)
 		(at 101.092 35.814 0)
@@ -3515,6 +3511,26 @@
 			)
 		)
 		(uuid "bbcb03f4-5533-4b2b-ae68-1f46eeaadca4")
+	)
+	(text_box "the four resistors precision =<0.5%"
+		(exclude_from_sim no)
+		(at 210.058 108.712 0)
+		(size 37.846 3.302)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bccaefd4-52ca-46b5-9fdd-1775f36c86a7")
 	)
 	(text_box "25V"
 		(exclude_from_sim no)
@@ -3575,6 +3591,26 @@
 			)
 		)
 		(uuid "e7ecada8-7119-4818-937f-953fe4161031")
+	)
+	(text_box "the four resistors precision =<0.5%"
+		(exclude_from_sim no)
+		(at 210.058 69.596 0)
+		(size 37.846 3.302)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb5af279-1867-4f43-a177-847084b9b613")
 	)
 	(text_box "25V"
 		(exclude_from_sim no)

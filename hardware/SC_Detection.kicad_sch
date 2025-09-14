@@ -1784,17 +1784,6 @@
 		)
 		(uuid "0b3c9552-64aa-4573-99d4-2724a5ecec25")
 	)
-	(text "resistors precision =< 1%"
-		(exclude_from_sim no)
-		(at 25.4 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a1f19fe-2a4e-4254-8853-6d3e1ac8d4fe")
-	)
 	(text "2.24V\nthreshold"
 		(exclude_from_sim no)
 		(at 61.214 185.928 0)
@@ -2022,17 +2011,6 @@
 		)
 		(uuid "c06558e1-b747-47ac-8fc0-2353c0abea9f")
 	)
-	(text "resistors precision =< 1%"
-		(exclude_from_sim no)
-		(at 25.4 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd491e96-64e2-44aa-ba5d-3aab06e4d225")
-	)
 	(text "2.24V\nthreshold"
 		(exclude_from_sim no)
 		(at 61.468 119.634 0)
@@ -2077,28 +2055,6 @@
 		)
 		(uuid "ec4a1336-49ba-4176-8fa3-70785adeb95b")
 	)
-	(text "resistors precision =< 1%"
-		(exclude_from_sim no)
-		(at 125.73 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0e4f17a-7fc0-4ce1-9676-83e96a8bfcc5")
-	)
-	(text "resistors precision =< 1%"
-		(exclude_from_sim no)
-		(at 125.73 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f54aabf0-3948-4848-98e7-212a6ba49e92")
-	)
 	(text "0 to 28mA\n0 to 2.85V"
 		(exclude_from_sim no)
 		(at 15.24 68.58 0)
@@ -2130,7 +2086,7 @@
 		)
 		(uuid "0777b0a4-c1d9-432b-8943-bfb7dc82e13b")
 	)
-	(text_box "in this sheet:\nunless otherwise noted\ncapacitors: 10V rated \nresistors: 0805"
+	(text_box "in this sheet:\nunless otherwise noted\ncapacitors: 10V rated \nresistors: 0603, 0.1W"
 		(exclude_from_sim no)
 		(at 177.038 155.448 0)
 		(size 24.384 9.906)
@@ -2210,6 +2166,26 @@
 			)
 		)
 		(uuid "26375d3a-28bc-46df-b176-8762763ac258")
+	)
+	(text_box "the four resistors precision =<0.5%"
+		(exclude_from_sim no)
+		(at 13.462 23.368 0)
+		(size 37.338 1.778)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "27447d62-0899-4977-afee-f4f5bd1a98f8")
 	)
 	(text_box "25V"
 		(exclude_from_sim no)
@@ -2291,6 +2267,26 @@
 		)
 		(uuid "4348f586-dc36-4cb3-8d67-e524d85d2033")
 	)
+	(text_box "the four resistors precision =<0.5%"
+		(exclude_from_sim no)
+		(at 124.46 25.908 0)
+		(size 37.338 1.778)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45fcdac1-acb4-4031-b0e9-6016ea54fd0e")
+	)
 	(text_box "25V"
 		(exclude_from_sim no)
 		(at 112.522 41.148 0)
@@ -2330,6 +2326,26 @@
 			)
 		)
 		(uuid "5e6f2c86-4ec7-4a75-8f7f-6bc0af97caf8")
+	)
+	(text_box "the four resistors precision =<0.5%"
+		(exclude_from_sim no)
+		(at 13.462 48.768 0)
+		(size 37.338 1.778)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "74a9e6b5-0ce9-42fd-84eb-0ee4278ca26b")
 	)
 	(text_box "25V"
 		(exclude_from_sim no)
@@ -2430,6 +2446,26 @@
 			)
 		)
 		(uuid "b45da9c2-214a-4fbb-8927-681e41dd013f")
+	)
+	(text_box "the four resistors precision =<0.5%"
+		(exclude_from_sim no)
+		(at 124.46 51.308 0)
+		(size 37.338 1.778)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce54d546-6a57-493f-a2d9-f1ac3c8b2d01")
 	)
 	(text_box "25V"
 		(exclude_from_sim no)

@@ -3715,7 +3715,7 @@
 		)
 		(uuid "f436a1e0-54ab-4108-9bde-3634970f0a4a")
 	)
-	(text_box "in this sheet:\nunless otherwise noted\ncapacitors: 25V rated \nresistors: 0805"
+	(text_box "in this sheet:\nunless otherwise noted\ncapacitors: 25V rated \nresistors: 0603, 0.1W"
 		(exclude_from_sim no)
 		(at 152.146 166.116 0)
 		(size 24.384 9.906)
@@ -3756,6 +3756,46 @@
 		)
 		(uuid "641e00c0-268e-482f-ba28-a3b267d05fb9")
 	)
+	(text_box "the two resistors\nprecision =<0.5%"
+		(exclude_from_sim no)
+		(at 29.21 136.398 0)
+		(size 19.558 4.064)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85addc4f-05ec-4379-bd71-05cd6e1b9360")
+	)
+	(text_box "the two resistors\nprecision =<0.5%"
+		(exclude_from_sim no)
+		(at 29.21 169.418 0)
+		(size 19.558 4.064)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8bed2b80-73f2-4438-812d-081081dd393d")
+	)
 	(text_box "50V"
 		(exclude_from_sim no)
 		(at 81.534 50.546 0)
@@ -3775,6 +3815,46 @@
 			)
 		)
 		(uuid "b9497f49-7b2f-4df2-b9e3-85481d0241e6")
+	)
+	(text_box "the two resistors\nprecision =<0.5%"
+		(exclude_from_sim no)
+		(at 29.21 103.378 0)
+		(size 19.558 4.064)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c043a04c-98c9-49a2-a82b-7778de31431b")
+	)
+	(text_box "the two resistors\nprecision =<0.5%"
+		(exclude_from_sim no)
+		(at 29.21 70.358 0)
+		(size 19.558 4.064)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd646c69-9f88-4152-bd42-50a762c729eb")
 	)
 	(text_box "50V"
 		(exclude_from_sim no)

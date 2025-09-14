@@ -1890,7 +1890,7 @@
 		)
 		(uuid "f48f662f-e561-4c86-aae9-24e4f2efbfda")
 	)
-	(text_box "in this sheet:\ncapacitors: 10V rated\nresistors: 0805"
+	(text_box "in this sheet:\ncapacitors: 10V rated\nresistors: 0603, 0.1W"
 		(exclude_from_sim no)
 		(at 177.038 157.734 0)
 		(size 23.114 7.874)
