@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "harp.device.quad.dac")(type "KiCad")(uri "${KIPRJMOD}/harp.device.quad.dac.kicad_sym")(options "")(descr ""))
+)

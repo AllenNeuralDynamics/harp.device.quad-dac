@@ -1,0 +1,332 @@
+(footprint "Crystal_SMD_2016-4Pin_2.0x1.6mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package")
+	(tags "SMD SMT crystal")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "794eff66-55d4-473e-900c-0431580af1db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ECS-TXO-2016"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "c02387ec-869d-43ae-bbef-fa77804afcb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-TXO-2016.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db4db383-0be6-42d4-b11d-0e293dd1d99f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fc920bb-650e-4331-b0bf-a0b95e3312d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" "https://www.digikey.com/en/products/detail/ecs-inc/ECS-TXO-2016-33-120-TR/10244135"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d34c4b0e-9214-411d-bfe9-ce77a2d2b13e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "ECS Inc."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9d8d275-daf5-4b1e-a58a-d11185deab95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Number" "ECS-TXO-2016-33-120-TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbcac840-cf2e-41c3-8015-3d958d16e0f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Notes" "HCMOS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00bb795d-b869-402d-ab0a-12fb5310d322")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tolerance" "±2.5ppm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88430669-c77b-4614-8ffa-d1d8ed9b6eae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PCBWay Link" "https://www.pcbway.com/components/detail/ECSTXO201633120TR/348903/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9816e89e-9a2d-4475-876c-a1451b1aa900")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.35 -1.15)
+		(end -1.35 1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "736c5ec8-c130-4965-852d-1d9007604e1d")
+	)
+	(fp_line
+		(start -1.35 1.15)
+		(end 1.35 1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80cd653d-cecf-4c89-982d-42c0048e4033")
+	)
+	(fp_line
+		(start -1.4 -1.3)
+		(end -1.4 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cadced5a-13c5-4b73-9dfc-8c733927b56f")
+	)
+	(fp_line
+		(start -1.4 1.3)
+		(end 1.4 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe59798d-17c6-4e27-be29-7dfddac0909c")
+	)
+	(fp_line
+		(start 1.4 -1.3)
+		(end -1.4 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2be71c32-4c0f-48cf-ad86-02ffe2796326")
+	)
+	(fp_line
+		(start 1.4 1.3)
+		(end 1.4 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71913550-4248-436e-bb8b-09d1f31815d7")
+	)
+	(fp_line
+		(start -1 -0.7)
+		(end -0.9 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e970309-bbe4-4f0a-b849-c14241f6e109")
+	)
+	(fp_line
+		(start -1 0.3)
+		(end -0.5 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab409cfa-9a14-4834-88fd-3ce718cb5c3f")
+	)
+	(fp_line
+		(start -1 0.7)
+		(end -1 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d1651d5-e2b2-44cd-b645-b84b82a74093")
+	)
+	(fp_line
+		(start -0.9 -0.8)
+		(end 0.9 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "399cc0e1-053d-42e5-a6aa-d0ff1310a3fd")
+	)
+	(fp_line
+		(start -0.9 0.8)
+		(end -1 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "049b4b05-13b6-41e4-82c0-2569811c20ce")
+	)
+	(fp_line
+		(start 0.9 -0.8)
+		(end 1 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0624f60-c9f2-41cc-b99e-907bf5acaf96")
+	)
+	(fp_line
+		(start 0.9 0.8)
+		(end -0.9 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ededea6c-b8a0-4aeb-90ee-16b39b7d521b")
+	)
+	(fp_line
+		(start 1 -0.7)
+		(end 1 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55011bcf-dd62-4a61-9b6c-4178ce422b3d")
+	)
+	(fp_line
+		(start 1 0.7)
+		(end 0.9 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49effac4-a7b1-4c58-bd4c-3a99ec5fb3f9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d463986b-de11-4dfc-b8ce-34c124c52415")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.65 0.5)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b9ba871c-a583-4805-8fbd-d4687293b5f1")
+	)
+	(pad "2" smd rect
+		(at 0.65 0.5)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e09a082b-0c93-4897-ad5c-933113f29e47")
+	)
+	(pad "3" smd rect
+		(at 0.65 -0.5)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "677294f9-a02c-4d74-85d1-c55e53b6a07e")
+	)
+	(pad "4" smd rect
+		(at -0.65 -0.5)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b415e4cd-7903-4fd5-9d3d-f0f0e3549c44")
+	)
+	(embedded_fonts no)
+	(model "C:/Downloads/Telegram Desktop/my_downloaded_parts_20250911/my_downloaded_parts_20250911/LIB_ECS-TXO-2016-33-120-TR/ECS-TXO-2016-33-120-TR/3D/ECS-TXO-2016-33-120-TR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

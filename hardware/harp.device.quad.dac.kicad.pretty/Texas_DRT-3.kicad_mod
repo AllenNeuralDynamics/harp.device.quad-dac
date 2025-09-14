@@ -1,0 +1,295 @@
+(footprint "Texas_DRT-3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Texas Instrument DRT-3 1x0.8mm Pitch 0.7mm http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf")
+	(tags "DRT-3 1x0.8mm Pitch 0.7mm")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "e572c569-aa39-472e-b5e0-c27c20e833c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPD2EUSB30"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(uuid "494efaa4-ee61-46f6-80e7-323ff0992c37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32e140ab-eebc-455d-a809-e7167ecea7c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ef01818-caab-4d9e-8d56-860ee201ec64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/TPD2EUSB30DRTR/2193486"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63c88ca2-8ecb-4adc-861f-75c21ecba8e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PCBWay Link" "https://www.pcbway.com/components/detail/TPD2EUSB30ADRTR/324861/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "203c7bb8-5abd-41fc-917b-9ca20291a512")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c7e00ef-6206-4228-ac53-3a622d1e6541")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Number" "TPD2EUSB30DRTR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a0b0187-9d96-4bc6-a371-8ac464751673")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.65 -0.55)
+		(end -0.45 -0.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6360c25-31b2-439a-afaf-55830d5f5e5b")
+	)
+	(fp_line
+		(start -0.65 0)
+		(end -0.65 -0.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf192373-099b-417d-a194-dcd93261bc7c")
+	)
+	(fp_line
+		(start 0.65 -0.55)
+		(end 0.45 -0.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "617fa38d-f17c-4953-a5d8-65f2439754d7")
+	)
+	(fp_line
+		(start 0.65 0)
+		(end 0.65 -0.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a61a396-06b3-44a1-8017-acb1cc03aace")
+	)
+	(fp_poly
+		(pts
+			(xy -0.76 0.43) (xy -0.76 0.71) (xy -1.04 0.43) (xy -0.76 0.43)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "da748eb8-0790-4400-8aab-cc9dd35615e5")
+	)
+	(fp_line
+		(start -0.8 -0.7)
+		(end 0.8 -0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fbb29a8c-4b19-4770-8233-7956a3e7a224")
+	)
+	(fp_line
+		(start -0.8 0.7)
+		(end -0.8 -0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b599f336-1f86-4519-b04b-16790e331b11")
+	)
+	(fp_line
+		(start 0.8 -0.7)
+		(end 0.8 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "396950bf-aae6-4782-88b3-f9332ed9ce02")
+	)
+	(fp_line
+		(start 0.8 0.7)
+		(end -0.8 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca0b0809-7c90-438f-a6b7-02a58ca614a8")
+	)
+	(fp_line
+		(start -0.5 -0.4)
+		(end 0.5 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff2854d7-469f-4c14-8c50-148598b5fb8b")
+	)
+	(fp_line
+		(start -0.5 0.1)
+		(end -0.5 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f1930911-2f3a-4793-b5ea-40240c18ced9")
+	)
+	(fp_line
+		(start -0.5 0.1)
+		(end -0.2 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08d44226-c396-48db-ac83-51d04140130c")
+	)
+	(fp_line
+		(start 0.5 -0.4)
+		(end 0.5 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78232851-aeeb-4094-a604-af1b2c988b5c")
+	)
+	(fp_line
+		(start 0.5 0.4)
+		(end -0.2 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5fd7a6b5-4fc7-433c-925a-fb59a262bc1b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.5 0)
+		(layer "F.Fab")
+		(uuid "e30f5082-19c9-4c2e-b70b-3a3f18450717")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.35 0.425)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0dbde230-0a25-47b1-b19e-5cf1b6610789")
+	)
+	(pad "2" smd roundrect
+		(at 0.35 0.425)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e4e694a6-83ed-44cc-8d0d-a600d617f3fd")
+	)
+	(pad "3" smd roundrect
+		(at 0 -0.425)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2abf79d7-8a9f-433d-a096-571705654e35")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Texas_DRT-3.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

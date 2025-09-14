@@ -12,419 +12,6 @@
 		(comment 1 "Hexabitz")
 	)
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:BAT43W-V"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BAT43W-V"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-123"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?123*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BAT43W-V_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAT43W-V_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "GND_1"
 			(power)
 			(pin_numbers
@@ -829,7 +416,296 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LM211DRG4:LM211DRG4"
+		(symbol "harp.device.quad.dac:BAT43W-V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAT43W-V"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAT43W-V_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT43W-V_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "harp.device.quad.dac:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "harp.device.quad.dac:LM211DRG4"
 			(pin_names
 				(offset 0.762)
 			)
@@ -1125,7 +1001,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LT1678CS8#PBF:LT1678CS8#PBF"
+		(symbol "harp.device.quad.dac:LT1678CS8#PBF"
 			(pin_names
 				(offset 0.762)
 			)
@@ -1421,6 +1297,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "harp.device.quad.dac:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -1649,8 +1649,12 @@
 		)
 		(symbol "power:VBUS"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1665,7 +1669,7 @@
 				)
 			)
 			(property "Value" "VBUS"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1750,8 +1754,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "VBUS"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6704,7 +6707,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 135.89 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6842,7 +6845,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 156.21 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7031,7 +7034,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 66.04 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7169,7 +7172,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 114.3 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7307,7 +7310,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 66.04 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7640,7 +7643,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 156.21 152.4 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7778,7 +7781,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 140.97 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7896,7 +7899,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 146.05 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8014,7 +8017,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 66.04 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8203,7 +8206,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 66.04 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8341,7 +8344,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 66.04 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8602,7 +8605,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 146.05 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8720,7 +8723,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 146.05 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8909,7 +8912,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 29.21 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9027,7 +9030,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 66.04 191.77 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9217,7 +9220,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LM211DRG4:LM211DRG4")
+		(lib_id "harp.device.quad.dac:LM211DRG4")
 		(at 90.17 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9390,7 +9393,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 55.88 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9650,7 +9653,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 66.04 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9788,7 +9791,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 135.89 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9979,7 +9982,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 39.37 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10111,7 +10114,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 81.28 152.4 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10249,7 +10252,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 39.37 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10439,7 +10442,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 135.89 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10571,7 +10574,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 66.04 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10760,7 +10763,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 39.37 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10898,7 +10901,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LM211DRG4:LM211DRG4")
+		(lib_id "harp.device.quad.dac:LM211DRG4")
 		(at 90.17 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11071,7 +11074,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 156.21 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11189,7 +11192,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 39.37 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11327,7 +11330,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 140.97 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11445,7 +11448,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 156.21 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11776,7 +11779,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 55.88 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11894,7 +11897,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 66.04 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12156,7 +12159,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 66.04 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12274,7 +12277,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 135.89 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12536,7 +12539,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 81.28 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12820,7 +12823,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 81.28 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13029,7 +13032,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT43W-V")
+		(lib_id "harp.device.quad.dac:BAT43W-V")
 		(at 33.02 171.45 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13102,7 +13105,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 135.89 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13220,7 +13223,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 55.88 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13409,7 +13412,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 156.21 180.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13527,7 +13530,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LM211DRG4:LM211DRG4")
+		(lib_id "harp.device.quad.dac:LM211DRG4")
 		(at 90.17 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13700,7 +13703,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 66.04 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13818,7 +13821,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 48.26 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13936,7 +13939,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 39.37 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14147,7 +14150,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 135.89 17.78 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14421,7 +14424,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 135.89 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14553,7 +14556,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LT1678CS8#PBF:LT1678CS8#PBF")
+		(lib_id "harp.device.quad.dac:LT1678CS8#PBF")
 		(at 76.2 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14797,7 +14800,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 29.21 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14915,7 +14918,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 156.21 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15197,7 +15200,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 114.3 20.32 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15408,7 +15411,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 55.88 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15526,7 +15529,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 39.37 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15644,7 +15647,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 135.89 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15782,7 +15785,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 135.89 177.8 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16136,7 +16139,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 135.89 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16268,7 +16271,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 39.37 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16477,7 +16480,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 29.21 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16595,7 +16598,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 140.97 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16713,7 +16716,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT43W-V")
+		(lib_id "harp.device.quad.dac:BAT43W-V")
 		(at 33.02 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16786,7 +16789,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 39.37 15.24 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16924,7 +16927,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 55.88 191.77 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17042,7 +17045,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 135.89 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17253,7 +17256,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 39.37 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17371,7 +17374,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 140.97 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17489,7 +17492,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 39.37 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17678,7 +17681,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 48.26 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17796,7 +17799,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 39.37 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17934,7 +17937,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LT1678CS8#PBF:LT1678CS8#PBF")
+		(lib_id "harp.device.quad.dac:LT1678CS8#PBF")
 		(at 76.2 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18180,7 +18183,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 48.26 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18298,7 +18301,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 55.88 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18416,7 +18419,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 29.21 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18822,7 +18825,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 156.21 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18960,7 +18963,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 55.88 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19151,7 +19154,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 66.04 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19433,7 +19436,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT43W-V")
+		(lib_id "harp.device.quad.dac:BAT43W-V")
 		(at 33.02 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19506,7 +19509,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 55.88 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19697,7 +19700,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT43W-V")
+		(lib_id "harp.device.quad.dac:BAT43W-V")
 		(at 33.02 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19770,7 +19773,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 146.05 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19888,7 +19891,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 48.26 176.53 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20006,7 +20009,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 81.28 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20215,7 +20218,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 39.37 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20347,7 +20350,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 66.04 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20558,7 +20561,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "harp.device.quad.dac:R")
 		(at 135.89 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20965,7 +20968,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 156.21 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21174,7 +21177,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "harp.device.quad.dac:C")
 		(at 66.04 195.58 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21312,7 +21315,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LM211DRG4:LM211DRG4")
+		(lib_id "harp.device.quad.dac:LM211DRG4")
 		(at 90.17 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
