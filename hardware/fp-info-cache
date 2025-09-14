@@ -1,4 +1,4 @@
-24739121396520437
+24853380327918590
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99512,6 +99512,90 @@ Varistor VF
 2
 2
 harp.device.quad.dac.kicad
+BarrelJack_CUI_PJ-102AH_Horizontal
+Thin-pin DC Barrel Jack, https://cdn-shop.adafruit.com/datasheets/21mmdcjackDatasheet.pdf
+Power Jack
+0
+3
+3
+harp.device.quad.dac.kicad
+CDDFN103324P
+CDDFN10-3324P
+Diode
+0
+10
+10
+harp.device.quad.dac.kicad
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+harp.device.quad.dac.kicad
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+harp.device.quad.dac.kicad
+Crystal_SMD_2016-4Pin_2.0x1.6mm
+SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package
+SMD SMT crystal
+0
+4
+4
+harp.device.quad.dac.kicad
+D_MiniMELF
+Diode Mini-MELF (SOD-80)
+Diode Mini-MELF (SOD-80)
+0
+2
+2
+harp.device.quad.dac.kicad
+D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+harp.device.quad.dac.kicad
+ESD441DPLR
+ESD441DPLR-8
+TVS Diode (Uni-directional)
+0
+2
+2
+harp.device.quad.dac.kicad
+Fiducial_0.5mm_Mask1mm
+Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)
+fiducial
+0
+1
+0
+harp.device.quad.dac.kicad
+Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal
+3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)
+3.5mm audio cui horizontal jack stereo
+0
+4
+4
+harp.device.quad.dac.kicad
+LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+harp.device.quad.dac.kicad
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+harp.device.quad.dac.kicad
 RP2350B_QFN-80_EP_10.573x10.573_Pitch0.4mm
 
 
@@ -99519,9 +99603,380 @@ RP2350B_QFN-80_EP_10.573x10.573_Pitch0.4mm
 106
 81
 harp.device.quad.dac.kicad
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+harp.device.quad.dac.kicad
+R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+harp.device.quad.dac.kicad
 SOIC-8_5.3x5.3mm_P1.27mm
 SOIC, 8 Pin (JEITA/EIAJ 08-001-BBA and Atmel/Microchip, 208 mils width, https://www.jeita.or.jp/japanese/standard/book/ED-7311-19/#target/page_no=21, https://ww1.microchip.com/downloads/en/DeviceDoc/20005045C.pdf#page=23, https://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf#page=162), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO P-SOP SOP SOP-8 SO SO-8 8S2 S2AE/F K04-056 CASE-751BE SO8W 8-Pin-SOIC PSA W8-2 W8-4 W8MS-1
 0
 8
 8
+harp.device.quad.dac.kicad
+SOIC-16W_7.5x10.3mm_P1.27mm
+SOIC, 16 Pin (JEDEC MS-013AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/rw_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+16
+16
+harp.device.quad.dac.kicad
+SOIC127P599X175-8N
+8-Lead Plastic Small Outline (Narrow 0.150)
+Integrated Circuit
+0
+8
+8
+harp.device.quad.dac.kicad
+SOIC127P600X175-8N
+D0008A height 1.75
+Integrated Circuit
+0
+8
+8
+harp.device.quad.dac.kicad
+SON50P300X300X80-11N-D
+DD Package 10-Lead Plastic DFN (3mm ? 3mm)%0
+Integrated Circuit
+0
+11
+11
+harp.device.quad.dac.kicad
+SOT-223-3_TabPin2
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+3
+harp.device.quad.dac.kicad
+SOT95P237X112-3N
+DBZ0003A height 1.12
+Integrated Circuit
+0
+3
+3
+harp.device.quad.dac.kicad
+TSSOP-8_3x3mm_P0.65mm
+TSSOP8: plastic thin shrink small outline package; 8 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot505-1_po.pdf)
+SSOP 0.65
+0
+8
+8
+harp.device.quad.dac.kicad
+Texas_DRT-3
+Texas Instrument DRT-3 1x0.8mm Pitch 0.7mm http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf
+DRT-3 1x0.8mm Pitch 0.7mm
+0
+3
+3
+harp.device.quad.dac.kicad
+USB_C_Receptacle_JAE_DX07S016JA1R1500
+USB TYPE C, USB 2.0, SMT, https://www.jae.com/en/connectors/series/detail/product/id=91780
+USB C Type-C Receptacle SMD USB 2.0
+0
+22
+17
+harp.device.quad.dac.kicad
+VSSOP-8_2.3x2mm_P0.5mm
+VSSOP, 8 Pin (https://www.jedec.org/standards-documents/docs/mo-187-f), generated with kicad-footprint-generator ipc_gullwing_generator.py
+VSSOP SO JEDEC-MO-187-CA TI-DCU0008A
+0
+8
+8
+harp.device.quad.dac.kicad
+XGL3530332MEC
+XGL3530-332MEC-3
+Inductor
+0
+2
+2
+usb_isolated
+BarrelJack_CUI_PJ-102AH_Horizontal
+Thin-pin DC Barrel Jack, https://cdn-shop.adafruit.com/datasheets/21mmdcjackDatasheet.pdf
+Power Jack
+0
+3
+3
+usb_isolated
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+usb_isolated
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+usb_isolated
+Crystal_SMD_2016-4Pin_2.0x1.6mm
+SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package
+SMD SMT crystal
+0
+4
+4
+usb_isolated
+D_0402_1005Metric
+Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+usb_isolated
+ETSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3x4.2mm
+20-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body with Exposed Pad [eTSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+27
+21
+usb_isolated
+Fiducial_0.5mm_Mask1mm
+Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)
+fiducial
+0
+1
+0
+usb_isolated
+Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal
+3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)
+3.5mm audio cui horizontal jack stereo
+0
+4
+4
+usb_isolated
+LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+usb_isolated
+LOGO
+
+
+0
+0
+0
+usb_isolated
+L_CommonModeChoke_TDKCorporation_1210
+
+
+0
+4
+4
+usb_isolated
+MountingHole_3.2mm_M3_DIN965
+Mounting Hole 3.2mm, no annular, M3, DIN965
+mounting hole 3.2mm no annular m3 din965
+0
+0
+0
+usb_isolated
+OSHW-Logo2_7.3x6mm_SilkScreen
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+usb_isolated
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+usb_isolated
+RP2040-QFN-56
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+70
+57
+usb_isolated
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+usb_isolated
+R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+usb_isolated
+SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal
+https://www.digikey.com/htmldatasheets/production/58667/0/0/1/consma002-smd-g.pdf
+SMA SMD Female Jack Horizontal
+0
+3
+2
+usb_isolated
+SOIC-16W_7.5x10.3mm_P1.27mm
+SOIC, 16 Pin (JEDEC MS-013AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/rw_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+16
+16
+usb_isolated
+SW_Push_1P1T-SH_NO_Vertical_Wuerth_WS-TASV
+
+
+0
+5
+5
+usb_isolated
+Texas_DRT-3
+Texas Instrument DRT-3 1x0.8mm Pitch 0.7mm http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf
+DRT-3 1x0.8mm Pitch 0.7mm
+0
+3
+3
+usb_isolated
+USB_C_Receptacle_JAE_DX07S016JA1R1500
+USB TYPE C, USB 2.0, SMT, https://www.jae.com/en/connectors/series/detail/product/id=91780
+USB C Type-C Receptacle SMD USB 2.0
+0
+22
+17
+usb_isolated
+VSSOP-8_2.3x2mm_P0.5mm
+VSSOP-8 2.3x2mm Pitch 0.5mm
+VSSOP-8 2.3x2mm Pitch 0.5mm
+0
+8
+8
+usb_isolated
+Winbond-8USON-2x3mm
+https://site.eettaiwan.com/events/iot2021/download/[Winbond]SpiFlashPCBLayoutGuideline.pdf
+
+0
+9
+9
+usb_powered_small
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+usb_powered_small
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+usb_powered_small
+Crystal_SMD_2016-4Pin_2.0x1.6mm
+SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package
+SMD SMT crystal
+0
+4
+4
+usb_powered_small
+D_0402_1005Metric
+Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+usb_powered_small
+D_SOD-323F
+SOD-323F http://www.nxp.com/documents/outline_drawing/SOD323F.pdf
+SOD-323F
+0
+2
+2
+usb_powered_small
+Fiducial_0.5mm_Mask1mm
+Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)
+fiducial
+0
+1
+0
+usb_powered_small
+Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal
+3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)
+3.5mm audio cui horizontal jack stereo
+0
+3
+3
+usb_powered_small
+LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+usb_powered_small
+MountingHole_2.2mm_M2_DIN965
+Mounting Hole 2.2mm, no annular, M2, DIN965
+mounting hole 2.2mm no annular m2 din965
+0
+0
+0
+usb_powered_small
+RP2040-QFN-56
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+70
+57
+usb_powered_small
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+usb_powered_small
+SOT-23-5
+SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+5
+5
+usb_powered_small
+SW_Push_1P1T-SH_NO_Vertical_Wuerth_WS-TASV
+
+
+0
+5
+5
+usb_powered_small
+Texas_DRT-3
+Texas Instrument DRT-3 1x0.8mm Pitch 0.7mm http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf
+DRT-3 1x0.8mm Pitch 0.7mm
+0
+3
+3
+usb_powered_small
+USB_C_Receptacle_JAE_DX07S016JA1R1500
+USB TYPE C, USB 2.0, SMT, https://www.jae.com/en/connectors/series/detail/product/id=91780
+USB C Type-C Receptacle SMD USB 2.0
+0
+22
+17
+usb_powered_small
+Winbond-8USON-2x3mm
+https://site.eettaiwan.com/events/iot2021/download/[Winbond]SpiFlashPCBLayoutGuideline.pdf
+
+0
+9
+9

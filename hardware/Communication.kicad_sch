@@ -12,511 +12,6 @@
 		(comment 1 "Hexabitz")
 	)
 	(lib_symbols
-		(symbol "GND_1"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_2"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_2_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_2_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_3"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_3_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_3_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_4"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_4_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_4_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_6"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_6_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_6_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "harp.device.quad.dac:ADUM4160"
 			(pin_names
 				(offset 1.016)
@@ -1082,145 +577,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "harp.device.quad.dac:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "harp.device.quad.dac:CDDFN10-3324P"
 			(pin_names
 				(offset 0.762)
@@ -1548,6 +904,145 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "harp.device.quad.dac:C_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_0603"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0603_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2245,8 +1740,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "harp.device.quad.dac.kicad:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+				(at 0 11.176 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2254,8 +1749,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.sunledusa.com/products/spec/XZCDGK53W-1VF.pdf"
+				(at -0.254 7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2264,6 +1759,24 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
+				(at 0.508 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "XZCDGK53W-1VF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "SunLED"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2392,7 +1905,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "harp.device.quad.dac:R"
+		(symbol "harp.device.quad.dac:R_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2410,7 +1923,7 @@
 					)
 				)
 			)
-			(property "Value" "R"
+			(property "Value" "R_0603"
 				(at 0 0 90)
 				(effects
 					(font
@@ -2418,7 +1931,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -2463,7 +1976,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R_0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -2476,7 +1989,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2524,8 +2037,8 @@
 				(offset 0)
 				(hide yes)
 			)
-			(exclude_from_sim yes)
-			(in_bom no)
+			(exclude_from_sim no)
+			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "JP"
 				(at 0 2.032 0)
@@ -2543,7 +2056,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "harp.device.quad.dac.kicad:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6436,7 +5949,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:R")
+		(lib_id "harp.device.quad.dac:R_0603")
 		(at 176.53 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6460,7 +5973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 176.53 81.788 90)
 			(effects
 				(font
@@ -6469,7 +5982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_13.pdf"
+		(property "Datasheet" "~"
 			(at 176.53 80.01 0)
 			(effects
 				(font
@@ -6478,7 +5991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 176.53 80.01 0)
 			(effects
 				(font
@@ -6554,7 +6067,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:R")
+		(lib_id "harp.device.quad.dac:R_0603")
 		(at 254 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6578,7 +6091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 254 89.408 90)
 			(effects
 				(font
@@ -6587,7 +6100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
+		(property "Datasheet" "~"
 			(at 254 87.63 0)
 			(effects
 				(font
@@ -6596,7 +6109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 254 87.63 0)
 			(effects
 				(font
@@ -6944,7 +6457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 62.23 105.41 0)
 			(effects
 				(font
@@ -7015,7 +6528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 27.94 106.68 0)
 			(effects
 				(font
@@ -7200,7 +6713,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 45.72 109.22 0)
 		(unit 1)
@@ -7296,7 +6808,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "harp.device.quad.dac.kicad:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 74.93 147.32 0)
 			(effects
 				(font
@@ -7345,7 +6857,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:R")
+		(lib_id "harp.device.quad.dac:R_0603")
 		(at 35.56 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7369,7 +6881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 35.56 116.078 90)
 			(effects
 				(font
@@ -7378,7 +6890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "n/a"
+		(property "Datasheet" "~"
 			(at 35.56 114.3 0)
 			(effects
 				(font
@@ -7387,7 +6899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 35.56 114.3 0)
 			(effects
 				(font
@@ -7463,7 +6975,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:C")
+		(lib_id "harp.device.quad.dac:C_0603")
 		(at 49.53 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7489,7 +7001,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 45.72 108.9152 0)
 			(effects
 				(font
@@ -7498,7 +7010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+		(property "Datasheet" "~"
 			(at 49.53 107.95 0)
 			(effects
 				(font
@@ -7507,7 +7019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 49.53 107.95 0)
 			(effects
 				(font
@@ -7644,7 +7156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3"
 			(at 185.42 102.87 0)
 			(effects
 				(font
@@ -7872,7 +7384,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 73.66 109.22 0)
 		(unit 1)
@@ -7944,7 +7455,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_6")
 		(lib_id "power:GND")
 		(at 199.39 73.66 0)
 		(unit 1)
@@ -8016,7 +7526,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_6")
 		(lib_id "power:GND")
 		(at 185.42 114.3 0)
 		(unit 1)
@@ -8122,7 +7631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "n/a"
+		(property "Datasheet" "~"
 			(at 35.56 71.12 0)
 			(effects
 				(font
@@ -8131,7 +7640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 35.56 71.12 0)
 			(effects
 				(font
@@ -8253,7 +7762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 57.15 105.41 0)
 			(effects
 				(font
@@ -8281,7 +7790,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:R")
+		(lib_id "harp.device.quad.dac:R_0603")
 		(at 210.82 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8305,7 +7814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 210.82 89.408 90)
 			(effects
 				(font
@@ -8314,7 +7823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
+		(property "Datasheet" "~"
 			(at 210.82 87.63 0)
 			(effects
 				(font
@@ -8323,7 +7832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 210.82 87.63 0)
 			(effects
 				(font
@@ -8390,7 +7899,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:R")
+		(lib_id "harp.device.quad.dac:R_0603")
 		(at 176.53 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8414,7 +7923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 176.53 79.248 90)
 			(effects
 				(font
@@ -8423,7 +7932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_13.pdf"
+		(property "Datasheet" "~"
 			(at 176.53 77.47 0)
 			(effects
 				(font
@@ -8432,7 +7941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 176.53 77.47 0)
 			(effects
 				(font
@@ -8644,7 +8153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 59.69 135.89 0)
 			(effects
 				(font
@@ -8672,7 +8181,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_6")
 		(lib_id "power:GND")
 		(at 156.21 114.3 0)
 		(unit 1)
@@ -8779,7 +8287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jae.com/direct/topics/topics_file_download/?topics_id=66500&ext_no=04&_lang=en&v=2019072610033121856109"
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 160.02 87.63 0)
 			(effects
 				(font
@@ -8788,7 +8296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only Type-C Receptacle connector"
 			(at 156.21 87.63 0)
 			(effects
 				(font
@@ -8900,7 +8408,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:R")
+		(lib_id "harp.device.quad.dac:R_0603")
 		(at 35.56 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8924,7 +8432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 35.56 109.728 90)
 			(effects
 				(font
@@ -8933,7 +8441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "n/a"
+		(property "Datasheet" "~"
 			(at 35.56 107.95 0)
 			(effects
 				(font
@@ -8942,7 +8450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 35.56 107.95 0)
 			(effects
 				(font
@@ -9061,7 +8569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 46.99 88.9 0)
 			(effects
 				(font
@@ -9113,7 +8621,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "harp.device.quad.dac.kicad:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 50.8 142.24 0)
 			(effects
 				(font
@@ -9162,7 +8670,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:C")
+		(lib_id "harp.device.quad.dac:C_0603")
 		(at 264.16 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9188,7 +8696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 263.1948 62.23 0)
 			(effects
 				(font
@@ -9197,7 +8705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+		(property "Datasheet" "~"
 			(at 264.16 66.04 0)
 			(effects
 				(font
@@ -9206,7 +8714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 264.16 66.04 0)
 			(effects
 				(font
@@ -9300,7 +8808,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:R")
+		(lib_id "harp.device.quad.dac:R_0603")
 		(at 254 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9324,7 +8832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 254 86.868 90)
 			(effects
 				(font
@@ -9333,7 +8841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
+		(property "Datasheet" "~"
 			(at 254 85.09 0)
 			(effects
 				(font
@@ -9342,7 +8850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 254 85.09 0)
 			(effects
 				(font
@@ -9409,7 +8917,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:R")
+		(lib_id "harp.device.quad.dac:R_0603")
 		(at 129.54 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9434,7 +8942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127.762 77.47 90)
 			(effects
 				(font
@@ -9443,7 +8951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 129.54 77.47 0)
 			(effects
 				(font
@@ -9452,7 +8960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 129.54 77.47 0)
 			(effects
 				(font
@@ -9519,7 +9027,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 29.21 114.3 270)
 		(unit 1)
@@ -9592,7 +9099,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "power:GND")
 		(at 85.09 43.18 90)
 		(unit 1)
@@ -9707,7 +9213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 41.91 88.9 0)
 			(effects
 				(font
@@ -9735,7 +9241,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:C")
+		(lib_id "harp.device.quad.dac:C_0603")
 		(at 255.27 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9761,7 +9267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 256.2352 69.85 0)
 			(effects
 				(font
@@ -9770,7 +9276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R6YA105KE11-01.pdf"
+		(property "Datasheet" "~"
 			(at 255.27 66.04 0)
 			(effects
 				(font
@@ -9779,7 +9285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 255.27 66.04 0)
 			(effects
 				(font
@@ -9873,7 +9379,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:R")
+		(lib_id "harp.device.quad.dac:R_0603")
 		(at 210.82 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9897,7 +9403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 210.82 86.868 90)
 			(effects
 				(font
@@ -9906,7 +9412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
+		(property "Datasheet" "~"
 			(at 210.82 85.09 0)
 			(effects
 				(font
@@ -9915,7 +9421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 210.82 85.09 0)
 			(effects
 				(font
@@ -10025,7 +9531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 247.65 57.15 0)
 			(effects
 				(font
@@ -10096,7 +9602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 172.72 57.15 0)
 			(effects
 				(font
@@ -10124,7 +9630,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_6")
 		(lib_id "power:GND")
 		(at 129.54 114.3 0)
 		(unit 1)
@@ -10239,7 +9744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 66.04 88.9 0)
 			(effects
 				(font
@@ -10267,7 +9772,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_4")
 		(lib_id "power:GND")
 		(at 255.27 73.66 0)
 		(unit 1)
@@ -10383,7 +9887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Full/Low Speed, iCoupler USB Digital Isolator, 5kV protection, SOIC-16"
 			(at 233.68 87.63 0)
 			(effects
 				(font
@@ -10492,7 +9996,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_6")
 		(lib_id "power:GND")
 		(at 148.59 114.3 0)
 		(unit 1)
@@ -10564,7 +10067,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_6")
 		(lib_id "power:GND")
 		(at 189.23 73.66 0)
 		(unit 1)
@@ -10636,7 +10138,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:C")
+		(lib_id "harp.device.quad.dac:C_0603")
 		(at 181.61 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10662,7 +10164,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.6448 62.23 0)
 			(effects
 				(font
@@ -10671,7 +10173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+		(property "Datasheet" "~"
 			(at 181.61 66.04 0)
 			(effects
 				(font
@@ -10680,7 +10182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 181.61 66.04 0)
 			(effects
 				(font
@@ -10799,7 +10301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "harp.device.quad.dac.kicad:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -10817,7 +10319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -10871,6 +10373,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XZCDGK53W-1VF"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "SunLED"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0274f3dd-4679-4656-bc05-420b66ada7a3")
 		)
@@ -10893,7 +10413,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:C")
+		(lib_id "harp.device.quad.dac:C_0603")
 		(at 189.23 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10919,7 +10439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 190.1952 69.85 0)
 			(effects
 				(font
@@ -10928,7 +10448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R6YA105KE11-01.pdf"
+		(property "Datasheet" "~"
 			(at 189.23 66.04 0)
 			(effects
 				(font
@@ -10937,7 +10457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 189.23 66.04 0)
 			(effects
 				(font
@@ -11031,7 +10551,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_6")
 		(lib_id "power:GND")
 		(at 228.6 114.3 0)
 		(unit 1)
@@ -11103,7 +10622,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "power:GND")
 		(at 40.64 46.99 0)
 		(unit 1)
@@ -11175,7 +10693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:C")
+		(lib_id "harp.device.quad.dac:C_0603")
 		(at 69.85 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11201,7 +10719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 66.04 108.9152 0)
 			(effects
 				(font
@@ -11210,7 +10728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+		(property "Datasheet" "~"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -11219,7 +10737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -11313,7 +10831,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "power:GND")
 		(at 238.76 114.3 0)
 		(unit 1)
