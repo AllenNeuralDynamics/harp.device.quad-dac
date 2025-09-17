@@ -151,6 +151,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "harp.device.quad.dac:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "harp.device.quad.dac:ECS-TXO-2016"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4062,6 +4204,12 @@
 		(uuid "0461e125-48a6-4e7c-a1ba-f89db0fce6fe")
 	)
 	(junction
+		(at 134.62 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13e1c1b7-9b75-4d60-83cd-a57ae934c0df")
+	)
+	(junction
 		(at 93.98 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4474,6 +4622,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4fa0d4b-c73a-453d-8a4c-74818b993c49")
+	)
+	(junction
+		(at 160.02 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ece6cdb8-24f0-4dd2-8560-f2a210c6e194")
 	)
 	(junction
 		(at 19.05 185.42)
@@ -5045,6 +5199,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 6.35) (xy 160.02 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a64598b-03ca-4bb7-96eb-fc9b37bdc602")
+	)
+	(wire
+		(pts
+			(xy 134.62 6.35) (xy 134.62 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc33a5f-7e66-4cb1-868c-bb34a43221d5")
+	)
+	(wire
+		(pts
 			(xy 19.05 128.27) (xy 19.05 125.73)
 		)
 		(stroke
@@ -5222,6 +5396,16 @@
 			(type default)
 		)
 		(uuid "3ae2363f-52d5-421f-85e7-a424b7026096")
+	)
+	(wire
+		(pts
+			(xy 148.59 6.35) (xy 160.02 6.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7857cb-d5a2-4586-b1e4-336df00b0fbc")
 	)
 	(wire
 		(pts
@@ -7842,6 +8026,16 @@
 			(type default)
 		)
 		(uuid "f1a49b97-64cc-461d-80b8-a45ccb3ec513")
+	)
+	(wire
+		(pts
+			(xy 146.05 6.35) (xy 134.62 6.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f266e0f9-80dc-4a87-84f9-c71b59f76065")
 	)
 	(wire
 		(pts
@@ -17353,6 +17547,76 @@
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
 					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "harp.device.quad.dac:Conn_01x02")
+		(at 146.05 1.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aad24fbc-065b-4203-8908-d0ac14793d25")
+		(property "Reference" "J19"
+			(at 151.13 -0.0001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 151.13 2.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 146.05 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 146.05 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98a8b9d4-c72e-4aca-8ee2-e8fa436d7715")
+		)
+		(pin "1"
+			(uuid "19734bf1-1bf2-4e12-a041-3491650d68d9")
+		)
+		(instances
+			(project ""
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "J19")
 					(unit 1)
 				)
 			)

@@ -37,7 +37,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "WE-PD_7332/7345_PLASTIC_BASE54"
+			(property "Footprint" "harp.device.quad.dac.kicad:WE-PD_7332-7345_PLASTIC_BASE54"
 				(at 16.51 1.27 0)
 				(effects
 					(font
@@ -262,7 +262,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(property "Footprint" "harp.device.quad.dac.kicad:D_MiniMELF"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -410,7 +410,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "SOT95P230X109-3N"
+			(property "Footprint" "harp.device.quad.dac.kicad:SOT95P230X109-3N"
 				(at 52.07 2.54 0)
 				(effects
 					(font
@@ -869,6 +869,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "harp.device.quad.dac:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "harp.device.quad.dac:LED"
 			(pin_numbers
 				(hide yes)
@@ -1086,7 +1228,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "harp.device.quad.dac.kicad:KTT0003B"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -1141,6 +1283,65 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+			(symbol "LM2990SX-12_1_0"
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1227,7 +1428,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "SON50P400X500X80-17N-D"
+			(property "Footprint" "harp.device.quad.dac.kicad:SON50P400X500X80-17N-D"
 				(at 31.75 2.54 0)
 				(effects
 					(font
@@ -1685,7 +1886,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "SOP65P490X110-13N"
+			(property "Footprint" "harp.device.quad.dac.kicad:SOP65P490X110-13N"
 				(at 31.75 2.54 0)
 				(effects
 					(font
@@ -2067,7 +2268,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(property "Footprint" "harp.device.quad.dac.kicad:SOT-223-3_TabPin2"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -2204,7 +2405,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(property "Footprint" "harp.device.quad.dac.kicad:SOT-223-3_TabPin2"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -2655,7 +2856,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V40D103CM3I"
+			(property "Footprint" "harp.device.quad.dac.kicad:V40D103CM3I"
 				(at 24.13 2.54 0)
 				(effects
 					(font
@@ -2861,7 +3062,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "XAL6030182MEB"
+			(property "Footprint" "harp.device.quad.dac.kicad:XAL6030182MEB"
 				(at 16.51 1.27 0)
 				(effects
 					(font
@@ -3933,6 +4134,12 @@
 		(uuid "d22b8d77-60f0-4abd-af4c-05479f381956")
 	)
 	(junction
+		(at 151.13 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01ef30a8-a620-4383-8da9-7aabf4b816ce")
+	)
+	(junction
 		(at 76.2 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3943,12 +4150,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08229b0d-52a8-4689-90e1-1592af0d881f")
-	)
-	(junction
-		(at 231.14 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c34e967-e6c9-4ae7-b577-9bf0efbffa5f")
 	)
 	(junction
 		(at 212.09 118.11)
@@ -3985,6 +4186,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29acf647-fede-47d4-8e1e-de34698375b1")
+	)
+	(junction
+		(at 162.56 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b89e12c-7e82-441b-b297-5a0be25e141b")
 	)
 	(junction
 		(at 101.6 34.29)
@@ -4113,6 +4320,12 @@
 		(uuid "8bbe18e9-d7e8-49ed-a4c6-61c87be5ba90")
 	)
 	(junction
+		(at 92.71 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e0ea35d-92f3-4c57-9592-bcd0a0df6a99")
+	)
+	(junction
 		(at 111.76 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4123,6 +4336,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96ef6faf-d295-4145-8b5f-a7ee1342c00c")
+	)
+	(junction
+		(at 231.14 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ac7b71f-5784-46e8-b8f1-dc4a56faa17f")
 	)
 	(junction
 		(at 156.21 53.34)
@@ -4232,6 +4451,12 @@
 		(color 0 0 0 0)
 		(uuid "f7a70712-1bce-4059-abc6-b29d997c0b91")
 	)
+	(junction
+		(at 80.01 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f882cbd1-21ec-4387-bae9-57fddb18c3a2")
+	)
 	(wire
 		(pts
 			(xy 101.6 125.73) (xy 92.71 125.73)
@@ -4324,6 +4549,26 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 13.97) (xy 162.56 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040ab40c-4cc2-41d8-9255-755f06d9911e")
+	)
+	(wire
+		(pts
+			(xy 92.71 91.44) (xy 92.71 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0498d632-8a84-4c13-bc45-29b386e201f2")
+	)
+	(wire
+		(pts
 			(xy 156.21 34.29) (xy 193.04 34.29)
 		)
 		(stroke
@@ -4394,6 +4639,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 13.97) (xy 151.13 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d423b33-0337-4631-bec8-254e51d0380c")
+	)
+	(wire
+		(pts
 			(xy 193.04 149.86) (xy 193.04 151.13)
 		)
 		(stroke
@@ -4431,6 +4686,16 @@
 			(type default)
 		)
 		(uuid "10071db8-7266-4f45-ae7a-35f3f6566aa7")
+	)
+	(wire
+		(pts
+			(xy 80.01 105.41) (xy 82.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108ed575-f4da-4a5c-a647-17caf8f5814b")
 	)
 	(wire
 		(pts
@@ -4481,6 +4746,16 @@
 			(type default)
 		)
 		(uuid "152d7ea6-dce4-43b7-9d48-3e6ce90fdc3c")
+	)
+	(wire
+		(pts
+			(xy 80.01 91.44) (xy 80.01 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1703f8ed-d003-4961-9fad-f8fdf96c41e6")
 	)
 	(wire
 		(pts
@@ -4944,6 +5219,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 21.59) (xy 166.37 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc187ce-94e7-497d-bcc7-59eb0b0eaf4c")
+	)
+	(wire
+		(pts
 			(xy 265.43 118.11) (xy 265.43 114.3)
 		)
 		(stroke
@@ -5134,6 +5419,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 13.97) (xy 151.13 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7a9bf0-827b-4b20-877e-c98f139dcdd3")
+	)
+	(wire
+		(pts
 			(xy 278.13 118.11) (xy 278.13 114.3)
 		)
 		(stroke
@@ -5174,7 +5469,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 105.41) (xy 82.55 105.41)
+			(xy 76.2 105.41) (xy 80.01 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5374,7 +5669,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 21.59) (xy 166.37 21.59)
+			(xy 160.02 21.59) (xy 162.56 21.59)
 		)
 		(stroke
 			(width 0)
@@ -5541,6 +5836,16 @@
 			(type default)
 		)
 		(uuid "90aeb3a9-dc7a-4bc4-a2d7-9914d314dc42")
+	)
+	(wire
+		(pts
+			(xy 92.71 105.41) (xy 96.52 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9148f477-78d8-4c9f-98a4-6861198dd39e")
 	)
 	(wire
 		(pts
@@ -5864,13 +6169,13 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 151.13) (xy 242.57 151.13)
+			(xy 87.63 91.44) (xy 92.71 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9065279-b625-4d25-ab75-1b3211768f47")
+		(uuid "b958e045-9d1e-4d6b-917d-436eb670b510")
 	)
 	(wire
 		(pts
@@ -6244,6 +6549,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 13.97) (xy 162.56 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0cd558e-7d29-4a2a-b757-5a9633b39e5c")
+	)
+	(wire
+		(pts
 			(xy 182.88 151.13) (xy 182.88 149.86)
 		)
 		(stroke
@@ -6294,7 +6609,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 105.41) (xy 96.52 105.41)
+			(xy 90.17 105.41) (xy 92.71 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6344,6 +6659,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 91.44) (xy 80.01 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e718565d-516c-4bc1-8f94-234d60b61f29")
+	)
+	(wire
+		(pts
 			(xy 232.41 31.75) (xy 228.6 31.75)
 		)
 		(stroke
@@ -6354,7 +6679,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 21.59) (xy 152.4 21.59)
+			(xy 146.05 21.59) (xy 151.13 21.59)
 		)
 		(stroke
 			(width 0)
@@ -6484,6 +6809,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 151.13) (xy 242.57 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f810f3f4-9982-4c99-a7b3-c8641a3af55c")
+	)
+	(wire
+		(pts
 			(xy 153.67 135.89) (xy 153.67 137.16)
 		)
 		(stroke
@@ -6541,6 +6876,16 @@
 			(type default)
 		)
 		(uuid "fb96485b-6f80-4612-9a23-7d9850b819f3")
+	)
+	(wire
+		(pts
+			(xy 151.13 21.59) (xy 152.4 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0569e2-fca4-4358-a72d-a91530ce926a")
 	)
 	(wire
 		(pts
@@ -8503,7 +8848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WE-PD_7332/7345_PLASTIC_BASE54"
+		(property "Footprint" "harp.device.quad.dac.kicad:WE-PD_7332-7345_PLASTIC_BASE54"
 			(at 204.47 21.59 0)
 			(effects
 				(font
@@ -8658,7 +9003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON50P400X500X80-17N-D"
+		(property "Footprint" "harp.device.quad.dac.kicad:SON50P400X500X80-17N-D"
 			(at 224.79 26.67 0)
 			(effects
 				(font
@@ -9491,7 +9836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XAL6030182MEB"
+		(property "Footprint" "harp.device.quad.dac.kicad:XAL6030182MEB"
 			(at 82.55 119.38 0)
 			(effects
 				(font
@@ -11402,6 +11747,76 @@
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/adb478b6-3e26-4690-99b3-d05998c9cb12"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "harp.device.quad.dac:Conn_01x02")
+		(at 154.94 8.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "534f3252-5037-4abb-85f3-0fcad3d87a56")
+		(property "Reference" "J26"
+			(at 160.02 7.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 160.02 10.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 154.94 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 154.94 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de774ba4-0f3e-4a65-bede-e29b2134cdc3")
+		)
+		(pin "1"
+			(uuid "5cfb43e4-b6e5-4109-a6d6-0cdc1a3f3ed9")
+		)
+		(instances
+			(project ""
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/df92df4e-37ce-471e-93c1-358fcc45baf3"
+					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -13433,7 +13848,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "harp.device.quad.dac.kicad:KTT0003B"
 			(at 252.73 140.97 0)
 			(effects
 				(font
@@ -13463,11 +13878,20 @@
 		(pin "1"
 			(uuid "42d373df-819d-4870-8421-d6ac6c4ffd00")
 		)
-		(pin "2"
+		(pin "4"
 			(uuid "45183888-5c7c-44ca-941f-8ea250adf7d9")
 		)
 		(pin "3"
 			(uuid "121f3002-beed-4a15-9bb5-d7ffc2094869")
+		)
+		(pin "2"
+			(uuid "85f3e0a3-4ba9-48b4-b513-310bcc0a2fea")
+		)
+		(pin "5"
+			(uuid "8cda0dfb-76ea-43c8-b77e-585fc222f214")
+		)
+		(pin "6"
+			(uuid "50326235-d11f-4153-88f1-1b795dc57d38")
 		)
 		(instances
 			(project "harp.device.quad.dac"
@@ -13699,7 +14123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "harp.device.quad.dac.kicad:SOT-223-3_TabPin2"
 			(at 252.73 91.44 0)
 			(effects
 				(font
@@ -14242,7 +14666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "V40D103CM3I"
+		(property "Footprint" "harp.device.quad.dac.kicad:V40D103CM3I"
 			(at 49.53 31.75 0)
 			(effects
 				(font
@@ -16486,7 +16910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "harp.device.quad.dac.kicad:SOT-223-3_TabPin2"
 			(at 252.73 113.03 0)
 			(effects
 				(font
@@ -16635,7 +17059,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
+		(property "Footprint" "harp.device.quad.dac.kicad:D_MiniMELF"
 			(at 226.695 123.19 0)
 			(effects
 				(font
@@ -17558,6 +17982,76 @@
 		)
 	)
 	(symbol
+		(lib_id "harp.device.quad.dac:Conn_01x02")
+		(at 85.09 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d239dca7-7382-48f1-8ecf-1aee4b27defa")
+		(property "Reference" "J25"
+			(at 90.17 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 90.17 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 85.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 85.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be20723d-c103-450f-9591-8ab47a3d0716")
+		)
+		(pin "1"
+			(uuid "782baff0-cc05-4097-8fc0-305a04c2437e")
+		)
+		(instances
+			(project ""
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/df92df4e-37ce-471e-93c1-358fcc45baf3"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 265.43 114.3 0)
 		(unit 1)
@@ -18126,7 +18620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P230X109-3N"
+		(property "Footprint" "harp.device.quad.dac.kicad:SOT95P230X109-3N"
 			(at 115.57 107.95 0)
 			(effects
 				(font
@@ -19171,7 +19665,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
+		(property "Footprint" "harp.device.quad.dac.kicad:D_MiniMELF"
 			(at 226.695 146.05 0)
 			(effects
 				(font
@@ -20008,7 +20502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-13N"
+		(property "Footprint" "harp.device.quad.dac.kicad:SOP65P490X110-13N"
 			(at 133.35 115.57 0)
 			(effects
 				(font

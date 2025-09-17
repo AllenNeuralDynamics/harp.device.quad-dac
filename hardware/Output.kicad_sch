@@ -32,7 +32,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
+			(property "Footprint" "harp.device.quad.dac.kicad:VSSOP-8_2.3x2mm_P0.5mm"
 				(at 0 -21.59 0)
 				(effects
 					(font
@@ -543,7 +543,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "harp.device.quad.dac.kicad:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -714,7 +714,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ESD441DPLR"
+			(property "Footprint" "harp.device.quad.dac.kicad:ESD441DPLR"
 				(at 10.16 3.81 0)
 				(effects
 					(font
@@ -3323,7 +3323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_component_library:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
+		(property "Footprint" "harp.device.quad.dac.kicad:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
 			(at 132.08 125.73 0)
 			(effects
 				(font
@@ -3485,7 +3485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESD441DPLR"
+		(property "Footprint" "harp.device.quad.dac.kicad:ESD441DPLR"
 			(at 114.3 105.41 0)
 			(effects
 				(font
@@ -3702,7 +3702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_component_library:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
+		(property "Footprint" "harp.device.quad.dac.kicad:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
 			(at 205.74 62.23 0)
 			(effects
 				(font
@@ -3799,7 +3799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_component_library:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
+		(property "Footprint" "harp.device.quad.dac.kicad:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
 			(at 205.74 125.73 0)
 			(effects
 				(font
@@ -4156,7 +4156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_component_library:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
+		(property "Footprint" "harp.device.quad.dac.kicad:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
 			(at 132.08 62.23 0)
 			(effects
 				(font
@@ -4253,7 +4253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_component_library:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
+		(property "Footprint" "harp.device.quad.dac.kicad:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
 			(at 132.08 93.98 0)
 			(effects
 				(font
@@ -4350,7 +4350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_component_library:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
+		(property "Footprint" "harp.device.quad.dac.kicad:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
 			(at 205.74 93.98 0)
 			(effects
 				(font
@@ -4642,7 +4642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESD441DPLR"
+		(property "Footprint" "harp.device.quad.dac.kicad:ESD441DPLR"
 			(at 114.3 41.91 0)
 			(effects
 				(font
@@ -5056,7 +5056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_component_library:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
+		(property "Footprint" "harp.device.quad.dac.kicad:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
 			(at 132.08 30.48 0)
 			(effects
 				(font
@@ -5152,7 +5152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
+		(property "Footprint" "harp.device.quad.dac.kicad:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 74.93 139.7 0)
 			(effects
 				(font
@@ -5528,7 +5528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
+		(property "Footprint" "harp.device.quad.dac.kicad:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 74.93 76.2 0)
 			(effects
 				(font
@@ -5643,7 +5643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_component_library:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
+		(property "Footprint" "harp.device.quad.dac.kicad:SMA_TE_Connectivity_CONSMA002-SMD-G-T_Horizontal"
 			(at 205.74 30.48 0)
 			(effects
 				(font
@@ -5740,7 +5740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESD441DPLR"
+		(property "Footprint" "harp.device.quad.dac.kicad:ESD441DPLR"
 			(at 114.3 137.16 0)
 			(effects
 				(font
@@ -7681,7 +7681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESD441DPLR"
+		(property "Footprint" "harp.device.quad.dac.kicad:ESD441DPLR"
 			(at 114.3 76.2 0)
 			(effects
 				(font
