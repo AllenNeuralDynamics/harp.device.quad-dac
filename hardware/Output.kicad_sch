@@ -938,7 +938,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ESDSB12VLBTP"
+			(property "Footprint" "harp.device.quad.dac.kicad:ESDSB12VLBTP"
 				(at 12.7 3.81 0)
 				(effects
 					(font
@@ -6021,7 +6021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESDSB12VLBTP"
+		(property "Footprint" "harp.device.quad.dac.kicad:ESDSB12VLBTP"
 			(at 187.96 107.95 0)
 			(effects
 				(font
@@ -6544,7 +6544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESDSB12VLBTP"
+		(property "Footprint" "harp.device.quad.dac.kicad:ESDSB12VLBTP"
 			(at 187.96 44.45 0)
 			(effects
 				(font
@@ -6939,7 +6939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESDSB12VLBTP"
+		(property "Footprint" "harp.device.quad.dac.kicad:ESDSB12VLBTP"
 			(at 187.96 139.7 0)
 			(effects
 				(font
@@ -7352,7 +7352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESDSB12VLBTP"
+		(property "Footprint" "harp.device.quad.dac.kicad:ESDSB12VLBTP"
 			(at 187.96 76.2 0)
 			(effects
 				(font
