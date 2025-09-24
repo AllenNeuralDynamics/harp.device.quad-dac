@@ -1048,148 +1048,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "harp.device.quad.dac:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "harp.device.quad.dac:Conn_01x03_Male"
 			(pin_names
 				(offset 1.016)
@@ -2146,192 +2004,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "harp.device.quad.dac:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "harp.device.quad.dac.kicad:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4184,9 +3856,9 @@
 		)
 		(uuid "4cbe06ca-b73a-4817-8908-7b1245bd2585")
 	)
-	(text "connect / solder these jumbers\nif the uart signal is 3.3V"
+	(text "connect / solder these\ntwo 0 Ohm resistors\nif the uart signal is 3.3V"
 		(exclude_from_sim no)
-		(at 48.26 156.21 0)
+		(at 44.704 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4341,22 +4013,10 @@
 		(uuid "6c4af87d-8372-45bf-96c9-64d56d62a9b7")
 	)
 	(junction
-		(at 67.31 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ea0dd1c-a4e0-49d8-831a-94873431ff71")
-	)
-	(junction
 		(at 181.61 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78d838d5-3f03-42ca-be19-428e0e92c36f")
-	)
-	(junction
-		(at 55.88 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d0a9359-e28c-45e9-9bc2-8917cb180579")
 	)
 	(junction
 		(at 189.23 72.39)
@@ -4387,12 +4047,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cd63357-2659-4dda-9211-9482f9c2be54")
-	)
-	(junction
-		(at 82.55 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90024a71-9a5c-4ca8-8e81-abe7b4370042")
 	)
 	(junction
 		(at 255.27 72.39)
@@ -4471,12 +4125,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d06141cb-74c2-4af1-92d4-322743351eb0")
-	)
-	(junction
-		(at 44.45 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4c73093-ea34-4328-993c-58ede1d1f5e6")
 	)
 	(junction
 		(at 228.6 104.14)
@@ -4644,7 +4292,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 147.32) (xy 40.64 147.32)
+			(xy 40.64 147.32) (xy 71.12 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4664,7 +4312,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 142.24) (xy 44.45 137.16)
+			(xy 44.45 124.46) (xy 44.45 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4781,16 +4429,6 @@
 			(type default)
 		)
 		(uuid "3d5ac266-533c-44b9-8754-9851b5bacd9f")
-	)
-	(wire
-		(pts
-			(xy 82.55 152.4) (xy 82.55 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3daac017-2006-4b24-a478-0681026f50f5")
 	)
 	(wire
 		(pts
@@ -5144,16 +4782,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 152.4) (xy 67.31 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7082faea-93da-48a6-b265-810ebb35e2cc")
-	)
-	(wire
-		(pts
 			(xy 175.26 90.17) (xy 193.04 90.17)
 		)
 		(stroke
@@ -5181,26 +4809,6 @@
 			(type default)
 		)
 		(uuid "74b8acc0-d6ff-41d7-a903-aa42513e42bd")
-	)
-	(wire
-		(pts
-			(xy 44.45 137.16) (xy 49.53 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "753a25f8-c1a0-462c-a75e-7025842ce776")
-	)
-	(wire
-		(pts
-			(xy 52.07 137.16) (xy 55.88 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7680bf42-2083-44b6-a51b-9c6386c8bb4b")
 	)
 	(wire
 		(pts
@@ -5464,7 +5072,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 142.24) (xy 55.88 142.24)
+			(xy 54.61 142.24) (xy 82.55 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5584,16 +5192,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 142.24) (xy 82.55 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba0ec2d0-5f42-417f-b110-f372913c0023")
-	)
-	(wire
-		(pts
 			(xy 220.98 90.17) (xy 219.71 90.17)
 		)
 		(stroke
@@ -5621,16 +5219,6 @@
 			(type default)
 		)
 		(uuid "c1c180cb-d0e6-4d13-bfab-673541f494d0")
-	)
-	(wire
-		(pts
-			(xy 76.2 152.4) (xy 82.55 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c40719a8-30ee-4391-8c42-700ca7151653")
 	)
 	(wire
 		(pts
@@ -5694,16 +5282,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 137.16) (xy 44.45 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf39e3b6-1fe9-4c78-b11b-5df5aeabc45b")
-	)
-	(wire
-		(pts
 			(xy 129.54 96.52) (xy 129.54 114.3)
 		)
 		(stroke
@@ -5754,17 +5332,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 152.4) (xy 67.31 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d77a90fe-4653-4b3e-b375-9df82c202585")
-	)
-	(wire
-		(pts
-			(xy 82.55 147.32) (xy 78.74 147.32)
+			(xy 78.74 147.32) (xy 86.36 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5781,16 +5349,6 @@
 			(type default)
 		)
 		(uuid "da9a26ce-74cf-4730-b543-89d373b35342")
-	)
-	(wire
-		(pts
-			(xy 55.88 137.16) (xy 55.88 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc059672-f9bb-419c-8e3e-a57f8e3e8860")
 	)
 	(wire
 		(pts
@@ -5821,16 +5379,6 @@
 			(type default)
 		)
 		(uuid "dcd57932-69db-44ae-a320-0e668f9d7006")
-	)
-	(wire
-		(pts
-			(xy 86.36 147.32) (xy 82.55 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcdbbaf1-7726-413f-81b1-a6489092c1b1")
 	)
 	(wire
 		(pts
@@ -5921,16 +5469,6 @@
 			(type default)
 		)
 		(uuid "e93cced1-afdf-4899-92bc-40bc245c98a3")
-	)
-	(wire
-		(pts
-			(xy 71.12 147.32) (xy 67.31 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9f3d68e-c012-4cc9-9e46-e62e892545d9")
 	)
 	(wire
 		(pts
@@ -7001,76 +6539,6 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:Conn_01x02")
-		(at 76.2 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "259c5df0-aac8-4315-ab2d-902aa678187d")
-		(property "Reference" "J23"
-			(at 78.74 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 78.74 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 76.2 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 76.2 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "649e1ac8-a389-4ed3-a840-3f0c2f300230")
-		)
-		(pin "1"
-			(uuid "625be98a-9108-4c56-9904-47de5ae688ce")
-		)
-		(instances
-			(project ""
-				(path "/6b47c519-21c4-43bd-9777-b273999e4447/08506a40-9943-41e4-b528-13f6a4c7e855"
-					(reference "J23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 45.72 109.22 0)
 		(unit 1)
@@ -7136,79 +6604,6 @@
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/e39fc2ef-50b8-4bcb-bb27-38e85fa8106c"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "harp.device.quad.dac:SolderJumper_2_Open")
-		(at 74.93 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33dce404-092b-4fec-b56e-b8381d017eea")
-		(property "Reference" "Jump5"
-			(at 74.93 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 75.692 149.352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "harp.device.quad.dac.kicad:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 74.93 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 74.93 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d365939e-c0f9-41f2-af2f-7361113f5d76")
-		)
-		(pin "1"
-			(uuid "1feb9080-c849-41ff-948c-ed6b66b316fd")
-		)
-		(instances
-			(project "harp.device.quad.dac"
-				(path "/6b47c519-21c4-43bd-9777-b273999e4447/08506a40-9943-41e4-b528-13f6a4c7e855"
-					(reference "Jump5")
-					(unit 1)
-				)
-			)
-			(project "multi_ch_harp_dac"
-				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/e39fc2ef-50b8-4bcb-bb27-38e85fa8106c"
-					(reference "Jump?")
 					(unit 1)
 				)
 			)
@@ -8375,6 +7770,118 @@
 		)
 	)
 	(symbol
+		(lib_id "harp.device.quad.dac:R_0603")
+		(at 74.93 147.32 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "5c6069b0-323f-4804-88eb-43ed8a279070")
+		(property "Reference" "R126"
+			(at 75.184 149.606 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 74.93 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 74.93 149.098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 74.93 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0402BRD071KL/1069118"
+			(at 74.93 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 74.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "RT0402BRD071KL"
+			(at 74.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PCBWay Link" ""
+			(at 74.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4678e2a-f358-4584-806c-1b8f90a2012d")
+		)
+		(pin "2"
+			(uuid "10a28d41-b390-4fd6-bf86-e1e7a60ac762")
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/08506a40-9943-41e4-b528-13f6a4c7e855"
+					(reference "R126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "harp.device.quad.dac:TXB0102DCT")
 		(at 59.69 121.92 0)
 		(unit 1)
@@ -8955,79 +8462,6 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:SolderJumper_2_Open")
-		(at 50.8 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c54ddf7-9e23-46f1-b84a-0fdba9fd0d81")
-		(property "Reference" "Jump4"
-			(at 50.8 139.446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 51.562 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "harp.device.quad.dac.kicad:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5676c503-63be-432c-8e5c-f37ae46b25d7")
-		)
-		(pin "1"
-			(uuid "633f5717-eec7-4956-b4bc-5f22e19b9903")
-		)
-		(instances
-			(project "harp.device.quad.dac"
-				(path "/6b47c519-21c4-43bd-9777-b273999e4447/08506a40-9943-41e4-b528-13f6a4c7e855"
-					(reference "Jump4")
-					(unit 1)
-				)
-			)
-			(project "multi_ch_harp_dac"
-				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/e39fc2ef-50b8-4bcb-bb27-38e85fa8106c"
-					(reference "Jump?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "harp.device.quad.dac:C_0603")
 		(at 264.16 66.04 180)
 		(unit 1)
@@ -9160,6 +8594,118 @@
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/e39fc2ef-50b8-4bcb-bb27-38e85fa8106c"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "harp.device.quad.dac:R_0603")
+		(at 50.8 142.24 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "8467e8f9-eb51-43df-8ccc-b4de9294bc8f")
+		(property "Reference" "R127"
+			(at 51.054 144.526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 50.8 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 50.8 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 50.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 50.8 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0402BRD071KL/1069118"
+			(at 50.8 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 50.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "RT0402BRD071KL"
+			(at 50.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PCBWay Link" ""
+			(at 50.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6abbf92c-180d-413a-b4fb-2289b9647cf5")
+		)
+		(pin "2"
+			(uuid "afad211e-6aba-44d7-bc00-c195fd361c4a")
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/08506a40-9943-41e4-b528-13f6a4c7e855"
+					(reference "R127")
 					(unit 1)
 				)
 			)
@@ -10765,76 +10311,6 @@
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/e39fc2ef-50b8-4bcb-bb27-38e85fa8106c"
 					(reference "LED?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "harp.device.quad.dac:Conn_01x02")
-		(at 49.53 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1a7142c-730f-40ee-bd53-cedfb6d25234")
-		(property "Reference" "J22"
-			(at 54.61 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 54.61 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 49.53 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 49.53 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "edaac3f5-d57d-4b34-ab90-5b76f21351ca")
-		)
-		(pin "1"
-			(uuid "da8be48f-ace9-468a-adbc-2a15a7dc4bcc")
-		)
-		(instances
-			(project ""
-				(path "/6b47c519-21c4-43bd-9777-b273999e4447/08506a40-9943-41e4-b528-13f6a4c7e855"
-					(reference "J22")
 					(unit 1)
 				)
 			)
