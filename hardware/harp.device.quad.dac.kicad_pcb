@@ -111,7 +111,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(grid_origin 235.873 45)
+		(grid_origin 258.873 40)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -40552,7 +40552,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "787010db-ae60-4dc4-a97f-e7b644600b29")
-		(at 190.7495 116.165)
+		(at 225.446 75.057)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C58"
@@ -70562,7 +70562,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c835de45-3663-4595-9bc6-f10dbd04470f")
-		(at 190.7495 119.175)
+		(at 225.446 78.067)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C59"
@@ -115728,17 +115728,6 @@
 		(uuid "5e8dc9fc-a89d-4496-a81a-b4957e7e09f8")
 	)
 	(gr_arc
-		(start 256 40)
-		(mid 258.12132 40.87868)
-		(end 259 43)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "9ed48ea7-dc14-4e13-81f9-58fda1c72196")
-	)
-	(gr_arc
 		(start 259 96.5)
 		(mid 258.126105 98.616525)
 		(end 256.013547 99.499969)
@@ -115750,8 +115739,8 @@
 		(uuid "b518a51b-206a-40e4-9d08-96e60315f8f4")
 	)
 	(gr_line
-		(start 179 48)
-		(end 179 92)
+		(start 140.873 45)
+		(end 140.873 89)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -115780,8 +115769,8 @@
 		(uuid "cbc133f6-8ae4-4374-bf1a-5fc8d66f68a7")
 	)
 	(gr_line
-		(start 259 96.5)
-		(end 259 44)
+		(start 258.873 87.25)
+		(end 258.873 44)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -115801,8 +115790,8 @@
 		(uuid "d947d702-3398-4b8f-ab5a-3def58c7f6d7")
 	)
 	(gr_line
-		(start 259 44)
-		(end 259 43)
+		(start 259.873 44)
+		(end 260 43)
 		(stroke
 			(width 0.1)
 			(type default)

@@ -5244,7 +5244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06f9aba9-4782-454d-a661-d027ce5ab3b7")
-		(property "Reference" "J27"
+		(property "Reference" "J10"
 			(at 212.09 36.83 0)
 			(effects
 				(font
@@ -5378,7 +5378,7 @@
 		(instances
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/8b495cef-3a6a-4801-9796-978978016448"
-					(reference "J27")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -5531,7 +5531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d331b4d-baf3-41bd-b3f1-1b4337a19771")
-		(property "Reference" "C110"
+		(property "Reference" "C109"
 			(at 242.57 33.02 0)
 			(effects
 				(font
@@ -5648,7 +5648,7 @@
 		(instances
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/8b495cef-3a6a-4801-9796-978978016448"
-					(reference "C110")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -5940,7 +5940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16536979-7671-4b64-ae8a-0d5ba7e21cd7")
-		(property "Reference" "R98"
+		(property "Reference" "R104"
 			(at 232.156 52.07 90)
 			(effects
 				(font
@@ -6037,7 +6037,7 @@
 		(instances
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/8b495cef-3a6a-4801-9796-978978016448"
-					(reference "R98")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -6884,7 +6884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d89b1f1-093f-49f5-b36f-36cf39a00668")
-		(property "Reference" "C109"
+		(property "Reference" "C110"
 			(at 244.094 121.158 0)
 			(effects
 				(font
@@ -6983,7 +6983,7 @@
 		(instances
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/8b495cef-3a6a-4801-9796-978978016448"
-					(reference "C109")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -7693,7 +7693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4be63e28-fbca-4e49-847e-b810c5228c2e")
-		(property "Reference" "R96"
+		(property "Reference" "R101"
 			(at 41.91 106.68 90)
 			(effects
 				(font
@@ -7790,7 +7790,7 @@
 		(instances
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/8b495cef-3a6a-4801-9796-978978016448"
-					(reference "R96")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -7811,7 +7811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f338ba3-4ca6-4af6-bc4a-49c84b63bdf8")
-		(property "Reference" "R94"
+		(property "Reference" "R99"
 			(at 41.91 46.99 90)
 			(effects
 				(font
@@ -7908,7 +7908,7 @@
 		(instances
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/8b495cef-3a6a-4801-9796-978978016448"
-					(reference "R94")
+					(reference "R99")
 					(unit 1)
 				)
 			)
@@ -8081,7 +8081,7 @@
 		(on_board no)
 		(dnp yes)
 		(uuid "5990afca-5aee-4c60-b796-c19317768799")
-		(property "Reference" "R128"
+		(property "Reference" "R102"
 			(at 89.154 188.976 90)
 			(effects
 				(font
@@ -8178,7 +8178,7 @@
 		(instances
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/8b495cef-3a6a-4801-9796-978978016448"
-					(reference "R128")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -8741,7 +8741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69cf358a-becf-40fe-bbd8-166dcc8e5cf1")
-		(property "Reference" "R92"
+		(property "Reference" "R97"
 			(at 39.37 163.576 90)
 			(effects
 				(font
@@ -8838,7 +8838,7 @@
 		(instances
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/8b495cef-3a6a-4801-9796-978978016448"
-					(reference "R92")
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -10413,7 +10413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2a9ce14-80e5-4e42-8ae8-a42c595a82e4")
-		(property "Reference" "R93"
+		(property "Reference" "R98"
 			(at 41.91 19.05 90)
 			(effects
 				(font
@@ -10510,7 +10510,7 @@
 		(instances
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/8b495cef-3a6a-4801-9796-978978016448"
-					(reference "R93")
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -10706,7 +10706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b595e63f-d7cb-4f8e-8419-8faa56b03cb7")
-		(property "Reference" "R97"
+		(property "Reference" "R103"
 			(at 232.664 44.704 90)
 			(effects
 				(font
@@ -10803,7 +10803,7 @@
 		(instances
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/8b495cef-3a6a-4801-9796-978978016448"
-					(reference "R97")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -10824,7 +10824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd61a2cc-b419-46a4-aca7-7d75f4a18ba8")
-		(property "Reference" "R95"
+		(property "Reference" "R100"
 			(at 41.91 76.2 90)
 			(effects
 				(font
@@ -10921,7 +10921,7 @@
 		(instances
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/8b495cef-3a6a-4801-9796-978978016448"
-					(reference "R95")
+					(reference "R100")
 					(unit 1)
 				)
 			)
