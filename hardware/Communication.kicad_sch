@@ -7775,7 +7775,7 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp yes)
 		(uuid "5c6069b0-323f-4804-88eb-43ed8a279070")
 		(property "Reference" "R89"
@@ -8605,7 +8605,7 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp yes)
 		(uuid "8467e8f9-eb51-43df-8ccc-b4de9294bc8f")
 		(property "Reference" "R88"

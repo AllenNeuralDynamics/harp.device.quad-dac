@@ -947,6 +947,94 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "harp.device.quad.dac:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "harp.device.quad.dac.kicad:MountingHole_3.2mm_M3_DIN965"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "harp.device.quad.dac:RP2350B-QFN80"
 			(pin_names
 				(offset 1.016)
@@ -3678,7 +3766,7 @@
 	)
 	(text "SPI0 CSn"
 		(exclude_from_sim no)
-		(at 150.622 105.664 0)
+		(at 150.876 104.648 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3732,7 +3820,7 @@
 	)
 	(text "UART0RX"
 		(exclude_from_sim no)
-		(at 150.368 54.864 0)
+		(at 150.622 53.848 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3743,7 +3831,7 @@
 	)
 	(text "UART1RX"
 		(exclude_from_sim no)
-		(at 150.114 65.024 0)
+		(at 150.368 64.008 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3776,7 +3864,7 @@
 	)
 	(text "SPI0 SCK"
 		(exclude_from_sim no)
-		(at 150.368 57.404 0)
+		(at 150.622 56.388 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3798,7 +3886,7 @@
 	)
 	(text "SPI1 SCK"
 		(exclude_from_sim no)
-		(at 150.368 77.724 0)
+		(at 150.622 76.708 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3820,7 +3908,7 @@
 	)
 	(text "SPI0 CSn"
 		(exclude_from_sim no)
-		(at 150.368 95.504 0)
+		(at 150.622 94.488 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3853,7 +3941,7 @@
 	)
 	(text "SPI1 CSn"
 		(exclude_from_sim no)
-		(at 150.368 85.344 0)
+		(at 150.622 84.328 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3884,9 +3972,9 @@
 		)
 		(uuid "7c06a35a-c496-406a-84d5-6378ace4edac")
 	)
-	(text "QSPI_CS1"
+	(text "QSPI_CS2"
 		(exclude_from_sim no)
-		(at 150.368 103.124 0)
+		(at 150.622 102.108 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3908,7 +3996,7 @@
 	)
 	(text "SPI0 TX"
 		(exclude_from_sim no)
-		(at 150.368 59.944 0)
+		(at 150.622 58.928 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3919,7 +4007,7 @@
 	)
 	(text "SPI1 TX"
 		(exclude_from_sim no)
-		(at 150.368 80.264 0)
+		(at 150.622 79.248 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3941,7 +4029,7 @@
 	)
 	(text "UART0TX"
 		(exclude_from_sim no)
-		(at 150.368 52.324 0)
+		(at 150.622 51.308 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3974,7 +4062,7 @@
 	)
 	(text "QSPI_CS1"
 		(exclude_from_sim no)
-		(at 150.368 72.644 0)
+		(at 150.622 71.628 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3985,7 +4073,7 @@
 	)
 	(text "SPI1 CSn"
 		(exclude_from_sim no)
-		(at 150.368 75.184 0)
+		(at 150.622 74.168 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11779,6 +11867,70 @@
 		)
 	)
 	(symbol
+		(lib_id "harp.device.quad.dac:MountingHole_Pad")
+		(at 91.44 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f1c5a78-cf3e-41cd-8253-2c6320fedbc0")
+		(property "Reference" "H2"
+			(at 90.424 189.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 93.98 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "harp.device.quad.dac.kicad:MountingHole_3.2mm_M3_DIN965"
+			(at 91.44 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 91.44 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "harp.device.quad.dac:C_0603")
 		(at 72.39 30.48 90)
 		(unit 1)
@@ -16034,6 +16186,70 @@
 		)
 	)
 	(symbol
+		(lib_id "harp.device.quad.dac:MountingHole_Pad")
+		(at 86.36 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cf07fc4-1c91-4dae-8e9d-6b79a388f9ca")
+		(property "Reference" "H1"
+			(at 85.344 189.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 88.9 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "harp.device.quad.dac.kicad:MountingHole_3.2mm_M3_DIN965"
+			(at 86.36 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 86.36 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 250.19 127 0)
 		(unit 1)
@@ -19009,7 +19225,7 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp yes)
 		(uuid "d0274b68-d137-4641-8179-ab19033c0331")
 		(property "Reference" "R12"
@@ -19187,6 +19403,70 @@
 		)
 	)
 	(symbol
+		(lib_id "harp.device.quad.dac:MountingHole_Pad")
+		(at 101.6 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d437dfcc-ac9f-48a8-a768-38d70699ee0b")
+		(property "Reference" "H4"
+			(at 100.584 189.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 104.14 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "harp.device.quad.dac.kicad:MountingHole_3.2mm_M3_DIN965"
+			(at 101.6 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 101.6 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 109.22 25.4 0)
 		(unit 1)
@@ -19252,103 +19532,6 @@
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "harp.device.quad.dac:Fiducial")
-		(at 101.6 186.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9392874-9bcd-4f60-af3e-ea127bd6c6e8")
-		(property "Reference" "FID4"
-			(at 99.06 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 104.14 187.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "harp.device.quad.dac.kicad:Fiducial_0.5mm_Mask1mm"
-			(at 101.6 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 101.6 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "n/a"
-			(at 101.6 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "n/a"
-			(at 101.6 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Number" "n/a"
-			(at 101.6 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "harp.device.quad.dac"
-				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
-					(reference "FID4")
-					(unit 1)
-				)
-			)
-			(project "multi_ch_harp_dac"
-				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "FID?")
 					(unit 1)
 				)
 			)
@@ -19920,6 +20103,70 @@
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "harp.device.quad.dac:MountingHole_Pad")
+		(at 96.52 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4f67eaf-0f8d-4356-b725-4f810feacdd1")
+		(property "Reference" "H3"
+			(at 95.504 189.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 99.06 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "harp.device.quad.dac.kicad:MountingHole_3.2mm_M3_DIN965"
+			(at 96.52 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 96.52 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "H3")
 					(unit 1)
 				)
 			)

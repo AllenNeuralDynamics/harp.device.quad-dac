@@ -8078,7 +8078,7 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp yes)
 		(uuid "5990afca-5aee-4c60-b796-c19317768799")
 		(property "Reference" "R102"

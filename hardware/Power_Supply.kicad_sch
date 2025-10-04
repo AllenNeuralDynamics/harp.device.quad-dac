@@ -18544,7 +18544,7 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp yes)
 		(uuid "cdb57220-9cf8-4ef3-89d3-0c574b08ea96")
 		(property "Reference" "R114"
@@ -21041,7 +21041,7 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp yes)
 		(uuid "f4c78fcb-bff6-477f-8e6d-d414b1c50c21")
 		(property "Reference" "R115"

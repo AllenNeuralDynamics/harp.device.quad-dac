@@ -11015,7 +11015,7 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp yes)
 		(uuid "51001fcf-aa4c-41b1-9e7d-77c17f81c5f5")
 		(property "Reference" "R24"
