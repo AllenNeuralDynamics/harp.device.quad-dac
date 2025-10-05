@@ -3921,16 +3921,6 @@
 		)
 		(uuid "ac1f1618-d04f-42db-b543-cef210f2b75e")
 	)
-	(text "Green"
-		(exclude_from_sim no)
-		(at 122.682 93.726 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "de25e2b8-7de5-4e0a-9635-76cb6f951172")
-	)
 	(text "PIN = H\nfor operation on power-up"
 		(exclude_from_sim no)
 		(at 262.89 80.01 0)
@@ -5836,7 +5826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-075K1L/727268"
+		(property "Link" ""
 			(at 176.53 80.01 0)
 			(effects
 				(font
@@ -5845,7 +5835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" ""
 			(at 176.53 80.01 0)
 			(effects
 				(font
@@ -5879,30 +5869,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-075K1L"
-			(at 176.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 176.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
-			(at 176.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -6014,23 +5980,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AC0603FR-0724RL"
-			(at 254 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 254 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603FR-0724RL"
+		(property "MPN" "  AC0603FR-0724RL"
 			(at 254 87.63 0)
 			(effects
 				(font
@@ -6193,14 +6143,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 46.99 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -6583,14 +6525,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 66.04 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "1faf8b24-97b3-48ea-b381-5f5fb507a08b")
 		)
@@ -6781,22 +6715,6 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07100KL"
-			(at 35.56 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 35.56 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-07100KL"
 			(at 35.56 114.3 0)
 			(effects
 				(font
@@ -7077,14 +6995,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 185.42 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "19774fd4-a275-4481-ba79-2c4d10f4a6cc")
 		)
@@ -7244,14 +7154,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 199.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -7769,23 +7671,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AC0603FR-0724RL"
-			(at 210.82 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 210.82 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603FR-0724RL"
+		(property "MPN" "  AC0603FR-0724RL"
 			(at 210.82 87.63 0)
 			(effects
 				(font
@@ -7866,7 +7752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-075K1L/727268"
+		(property "Link" ""
 			(at 176.53 77.47 0)
 			(effects
 				(font
@@ -7875,7 +7761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" ""
 			(at 176.53 77.47 0)
 			(effects
 				(font
@@ -7909,30 +7795,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-075K1L"
-			(at 176.53 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 176.53 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
-			(at 176.53 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8008,7 +7870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 74.93 147.32 90)
 			(effects
 				(font
@@ -8017,7 +7879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-070RL/726675"
+		(property "Link" ""
 			(at 74.93 147.32 90)
 			(effects
 				(font
@@ -8026,7 +7888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" ""
 			(at 74.93 147.32 0)
 			(effects
 				(font
@@ -8051,30 +7913,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603JR-070RL"
-			(at 74.93 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 74.93 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603JR-070RL"
-			(at 74.93 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8535,7 +8373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 35.56 107.95 90)
 			(effects
 				(font
@@ -8544,7 +8382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-070RL/726675"
+		(property "Link" ""
 			(at 35.56 107.95 90)
 			(effects
 				(font
@@ -8553,7 +8391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" ""
 			(at 35.56 107.95 0)
 			(effects
 				(font
@@ -8578,30 +8416,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603JR-070RL"
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603JR-070RL"
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8910,7 +8724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 50.8 142.24 90)
 			(effects
 				(font
@@ -8919,7 +8733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-070RL/726675"
+		(property "Link" ""
 			(at 50.8 142.24 90)
 			(effects
 				(font
@@ -8928,7 +8742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" ""
 			(at 50.8 142.24 0)
 			(effects
 				(font
@@ -8955,31 +8769,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603JR-070RL"
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603JR-070RL"
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "6abbf92c-180d-413a-b4fb-2289b9647cf5")
 		)
@@ -8990,136 +8779,6 @@
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/08506a40-9943-41e4-b528-13f6a4c7e855"
 					(reference "R88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "harp.device.quad.dac:R_0603")
-		(at 129.54 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "853c3ff2-0c3f-4fe6-a575-b13c2eae157a")
-		(property "Reference" "R90"
-			(at 131.064 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330"
-			(at 131.064 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 127.762 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07330RL/727162"
-			(at 129.54 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Number" "RC0402FR-07680RL"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-07330RL"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-07330RL"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a260935f-6247-4b40-b46a-c07e99408df2")
-		)
-		(pin "2"
-			(uuid "fc4851b7-a993-4a90-b330-aa77b5d9c557")
-		)
-		(instances
-			(project "harp.device.quad.dac"
-				(path "/6b47c519-21c4-43bd-9777-b273999e4447/08506a40-9943-41e4-b528-13f6a4c7e855"
-					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -9213,23 +8872,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AC0603FR-0724RL"
-			(at 254 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 254 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603FR-0724RL"
+		(property "MPN" "  AC0603FR-0724RL"
 			(at 254 85.09 0)
 			(effects
 				(font
@@ -9247,6 +8890,116 @@
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/08506a40-9943-41e4-b528-13f6a4c7e855"
 					(reference "R95")
+					(unit 1)
+				)
+			)
+			(project "multi_ch_harp_dac"
+				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/e39fc2ef-50b8-4bcb-bb27-38e85fa8106c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "harp.device.quad.dac:R_0603")
+		(at 129.54 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f209065-ffd3-4393-9c61-71c6096598ca")
+		(property "Reference" "R90"
+			(at 131.826 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 133.604 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 127.762 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 129.54 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "RC0402FR-07680RL"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e9289fa-9517-4a39-ac56-16e39f4b8f47")
+		)
+		(pin "2"
+			(uuid "507f03f0-8f3e-454e-a131-dbdb737e4773")
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/08506a40-9943-41e4-b528-13f6a4c7e855"
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -9730,23 +9483,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AC0603FR-0724RL"
-			(at 210.82 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 210.82 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603FR-0724RL"
+		(property "MPN" "  AC0603FR-0724RL"
 			(at 210.82 85.09 0)
 			(effects
 				(font
@@ -11402,22 +11139,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CDDFN10-3324P"
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"

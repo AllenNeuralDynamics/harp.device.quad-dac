@@ -9560,7 +9560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 278.13 144.78 0)
 			(effects
 				(font
@@ -9569,7 +9569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 278.13 144.78 0)
 			(effects
 				(font
@@ -9578,7 +9578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 278.13 144.78 0)
 			(effects
 				(font
@@ -9587,7 +9587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 278.13 144.78 0)
 			(effects
 				(font
@@ -9621,6 +9621,31 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 278.13 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 278.13 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 278.13 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9874,7 +9899,7 @@
 				)
 			)
 		)
-		(property "Value" "201"
+		(property "Value" "220"
 			(at 140.97 27.94 90)
 			(effects
 				(font
@@ -9918,7 +9943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0402BRD071KL/1069118"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07220RL/727061"
 			(at 140.97 27.94 90)
 			(effects
 				(font
@@ -9952,6 +9977,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07220RL"
+			(at 140.97 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 140.97 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07220RL"
+			(at 140.97 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10236,7 +10285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07680RL/726654"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07330RL/727162"
 			(at 207.01 74.93 90)
 			(effects
 				(font
@@ -10270,6 +10319,31 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07330RL"
+			(at 207.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 207.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07330RL"
+			(at 207.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10485,7 +10559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 19.05 31.75 0)
 			(effects
 				(font
@@ -10494,7 +10568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 19.05 31.75 0)
 			(effects
 				(font
@@ -10503,7 +10577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 19.05 31.75 0)
 			(effects
 				(font
@@ -10512,7 +10586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 19.05 31.75 0)
 			(effects
 				(font
@@ -10540,6 +10614,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 19.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 19.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 19.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 19.05 31.75 0)
 			(effects
 				(font
@@ -10623,7 +10724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/CC0402KPX7R8BB103/11490384"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C103K5RACTU/411090"
 			(at 26.67 86.36 0)
 			(effects
 				(font
@@ -10632,7 +10733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "KEMET"
 			(at 26.67 86.36 0)
 			(effects
 				(font
@@ -10641,7 +10742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "CC0402KPX7R8BB103"
+		(property "Manufacturer Number" ""
 			(at 26.67 86.36 0)
 			(effects
 				(font
@@ -10650,7 +10751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "50V"
 			(at 26.67 86.36 0)
 			(effects
 				(font
@@ -10669,6 +10770,33 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 26.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C103K5RACTU"
+			(at 26.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C103K5RACTU"
+			(at 26.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 26.67 86.36 0)
 			(effects
 				(font
@@ -10759,7 +10887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0402BRD071KL/1069118"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0727RL/727099"
 			(at 72.39 26.67 90)
 			(effects
 				(font
@@ -10793,6 +10921,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0727RL"
+			(at 72.39 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 72.39 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0727RL"
+			(at 72.39 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10948,7 +11100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0402BRD071KL/1069118"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-13100RL/12756385"
 			(at 36.83 105.41 90)
 			(effects
 				(font
@@ -10982,6 +11134,31 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-13100RL"
+			(at 36.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 36.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-13100RL"
+			(at 36.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11131,7 +11308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07680RL/726654"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07330RL/727162"
 			(at 207.01 102.87 90)
 			(effects
 				(font
@@ -11165,6 +11342,31 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07330RL"
+			(at 207.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 207.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07330RL"
+			(at 207.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11242,7 +11444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 19.05 58.42 0)
 			(effects
 				(font
@@ -11251,7 +11453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 19.05 58.42 0)
 			(effects
 				(font
@@ -11260,7 +11462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 19.05 58.42 0)
 			(effects
 				(font
@@ -11269,7 +11471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 19.05 58.42 0)
 			(effects
 				(font
@@ -11297,6 +11499,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 19.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 19.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 19.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 19.05 58.42 0)
 			(effects
 				(font
@@ -11458,7 +11687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0402BRD071KL/1069118"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-1310RL/17006001"
 			(at 36.83 182.88 90)
 			(effects
 				(font
@@ -11492,6 +11721,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-1310RL"
+			(at 36.83 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 36.83 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-1310RL"
+			(at 36.83 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11569,7 +11822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 260.35 24.13 0)
 			(effects
 				(font
@@ -11578,7 +11831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 260.35 24.13 0)
 			(effects
 				(font
@@ -11587,7 +11840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 260.35 24.13 0)
 			(effects
 				(font
@@ -11596,7 +11849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 260.35 24.13 0)
 			(effects
 				(font
@@ -11624,6 +11877,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 260.35 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 260.35 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 260.35 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 260.35 24.13 0)
 			(effects
 				(font
@@ -11984,7 +12264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BZ71E106KE15L/13904911"
+		(property "Link" "https://www.digikey.com/en/products/detail/tdk-corporation/C1608X5R1V475K080AC/3648577"
 			(at 72.39 30.48 0)
 			(effects
 				(font
@@ -11993,7 +12273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "GRM21BZ71E106KE15L"
+		(property "Manufacturer Number" ""
 			(at 72.39 30.48 0)
 			(effects
 				(font
@@ -12002,7 +12282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "35V"
 			(at 72.39 30.48 0)
 			(effects
 				(font
@@ -12020,7 +12300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "TDK Corporation"
 			(at 72.39 30.48 0)
 			(effects
 				(font
@@ -12030,6 +12310,42 @@
 			)
 		)
 		(property "Alternate" "CL21B106KOQNNNE"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C1608X5R1V475K080AC"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1608X5R1V475K080AC"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK Corporation"
 			(at 72.39 30.48 0)
 			(effects
 				(font
@@ -12416,7 +12732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 242.57 24.13 0)
 			(effects
 				(font
@@ -12425,7 +12741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 242.57 24.13 0)
 			(effects
 				(font
@@ -12434,7 +12750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 242.57 24.13 0)
 			(effects
 				(font
@@ -12443,7 +12759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 242.57 24.13 0)
 			(effects
 				(font
@@ -12471,6 +12787,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 242.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 242.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 242.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 242.57 24.13 0)
 			(effects
 				(font
@@ -12625,7 +12968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07680RL/726654"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07330RL/727162"
 			(at 207.01 46.99 90)
 			(effects
 				(font
@@ -12659,6 +13002,31 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07330RL"
+			(at 207.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 207.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07330RL"
+			(at 207.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12736,7 +13104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 269.24 24.13 0)
 			(effects
 				(font
@@ -12745,7 +13113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 269.24 24.13 0)
 			(effects
 				(font
@@ -12754,7 +13122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 269.24 24.13 0)
 			(effects
 				(font
@@ -12763,7 +13131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 269.24 24.13 0)
 			(effects
 				(font
@@ -12791,6 +13159,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 269.24 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 269.24 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 269.24 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 269.24 24.13 0)
 			(effects
 				(font
@@ -12954,6 +13349,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "COILCRAFT"
+			(at 67.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b6f58f0e-18e6-461a-bbf3-dfa6f640a50c")
 		)
@@ -13029,7 +13432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BZ71E106KE15L/13904911"
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106KA73D/9867922"
 			(at 41.91 58.42 0)
 			(effects
 				(font
@@ -13038,7 +13441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "GRM21BZ71E106KE15L"
+		(property "Manufacturer Number" ""
 			(at 41.91 58.42 0)
 			(effects
 				(font
@@ -13075,6 +13478,42 @@
 			)
 		)
 		(property "Alternate" "CL21B106KOQNNNE"
+			(at 41.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 41.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188R61E106KA73D"
+			(at 41.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R61E106KA73D"
+			(at 41.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 41.91 58.42 0)
 			(effects
 				(font
@@ -13322,7 +13761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/CC0402KPX7R8BB103/11490384"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C102K5RACTU/411081"
 			(at 19.05 86.36 0)
 			(effects
 				(font
@@ -13331,7 +13770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "KEMET"
 			(at 19.05 86.36 0)
 			(effects
 				(font
@@ -13340,7 +13779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "CC0402KPX7R8BB103"
+		(property "Manufacturer Number" ""
 			(at 19.05 86.36 0)
 			(effects
 				(font
@@ -13349,7 +13788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "50V"
 			(at 19.05 86.36 0)
 			(effects
 				(font
@@ -13368,6 +13807,33 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 19.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C102K5RACTU"
+			(at 19.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C102K5RACTU"
+			(at 19.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 19.05 86.36 0)
 			(effects
 				(font
@@ -13632,7 +14098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 26.67 31.75 0)
 			(effects
 				(font
@@ -13641,7 +14107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 26.67 31.75 0)
 			(effects
 				(font
@@ -13650,7 +14116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 26.67 31.75 0)
 			(effects
 				(font
@@ -13659,7 +14125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 26.67 31.75 0)
 			(effects
 				(font
@@ -13687,6 +14153,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 26.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 26.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 26.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 26.67 31.75 0)
 			(effects
 				(font
@@ -13770,7 +14263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 278.13 24.13 0)
 			(effects
 				(font
@@ -13779,7 +14272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 278.13 24.13 0)
 			(effects
 				(font
@@ -13788,7 +14281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 278.13 24.13 0)
 			(effects
 				(font
@@ -13797,7 +14290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 278.13 24.13 0)
 			(effects
 				(font
@@ -13825,6 +14318,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 278.13 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 278.13 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 278.13 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 278.13 24.13 0)
 			(effects
 				(font
@@ -13871,7 +14391,7 @@
 				)
 			)
 		)
-		(property "Value" "201"
+		(property "Value" "220"
 			(at 153.67 27.94 90)
 			(effects
 				(font
@@ -13915,7 +14435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0402BRD071KL/1069118"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07220RL/727061"
 			(at 153.67 27.94 90)
 			(effects
 				(font
@@ -13949,6 +14469,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07220RL"
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07220RL"
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14026,7 +14570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 224.79 24.13 0)
 			(effects
 				(font
@@ -14035,7 +14579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 224.79 24.13 0)
 			(effects
 				(font
@@ -14044,7 +14588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 224.79 24.13 0)
 			(effects
 				(font
@@ -14053,7 +14597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 224.79 24.13 0)
 			(effects
 				(font
@@ -14081,6 +14625,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 224.79 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 224.79 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 224.79 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 224.79 24.13 0)
 			(effects
 				(font
@@ -14306,7 +14877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BZ71E106KE15L/13904911"
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106KA73D/9867922"
 			(at 41.91 31.75 0)
 			(effects
 				(font
@@ -14315,7 +14886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "GRM21BZ71E106KE15L"
+		(property "Manufacturer Number" ""
 			(at 41.91 31.75 0)
 			(effects
 				(font
@@ -14352,6 +14923,42 @@
 			)
 		)
 		(property "Alternate" "CL21B106KOQNNNE"
+			(at 41.91 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 41.91 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188R61E106KA73D"
+			(at 41.91 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R61E106KA73D"
+			(at 41.91 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 41.91 31.75 0)
 			(effects
 				(font
@@ -15094,7 +15701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 41.91 187.96 0)
 			(effects
 				(font
@@ -15103,7 +15710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 41.91 187.96 0)
 			(effects
 				(font
@@ -15112,7 +15719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 41.91 187.96 0)
 			(effects
 				(font
@@ -15121,7 +15728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 41.91 187.96 0)
 			(effects
 				(font
@@ -15149,6 +15756,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 41.91 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 41.91 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 41.91 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 41.91 187.96 0)
 			(effects
 				(font
@@ -15304,7 +15938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 26.67 58.42 0)
 			(effects
 				(font
@@ -15313,7 +15947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 26.67 58.42 0)
 			(effects
 				(font
@@ -15322,7 +15956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 26.67 58.42 0)
 			(effects
 				(font
@@ -15331,7 +15965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 26.67 58.42 0)
 			(effects
 				(font
@@ -15359,6 +15993,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 26.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 26.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 26.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 26.67 58.42 0)
 			(effects
 				(font
@@ -15449,7 +16110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0402BRD071KL/1069118"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
 			(at 46.99 182.88 90)
 			(effects
 				(font
@@ -15483,6 +16144,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-0710KL"
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0710KL"
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15560,7 +16245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 41.91 166.37 0)
 			(effects
 				(font
@@ -15569,7 +16254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 41.91 166.37 0)
 			(effects
 				(font
@@ -15578,7 +16263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 41.91 166.37 0)
 			(effects
 				(font
@@ -15587,7 +16272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 41.91 166.37 0)
 			(effects
 				(font
@@ -15615,6 +16300,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 41.91 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 41.91 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 41.91 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 41.91 166.37 0)
 			(effects
 				(font
@@ -15778,7 +16490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R6YA105KE11J/4905163"
+		(property "Link" "https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1H105K080AB/25982687"
 			(at 34.29 58.42 0)
 			(effects
 				(font
@@ -15787,7 +16499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "GRM155R6YA105KE11J"
+		(property "Manufacturer Number" ""
 			(at 34.29 58.42 0)
 			(effects
 				(font
@@ -15796,7 +16508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "TDK Corporation"
 			(at 34.29 58.42 0)
 			(effects
 				(font
@@ -15805,7 +16517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "35V"
+		(property "Rated Voltage" "50V"
 			(at 34.29 58.42 0)
 			(effects
 				(font
@@ -15824,6 +16536,42 @@
 			)
 		)
 		(property "PCBWay Link" ""
+			(at 34.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 34.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C1608X7R1H105K080AB"
+			(at 34.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1608X7R1H105K080AB"
+			(at 34.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK Corporation"
 			(at 34.29 58.42 0)
 			(effects
 				(font
@@ -16057,7 +16805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0402BRD071KL/1069118"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-1310RL/17006001"
 			(at 36.83 139.7 90)
 			(effects
 				(font
@@ -16091,6 +16839,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-1310RL"
+			(at 36.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 36.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-1310RL"
+			(at 36.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16374,7 +17146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 233.68 24.13 0)
 			(effects
 				(font
@@ -16383,7 +17155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 233.68 24.13 0)
 			(effects
 				(font
@@ -16392,7 +17164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 233.68 24.13 0)
 			(effects
 				(font
@@ -16401,7 +17173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 233.68 24.13 0)
 			(effects
 				(font
@@ -16429,6 +17201,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 233.68 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 233.68 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 233.68 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 233.68 24.13 0)
 			(effects
 				(font
@@ -16681,7 +17480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 41.91 144.78 0)
 			(effects
 				(font
@@ -16690,7 +17489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 41.91 144.78 0)
 			(effects
 				(font
@@ -16699,7 +17498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 41.91 144.78 0)
 			(effects
 				(font
@@ -16708,7 +17507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 41.91 144.78 0)
 			(effects
 				(font
@@ -16736,6 +17535,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 41.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 41.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 41.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 41.91 144.78 0)
 			(effects
 				(font
@@ -16826,7 +17652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0402BRD071KL/1069118"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-1310RL/17006001"
 			(at 36.83 161.29 90)
 			(effects
 				(font
@@ -16860,6 +17686,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-1310RL"
+			(at 36.83 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 36.83 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-1310RL"
+			(at 36.83 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16937,7 +17787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BZ71E106KE15L/13904911"
+		(property "Link" "https://www.digikey.com/en/products/detail/tdk-corporation/C1608X5R1V475K080AC/3648577"
 			(at 140.97 33.02 0)
 			(effects
 				(font
@@ -16946,7 +17796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "GRM21BZ71E106KE15L"
+		(property "Manufacturer Number" ""
 			(at 140.97 33.02 0)
 			(effects
 				(font
@@ -16955,7 +17805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "35V"
 			(at 140.97 33.02 0)
 			(effects
 				(font
@@ -16973,7 +17823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "TDK Corporation"
 			(at 140.97 33.02 0)
 			(effects
 				(font
@@ -16983,6 +17833,42 @@
 			)
 		)
 		(property "Alternate" "CL21B106KOQNNNE"
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C1608X5R1V475K080AC"
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1608X5R1V475K080AC"
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK Corporation"
 			(at 140.97 33.02 0)
 			(effects
 				(font
@@ -17066,7 +17952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 41.91 110.49 0)
 			(effects
 				(font
@@ -17075,7 +17961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 41.91 110.49 0)
 			(effects
 				(font
@@ -17084,7 +17970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 41.91 110.49 0)
 			(effects
 				(font
@@ -17093,7 +17979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 41.91 110.49 0)
 			(effects
 				(font
@@ -17121,6 +18007,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 41.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 41.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 41.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 41.91 110.49 0)
 			(effects
 				(font
@@ -17204,7 +18117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/SG73P1EWTTP1002F/14316756"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
 			(at 250.19 88.9 90)
 			(effects
 				(font
@@ -17213,7 +18126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KOA Speer Electronics, Inc."
+		(property "Manufacturer" "Yageo"
 			(at 250.19 88.9 0)
 			(effects
 				(font
@@ -17238,6 +18151,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-0710KL"
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0710KL"
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17315,7 +18260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 215.9 24.13 0)
 			(effects
 				(font
@@ -17324,7 +18269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 215.9 24.13 0)
 			(effects
 				(font
@@ -17333,7 +18278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 215.9 24.13 0)
 			(effects
 				(font
@@ -17342,7 +18287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 215.9 24.13 0)
 			(effects
 				(font
@@ -17370,6 +18315,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 215.9 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 215.9 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 215.9 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 215.9 24.13 0)
 			(effects
 				(font
@@ -17563,7 +18535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 34.29 86.36 0)
 			(effects
 				(font
@@ -17572,7 +18544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 34.29 86.36 0)
 			(effects
 				(font
@@ -17581,7 +18553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 34.29 86.36 0)
 			(effects
 				(font
@@ -17590,7 +18562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 34.29 86.36 0)
 			(effects
 				(font
@@ -17618,6 +18590,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 34.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 34.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 34.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 34.29 86.36 0)
 			(effects
 				(font
@@ -17708,7 +18707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0402BRD071KL/1069118"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-131KL/13694181"
 			(at 36.83 123.19 90)
 			(effects
 				(font
@@ -17742,6 +18741,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-131KL"
+			(at 36.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 36.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-131KL"
+			(at 36.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17889,7 +18912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 278.13 57.15 0)
 			(effects
 				(font
@@ -17898,7 +18921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 278.13 57.15 0)
 			(effects
 				(font
@@ -17907,7 +18930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 278.13 57.15 0)
 			(effects
 				(font
@@ -17916,7 +18939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 278.13 57.15 0)
 			(effects
 				(font
@@ -17944,6 +18967,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 278.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 278.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 278.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 278.13 57.15 0)
 			(effects
 				(font
@@ -18137,7 +19187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 278.13 101.6 0)
 			(effects
 				(font
@@ -18146,7 +19196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 278.13 101.6 0)
 			(effects
 				(font
@@ -18155,7 +19205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 278.13 101.6 0)
 			(effects
 				(font
@@ -18164,7 +19214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 278.13 101.6 0)
 			(effects
 				(font
@@ -18198,6 +19248,31 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 278.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 278.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 278.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18756,7 +19831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/SG73P1EWTTP1002F/14316756"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
 			(at 250.19 44.45 90)
 			(effects
 				(font
@@ -18765,7 +19840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KOA Speer Electronics, Inc."
+		(property "Manufacturer" "Yageo"
 			(at 250.19 44.45 0)
 			(effects
 				(font
@@ -18790,6 +19865,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-0710KL"
+			(at 250.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 250.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 250.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0710KL"
+			(at 250.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18945,6 +20052,14 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 161.29 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19135,7 +20250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 251.46 24.13 0)
 			(effects
 				(font
@@ -19144,7 +20259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 251.46 24.13 0)
 			(effects
 				(font
@@ -19153,7 +20268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 251.46 24.13 0)
 			(effects
 				(font
@@ -19162,7 +20277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 251.46 24.13 0)
 			(effects
 				(font
@@ -19190,6 +20305,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/0402B104K160CT/307171/"
+			(at 251.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 251.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 251.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 251.46 24.13 0)
 			(effects
 				(font
@@ -19271,7 +20413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" ""
 			(at 154.94 21.59 90)
 			(effects
 				(font
@@ -19280,7 +20422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0402BRD071KL/1069118"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-070RL/726675"
 			(at 154.94 21.59 90)
 			(effects
 				(font
@@ -19314,6 +20456,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-070RL"
+			(at 154.94 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 154.94 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603JR-070RL"
+			(at 154.94 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19672,7 +20838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R6YA105KE11J/4905163"
+		(property "Link" "https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1H105K080AB/25982687"
 			(at 34.29 31.75 0)
 			(effects
 				(font
@@ -19681,7 +20847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "GRM155R6YA105KE11J"
+		(property "Manufacturer Number" ""
 			(at 34.29 31.75 0)
 			(effects
 				(font
@@ -19690,7 +20856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "TDK Corporation"
 			(at 34.29 31.75 0)
 			(effects
 				(font
@@ -19699,7 +20865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "35V"
+		(property "Rated Voltage" "50V"
 			(at 34.29 31.75 0)
 			(effects
 				(font
@@ -19718,6 +20884,42 @@
 			)
 		)
 		(property "PCBWay Link" ""
+			(at 34.29 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 34.29 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C1608X7R1H105K080AB"
+			(at 34.29 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1608X7R1H105K080AB"
+			(at 34.29 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK Corporation"
 			(at 34.29 31.75 0)
 			(effects
 				(font
@@ -19995,6 +21197,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "10uF"
@@ -20004,6 +21207,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -20033,7 +21237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BZ71E106KE15L/13904911"
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106KA73D/9867922"
 			(at 207.01 24.13 0)
 			(effects
 				(font
@@ -20042,7 +21246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "GRM21BZ71E106KE15L"
+		(property "Manufacturer Number" ""
 			(at 207.01 24.13 0)
 			(effects
 				(font
@@ -20079,6 +21283,42 @@
 			)
 		)
 		(property "Alternate" "CL21B106KOQNNNE"
+			(at 207.01 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 207.01 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188R61E106KA73D"
+			(at 207.01 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R61E106KA73D"
+			(at 207.01 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 207.01 24.13 0)
 			(effects
 				(font
@@ -20233,7 +21473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0402BRD071KL/1069118"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
 			(at 46.99 139.7 90)
 			(effects
 				(font
@@ -20267,6 +21507,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-0710KL"
+			(at 46.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 46.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0710KL"
+			(at 46.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20344,7 +21608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/SG73P1EWTTP1002F/14316756"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
 			(at 250.19 132.08 90)
 			(effects
 				(font
@@ -20353,7 +21617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KOA Speer Electronics, Inc."
+		(property "Manufacturer" "Yageo"
 			(at 250.19 132.08 0)
 			(effects
 				(font
@@ -20378,6 +21642,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-0710KL"
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0710KL"
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20746,7 +22042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0402BRD071KL/1069118"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
 			(at 46.99 161.29 90)
 			(effects
 				(font
@@ -20780,6 +22076,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-0710KL"
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0710KL"
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

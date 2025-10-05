@@ -3235,7 +3235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/SR0603FR-7T100RL/9373096"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-1310RL/17006001"
 			(at 90.17 120.65 0)
 			(effects
 				(font
@@ -3278,6 +3278,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-1310RL"
+			(at 90.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 90.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-1310RL"
+			(at 90.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3592,6 +3616,14 @@
 				)
 				(justify left bottom)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 110.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4751,6 +4783,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 110.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1975edf6-276c-4e27-aa9d-21db123e0587")
 		)
@@ -4820,7 +4860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 85.09 40.64 0)
 			(effects
 				(font
@@ -4829,7 +4869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 85.09 40.64 0)
 			(effects
 				(font
@@ -4838,7 +4878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 85.09 40.64 0)
 			(effects
 				(font
@@ -4847,7 +4887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 85.09 40.64 0)
 			(effects
 				(font
@@ -4881,6 +4921,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 85.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 85.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 85.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5206,6 +5270,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Nexperia USA Inc."
+			(at 74.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8f2ad7a7-cc63-41d4-ac92-063832c5c844")
 		)
@@ -5293,7 +5365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 66.04 40.64 0)
 			(effects
 				(font
@@ -5302,7 +5374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 66.04 40.64 0)
 			(effects
 				(font
@@ -5311,7 +5383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 66.04 40.64 0)
 			(effects
 				(font
@@ -5320,7 +5392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 66.04 40.64 0)
 			(effects
 				(font
@@ -5354,6 +5426,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5580,6 +5676,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia USA Inc."
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5847,6 +5951,14 @@
 				)
 				(justify left bottom)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6130,6 +6242,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "MCC"
+			(at 184.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9b0b3cf-7c3d-4f9b-989b-6fe808948061")
 		)
@@ -6197,7 +6317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/SR0603FR-7T100RL/9373096"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-1310RL/17006001"
 			(at 90.17 115.57 0)
 			(effects
 				(font
@@ -6240,6 +6360,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-1310RL"
+			(at 90.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 90.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-1310RL"
+			(at 90.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6653,6 +6797,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "MCC"
+			(at 184.15 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e28801ab-3475-4f3c-910b-0b113dca0408")
 		)
@@ -6722,7 +6874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 66.04 104.14 0)
 			(effects
 				(font
@@ -6731,7 +6883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 66.04 104.14 0)
 			(effects
 				(font
@@ -6740,7 +6892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 66.04 104.14 0)
 			(effects
 				(font
@@ -6749,7 +6901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 66.04 104.14 0)
 			(effects
 				(font
@@ -6783,6 +6935,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 66.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 66.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 66.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6852,7 +7028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/SR0603FR-7T100RL/9373096"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-1310RL/17006001"
 			(at 90.17 57.15 0)
 			(effects
 				(font
@@ -6895,6 +7071,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-1310RL"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-1310RL"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7048,6 +7248,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "MCC"
+			(at 184.15 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3dac7350-39d5-43cb-9169-c80ddd9dcb05")
 		)
@@ -7182,7 +7390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B104K160CT/6707534"
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -7191,7 +7399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walson Technology Corporation"
+		(property "Manufacturer" "KEMET"
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -7200,7 +7408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "0402B104K160CT"
+		(property "Manufacturer Number" ""
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -7209,7 +7417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "16V"
+		(property "Rated Voltage" "50V"
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -7243,6 +7451,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7461,6 +7693,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "MCC"
+			(at 184.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3aec4368-8b1d-4195-a99e-41b72ca00eda")
 		)
@@ -7593,7 +7833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/SR0603FR-7T100RL/9373096"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-1310RL/17006001"
 			(at 90.17 52.07 0)
 			(effects
 				(font
@@ -7636,6 +7876,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-1310RL"
+			(at 90.17 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 90.17 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-1310RL"
+			(at 90.17 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7788,6 +8052,14 @@
 				)
 				(justify left bottom)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 110.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
