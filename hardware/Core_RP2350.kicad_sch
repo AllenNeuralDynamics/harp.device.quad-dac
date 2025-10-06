@@ -9596,7 +9596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 278.13 144.78 0)
 			(effects
 				(font
@@ -9638,6 +9638,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -9646,6 +9647,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9664,6 +9666,147 @@
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "harp.device.quad.dac:R_0603")
+		(at 250.19 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05c56547-eacc-49e2-8a0e-0588b43ebff3")
+		(property "Reference" "R18"
+			(at 251.714 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 251.714 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 251.968 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 250.19 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 250.19 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "RT0402BRD071KL"
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PCBWay Link" ""
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603BRD0710KL"
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec3d60a8-f942-44bb-8916-4538b5617bd2")
+		)
+		(pin "2"
+			(uuid "8f8d886b-840f-4e1b-8b00-648ce6c6f1c6")
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -9985,6 +10128,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -9993,6 +10137,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07220RL"
@@ -10001,6 +10146,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10096,6 +10242,15 @@
 			)
 		)
 		(property "Supplier Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/435451019820/18735367"
+			(at 25.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "435451019820 "
 			(at 25.4 123.19 0)
 			(effects
 				(font
@@ -10336,6 +10491,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07330RL"
@@ -10344,6 +10500,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10484,6 +10641,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "XZCDGK53W-1VF"
+			(at 204.47 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16f82738-95aa-4853-9afe-0ddd4ffa99a9")
 		)
@@ -10595,7 +10761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 19.05 31.75 0)
 			(effects
 				(font
@@ -10760,7 +10926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 26.67 86.36 0)
 			(effects
 				(font
@@ -10821,148 +10987,6 @@
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "harp.device.quad.dac:R_0603")
-		(at 72.39 26.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e84ae15-e41b-40f4-9efe-8fdaf132f340")
-		(property "Reference" "R9"
-			(at 72.136 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27"
-			(at 72.39 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 72.39 28.448 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 72.39 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 72.39 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0727RL/727099"
-			(at 72.39 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 72.39 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Number" "RT0402BRD071KL"
-			(at 72.39 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBWay Link" ""
-			(at 72.39 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-0727RL"
-			(at 72.39 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 72.39 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-0727RL"
-			(at 72.39 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c0ae0a61-71a4-466f-aeae-fc9b04b25182")
-		)
-		(pin "2"
-			(uuid "bfb8f7de-2e10-435e-85bb-82831bd9d2b6")
-		)
-		(instances
-			(project "harp.device.quad.dac"
-				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-			(project "multi_ch_harp_dac"
-				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11151,6 +11175,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0603FR-13100RL"
@@ -11159,6 +11184,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11359,6 +11385,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07330RL"
@@ -11367,6 +11394,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11480,7 +11508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 19.05 58.42 0)
 			(effects
 				(font
@@ -11729,6 +11757,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -11737,6 +11766,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0603FR-1310RL"
@@ -11745,6 +11775,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11858,7 +11889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 260.35 24.13 0)
 			(effects
 				(font
@@ -12291,7 +12322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 72.39 30.48 0)
 			(effects
 				(font
@@ -12585,6 +12616,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "XZCDGK53W-1VF"
+			(at 201.168 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26731794-a763-4b08-9209-5035362fc8f2")
 		)
@@ -12601,6 +12641,145 @@
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
 					(reference "LED?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "harp.device.quad.dac:R_0603")
+		(at 46.99 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37ad204d-afc9-46f2-92b0-cf85b36b9ad1")
+		(property "Reference" "R7"
+			(at 46.99 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 46.99 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 46.99 163.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 46.99 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 46.99 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "RT0402BRD071KL"
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PCBWay Link" ""
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603BRD0710KL"
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44736853-013c-4e5f-85c7-794ab91fa628")
+		)
+		(pin "2"
+			(uuid "ced8e2d5-3e79-47f5-b05c-b378e8e689c4")
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -12768,7 +12947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 242.57 24.13 0)
 			(effects
 				(font
@@ -13019,6 +13198,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07330RL"
@@ -13027,6 +13207,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13140,7 +13321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 269.24 24.13 0)
 			(effects
 				(font
@@ -13355,6 +13536,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XGL3530-332MEC"
+			(at 67.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13459,7 +13650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 41.91 58.42 0)
 			(effects
 				(font
@@ -13797,7 +13988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 19.05 86.36 0)
 			(effects
 				(font
@@ -13935,6 +14126,15 @@
 			)
 		)
 		(property "Supplier Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/435451019820/18735367"
+			(at 25.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "435451019820 "
 			(at 25.4 105.41 0)
 			(effects
 				(font
@@ -14134,7 +14334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 26.67 31.75 0)
 			(effects
 				(font
@@ -14299,7 +14499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 278.13 24.13 0)
 			(effects
 				(font
@@ -14477,6 +14677,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -14485,6 +14686,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07220RL"
@@ -14493,6 +14695,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14606,7 +14809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 224.79 24.13 0)
 			(effects
 				(font
@@ -14904,7 +15107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 41.91 31.75 0)
 			(effects
 				(font
@@ -15626,6 +15829,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "XZCDGK53W-1VF"
+			(at 202.692 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "222df053-60dc-4581-88ed-99a6db03f06f")
 		)
@@ -15737,7 +15949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 41.91 187.96 0)
 			(effects
 				(font
@@ -15974,7 +16186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 26.67 58.42 0)
 			(effects
 				(font
@@ -16044,148 +16256,6 @@
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "harp.device.quad.dac:R_0603")
-		(at 46.99 182.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72b9cd50-3078-48f2-bb3d-cae525bf6400")
-		(property "Reference" "R8"
-			(at 47.244 180.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 46.99 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 46.99 184.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 46.99 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
-			(at 46.99 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 46.99 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Number" "RT0402BRD071KL"
-			(at 46.99 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBWay Link" ""
-			(at 46.99 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-0710KL"
-			(at 46.99 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 46.99 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603FR-0710KL"
-			(at 46.99 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d34ef98a-dde9-48b3-ae92-eef5dcabbea8")
-		)
-		(pin "2"
-			(uuid "3ad019dc-fe45-47c3-b468-ac03d5c80dea")
-		)
-		(instances
-			(project "harp.device.quad.dac"
-				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-			(project "multi_ch_harp_dac"
-				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -16281,7 +16351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 41.91 166.37 0)
 			(effects
 				(font
@@ -16428,6 +16498,275 @@
 		)
 	)
 	(symbol
+		(lib_id "harp.device.quad.dac:R_0603")
+		(at 72.39 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b4da6b6-40f9-48bd-8269-f9e710e6bdd0")
+		(property "Reference" "R9"
+			(at 72.39 24.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24"
+			(at 72.39 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 72.39 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0724RL/5895947"
+			(at 72.39 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 72.39 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "AC0402FR-0724RL"
+			(at 72.39 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 72.39 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-0724RL"
+			(at 72.39 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 72.39 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0724RL"
+			(at 72.39 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fecad6b4-23ec-42aa-8b31-7a215fe9c248")
+		)
+		(pin "2"
+			(uuid "07d3d938-ea41-4d06-9aba-33c4ff79b0ce")
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "harp.device.quad.dac:R_0603")
+		(at 46.99 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e1da435-f9d7-4d31-88f6-8e2856644b62")
+		(property "Reference" "R8"
+			(at 46.99 180.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 46.99 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 46.99 184.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 46.99 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 46.99 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "RT0402BRD071KL"
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PCBWay Link" ""
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603BRD0710KL"
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51a6327a-fa6d-4690-803c-1f507a5b68aa")
+		)
+		(pin "2"
+			(uuid "6d9520ae-f666-47a2-8742-2240cd27b643")
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "harp.device.quad.dac:C_0603")
 		(at 34.29 58.42 0)
 		(unit 1)
@@ -16526,7 +16865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X5R"
+		(property "Temperature Coefficient" ""
 			(at 34.29 58.42 0)
 			(effects
 				(font
@@ -16847,6 +17186,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -16855,6 +17195,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0603FR-1310RL"
@@ -16863,6 +17204,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17182,7 +17524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 233.68 24.13 0)
 			(effects
 				(font
@@ -17516,7 +17858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 41.91 144.78 0)
 			(effects
 				(font
@@ -17694,6 +18036,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -17702,6 +18045,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0603FR-1310RL"
@@ -17710,6 +18054,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17814,7 +18159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 140.97 33.02 0)
 			(effects
 				(font
@@ -17988,7 +18333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 41.91 110.49 0)
 			(effects
 				(font
@@ -18058,149 +18403,6 @@
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "harp.device.quad.dac:R_0603")
-		(at 250.19 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8c52da7-5b87-4520-a126-fc7d875044bf")
-		(property "Reference" "R17"
-			(at 251.714 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 251.714 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 248.412 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 250.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
-			(at 250.19 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 250.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Number" "SG73P1EWTTP1002F"
-			(at 250.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 250.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-0710KL"
-			(at 250.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 250.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 250.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603FR-0710KL"
-			(at 250.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2eb8e4d1-2a83-4ad9-ab92-025213e76abf")
-		)
-		(pin "2"
-			(uuid "20516e75-264a-40bc-9705-2eaa37c3ecdd")
-		)
-		(instances
-			(project "harp.device.quad.dac"
-				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-			(project "multi_ch_harp_dac"
-				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -18296,7 +18498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 215.9 24.13 0)
 			(effects
 				(font
@@ -18451,6 +18653,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "435451019820 "
+			(at 25.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89a02c6a-4939-460d-9584-9920eef20296")
 		)
@@ -18571,7 +18782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 34.29 86.36 0)
 			(effects
 				(font
@@ -18654,16 +18865,16 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b0e4d094-ac8a-4e7a-891a-694fcb5a1fcf")
+		(uuid "b08fd0ca-1a5e-4942-8287-7571f975af2e")
 		(property "Reference" "R2"
-			(at 36.83 120.65 90)
+			(at 36.576 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1.10k"
 			(at 36.83 123.19 90)
 			(effects
 				(font
@@ -18698,16 +18909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 36.83 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-131KL/13694181"
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0603BRD071K1L/1072319"
 			(at 36.83 123.19 90)
 			(effects
 				(font
@@ -18725,7 +18927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "RT0402BRD071KL"
+		(property "Manufacturer Number" "RC0402FR-07680RL"
 			(at 36.83 123.19 0)
 			(effects
 				(font
@@ -18734,7 +18936,7 @@
 				(hide yes)
 			)
 		)
-		(property "PCBWay Link" ""
+		(property "Tolerance" "0.1%"
 			(at 36.83 123.19 0)
 			(effects
 				(font
@@ -18743,12 +18945,13 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AC0603FR-131KL"
+		(property "MPN" "RT0603BRD071K1L"
 			(at 36.83 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -18757,32 +18960,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "AC0603FR-131KL"
+		(property "Manufacturer_Part_Number" "RT0603BRD071K1L"
 			(at 36.83 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "b6791932-7449-4686-83eb-5fb45cdf6050")
+			(uuid "eb88c70e-cb1f-4cc7-864c-ecb32ea27fba")
 		)
 		(pin "2"
-			(uuid "bb7f6196-ae5a-4e9e-9ba6-b36842c81d33")
+			(uuid "c6f6bce8-0758-4610-949a-193a5989f514")
 		)
 		(instances
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-			(project "multi_ch_harp_dac"
-				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -18948,7 +19147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 278.13 57.15 0)
 			(effects
 				(font
@@ -19018,6 +19217,145 @@
 			(project "multi_ch_harp_dac"
 				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "harp.device.quad.dac:R_0603")
+		(at 46.99 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b85896d8-bce2-48cc-a00c-c6d693b0843d")
+		(property "Reference" "R6"
+			(at 46.99 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 46.99 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 46.99 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 46.99 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 46.99 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 46.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "RT0402BRD071KL"
+			(at 46.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PCBWay Link" ""
+			(at 46.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 46.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 46.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603BRD0710KL"
+			(at 46.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9754242-2bd2-414f-a6d3-cc6d1bbee2b5")
+		)
+		(pin "2"
+			(uuid "6c180df7-8a26-4dfa-b092-590e3e06e680")
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -19095,6 +19433,15 @@
 			)
 		)
 		(property "Supplier Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/435451019820/18735367"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "435451019820 "
 			(at 25.4 139.7 0)
 			(effects
 				(font
@@ -19223,7 +19570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 278.13 101.6 0)
 			(effects
 				(font
@@ -19265,6 +19612,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -19273,6 +19621,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19446,6 +19795,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SC1510-A4"
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "73"
@@ -19778,149 +20135,6 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:R_0603")
-		(at 250.19 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5b4b18c-e599-4a3f-a6f8-432be8a7d1e2")
-		(property "Reference" "R16"
-			(at 251.714 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 251.714 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 248.412 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 250.19 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
-			(at 250.19 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 250.19 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Number" "SG73P1EWTTP1002F"
-			(at 250.19 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 250.19 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-0710KL"
-			(at 250.19 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 250.19 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 250.19 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603FR-0710KL"
-			(at 250.19 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65a1e0e9-a717-4dfd-815c-cbb7c261aa48")
-		)
-		(pin "2"
-			(uuid "bf799e14-c8f8-4856-8631-e25f7b2a33a0")
-		)
-		(instances
-			(project "harp.device.quad.dac"
-				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-			(project "multi_ch_harp_dac"
-				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "harp.device.quad.dac:LM4040A30IDBZR")
 		(at 161.29 27.94 0)
 		(unit 1)
@@ -20060,6 +20274,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM4040A30IDBZR"
+			(at 161.29 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20158,6 +20382,15 @@
 			)
 		)
 		(property "Supplier Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/435451019820/18735367"
+			(at 25.4 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "435451019820 "
 			(at 25.4 182.88 0)
 			(effects
 				(font
@@ -20286,7 +20519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 251.46 24.13 0)
 			(effects
 				(font
@@ -20464,6 +20697,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -20472,6 +20706,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603JR-070RL"
@@ -20480,6 +20715,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20874,7 +21110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X5R"
+		(property "Temperature Coefficient" ""
 			(at 34.29 31.75 0)
 			(effects
 				(font
@@ -21154,6 +21390,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ECS-TXO-2016-33-120-TR"
+			(at 50.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70556684-1811-40e2-b197-fa98ac29356c")
 		)
@@ -21264,7 +21509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 207.01 24.13 0)
 			(effects
 				(font
@@ -21407,291 +21652,6 @@
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "harp.device.quad.dac:R_0603")
-		(at 46.99 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e5ed51c6-7ed3-4647-a5e1-aafc22b61aa2")
-		(property "Reference" "R6"
-			(at 47.244 137.668 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 46.99 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 46.99 141.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 46.99 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
-			(at 46.99 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 46.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Number" "RT0402BRD071KL"
-			(at 46.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBWay Link" ""
-			(at 46.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-0710KL"
-			(at 46.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 46.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603FR-0710KL"
-			(at 46.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "86e8c8a8-5eba-42f3-99f5-fa93f2d87a5a")
-		)
-		(pin "2"
-			(uuid "e4196b57-6736-49ba-8ff7-c44d4de24ae8")
-		)
-		(instances
-			(project "harp.device.quad.dac"
-				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "multi_ch_harp_dac"
-				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "harp.device.quad.dac:R_0603")
-		(at 250.19 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9d4811d-8706-48ea-83f3-abd1cedd5834")
-		(property "Reference" "R18"
-			(at 251.714 131.318 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 251.714 133.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 248.412 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
-			(at 250.19 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Number" "SG73P1EWTTP1002F"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-0710KL"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603FR-0710KL"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17831427-c2a9-4d49-ac98-3d212082bcf7")
-		)
-		(pin "2"
-			(uuid "bcab28b5-8d00-46fa-aac1-00d545fe7c60")
-		)
-		(instances
-			(project "harp.device.quad.dac"
-				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-			(project "multi_ch_harp_dac"
-				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -21911,6 +21871,147 @@
 		)
 	)
 	(symbol
+		(lib_id "harp.device.quad.dac:R_0603")
+		(at 250.19 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4f8eee4-b15e-4cfa-907a-c0bf2da19bd3")
+		(property "Reference" "R17"
+			(at 251.714 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 251.714 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 251.968 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 250.19 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 250.19 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "RT0402BRD071KL"
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PCBWay Link" ""
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603BRD0710KL"
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "011e3cf1-02d3-4ac3-8a91-7cd879a52f00")
+		)
+		(pin "2"
+			(uuid "1401338e-80d7-4186-b31c-efb4e0bbd86a")
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 19.05 76.2 0)
 		(unit 1)
@@ -21983,31 +22084,33 @@
 	)
 	(symbol
 		(lib_id "harp.device.quad.dac:R_0603")
-		(at 46.99 161.29 90)
+		(at 250.19 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f98cd40f-6c92-4fd7-99cc-97e96bd636b1")
-		(property "Reference" "R7"
-			(at 47.244 159.258 90)
+		(uuid "fb413dca-6416-4934-8ec5-0e0f41b8ec3e")
+		(property "Reference" "R16"
+			(at 251.714 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "10K"
-			(at 46.99 161.29 90)
+		(property "Value" "10k"
+			(at 251.714 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 46.99 163.068 90)
+			(at 251.968 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22016,7 +22119,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 161.29 0)
+			(at 250.19 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22025,7 +22128,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 46.99 161.29 0)
+			(at 250.19 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22033,8 +22136,8 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 46.99 161.29 90)
+		(property "Tolerance" "0.1%"
+			(at 250.19 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22042,8 +22145,8 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
-			(at 46.99 161.29 90)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 250.19 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22052,7 +22155,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 46.99 161.29 0)
+			(at 250.19 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22061,7 +22164,7 @@
 			)
 		)
 		(property "Manufacturer Number" "RT0402BRD071KL"
-			(at 46.99 161.29 0)
+			(at 250.19 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22070,7 +22173,7 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 46.99 161.29 0)
+			(at 250.19 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22078,46 +22181,43 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AC0603FR-0710KL"
-			(at 46.99 161.29 0)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 250.19 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
-			(at 46.99 161.29 0)
+			(at 250.19 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "AC0603FR-0710KL"
-			(at 46.99 161.29 0)
+		(property "Manufacturer_Part_Number" "RT0603BRD0710KL"
+			(at 250.19 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "a8bc49f3-5107-4fc3-a8c2-ebdeca7d5b6a")
+			(uuid "c170be06-d312-4ea5-bee0-0c407d5fe3aa")
 		)
 		(pin "2"
-			(uuid "18ecc408-0aec-49b7-ab8d-5082b5613792")
+			(uuid "59a61d40-42a2-4d92-b3c4-d03efc696911")
 		)
 		(instances
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/5973743b-c3fc-4963-acef-26c8fa426708"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "multi_ch_harp_dac"
-				(path "/bcebacf6-3a3d-4b86-825a-a573788c489f/cdcf055f-9bf3-404c-8523-cd00817ffdb6"
-					(reference "R?")
+					(reference "R16")
 					(unit 1)
 				)
 			)

@@ -6428,7 +6428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 135.89 144.78 0)
 			(effects
 				(font
@@ -6470,6 +6470,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -6478,6 +6479,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6604,6 +6606,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -6612,6 +6615,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0710KL"
@@ -6620,6 +6624,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6804,7 +6809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 66.04 96.52 0)
 			(effects
 				(font
@@ -6846,6 +6851,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -6854,6 +6860,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6967,7 +6974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -7009,6 +7016,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -7017,6 +7025,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7143,6 +7152,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -7151,6 +7161,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0710KL"
@@ -7159,6 +7170,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7486,7 +7498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 156.21 152.4 0)
 			(effects
 				(font
@@ -7528,6 +7540,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -7536,6 +7549,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7662,6 +7676,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -7670,6 +7685,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0603FR-1310RL"
@@ -7678,6 +7694,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7804,6 +7821,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -7812,6 +7830,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD074K02L"
@@ -7820,6 +7839,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7895,7 +7915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "0.1%"
 			(at 66.04 72.39 90)
 			(effects
 				(font
@@ -7946,6 +7966,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -7954,6 +7975,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0747K5L"
@@ -7962,6 +7984,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8146,7 +8169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 66.04 27.94 0)
 			(effects
 				(font
@@ -8188,6 +8211,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -8196,6 +8220,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8271,7 +8296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "0.1%"
 			(at 66.04 138.43 90)
 			(effects
 				(font
@@ -8322,6 +8347,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -8330,6 +8356,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0747K5L"
@@ -8338,6 +8365,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8607,6 +8635,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -8615,6 +8644,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD074K02L"
@@ -8623,6 +8653,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8749,6 +8780,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -8757,6 +8789,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD074K02L"
@@ -8765,6 +8798,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8962,6 +8996,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -8970,6 +9005,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD074K02L"
@@ -8978,6 +9014,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9104,6 +9141,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -9112,6 +9150,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0710KL"
@@ -9120,6 +9159,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9349,6 +9389,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LM211DRG4"
+			(at 90.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "982161bb-6960-495f-9c75-2650de195c6f")
 		)
@@ -9491,6 +9540,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -9499,6 +9549,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD074K75L"
@@ -9507,6 +9558,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9762,7 +9814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 66.04 129.54 0)
 			(effects
 				(font
@@ -9804,6 +9856,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -9812,6 +9865,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9938,6 +9992,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -9946,6 +10001,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0740K2L"
@@ -9954,6 +10010,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10139,7 +10196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 39.37 58.42 0)
 			(effects
 				(font
@@ -10181,6 +10238,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -10189,6 +10247,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10296,7 +10355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 81.28 152.4 0)
 			(effects
 				(font
@@ -10338,6 +10397,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -10346,6 +10406,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10472,6 +10533,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -10480,6 +10542,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0740K2L"
@@ -10488,6 +10551,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10673,7 +10737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 135.89 43.18 0)
 			(effects
 				(font
@@ -10715,6 +10779,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -10723,6 +10788,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10843,6 +10909,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -10851,6 +10918,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0710KL"
@@ -10859,6 +10927,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11043,7 +11112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 39.37 77.47 0)
 			(effects
 				(font
@@ -11085,6 +11154,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -11093,6 +11163,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11250,6 +11321,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LM211DRG4"
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "47be6e17-fe9a-41c3-ba2a-b38cdca3f4f1")
 		)
@@ -11392,6 +11472,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -11400,6 +11481,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0710KL"
@@ -11408,6 +11490,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11521,7 +11604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 39.37 110.49 0)
 			(effects
 				(font
@@ -11563,6 +11646,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -11571,6 +11655,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11697,6 +11782,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -11705,6 +11791,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0603FR-1310RL"
@@ -11713,6 +11800,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11839,6 +11927,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -11847,6 +11936,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0710KL"
@@ -11855,6 +11945,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12194,6 +12285,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -12202,6 +12294,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD074K75L"
@@ -12210,6 +12303,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12285,7 +12379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "0.1%"
 			(at 66.04 171.45 90)
 			(effects
 				(font
@@ -12336,6 +12430,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -12344,6 +12439,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0747K5L"
@@ -12352,6 +12448,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12570,7 +12667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "0.1%"
 			(at 66.04 105.41 90)
 			(effects
 				(font
@@ -12621,6 +12718,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -12629,6 +12727,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0747K5L"
@@ -12637,6 +12736,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12675,6 +12775,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "40.2k"
@@ -12683,6 +12784,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -12763,6 +12865,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -12771,6 +12874,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0740K2L"
@@ -12779,6 +12883,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13035,7 +13140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 81.28 119.38 0)
 			(effects
 				(font
@@ -13077,6 +13182,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -13085,6 +13191,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13342,7 +13449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 81.28 86.36 0)
 			(effects
 				(font
@@ -13384,6 +13491,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -13392,6 +13500,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13538,6 +13647,30 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/BAT43W-7-F/749953"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAT43W-7-F"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "22d4bf1d-470c-454d-9820-71f1b5be27b5")
 		)
@@ -13662,6 +13795,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -13670,6 +13804,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0740K2L"
@@ -13678,6 +13813,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13804,6 +13940,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -13812,6 +13949,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD074K75L"
@@ -13820,6 +13958,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14017,6 +14156,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -14025,6 +14165,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0710KL"
@@ -14033,6 +14174,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14190,6 +14332,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LM211DRG4"
+			(at 90.17 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "bb590316-7686-4177-89ff-74522c83398e")
 		)
@@ -14332,6 +14483,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -14340,6 +14492,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0710KL"
@@ -14348,6 +14501,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14474,6 +14628,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -14482,6 +14637,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07100KL"
@@ -14490,6 +14646,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14603,7 +14760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 39.37 143.51 0)
 			(effects
 				(font
@@ -14645,6 +14802,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -14653,6 +14811,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14838,7 +14997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 135.89 17.78 0)
 			(effects
 				(font
@@ -14880,6 +15039,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -14888,6 +15048,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15137,7 +15298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 135.89 35.56 0)
 			(effects
 				(font
@@ -15179,6 +15340,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -15187,6 +15349,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15335,6 +15498,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LT1678CS8#PBF"
+			(at 76.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15551,6 +15723,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -15559,6 +15732,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD074K02L"
@@ -15567,6 +15741,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15680,7 +15855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 156.21 86.36 0)
 			(effects
 				(font
@@ -15722,6 +15897,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -15730,6 +15906,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15986,7 +16163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 114.3 20.32 0)
 			(effects
 				(font
@@ -16028,6 +16205,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -16036,6 +16214,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16234,6 +16413,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -16242,6 +16422,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD074K75L"
@@ -16250,6 +16431,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16376,6 +16558,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -16384,6 +16567,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0740K2L"
@@ -16392,6 +16576,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16505,7 +16690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 135.89 78.74 0)
 			(effects
 				(font
@@ -16547,6 +16732,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -16555,6 +16741,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16668,7 +16855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 135.89 177.8 0)
 			(effects
 				(font
@@ -16710,6 +16897,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -16718,6 +16906,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17046,7 +17235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 135.89 60.96 0)
 			(effects
 				(font
@@ -17088,6 +17277,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -17096,6 +17286,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17203,7 +17394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 39.37 33.02 0)
 			(effects
 				(font
@@ -17245,6 +17436,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -17253,6 +17445,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17450,6 +17643,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -17458,6 +17652,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD074K02L"
@@ -17466,6 +17661,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17592,6 +17788,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -17600,6 +17797,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0603FR-1310RL"
@@ -17608,6 +17806,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17681,6 +17880,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/BAT43W-7-F/749953"
+			(at 33.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 33.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAT43W-7-F"
+			(at 33.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17794,7 +18017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 39.37 15.24 0)
 			(effects
 				(font
@@ -17836,6 +18059,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -17844,6 +18068,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17970,6 +18195,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -17978,6 +18204,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD074K75L"
@@ -17986,6 +18213,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18099,7 +18327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 135.89 111.76 0)
 			(effects
 				(font
@@ -18141,6 +18369,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -18149,6 +18378,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18347,6 +18577,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -18355,6 +18586,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0740K2L"
@@ -18363,6 +18595,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18489,6 +18722,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -18497,6 +18731,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0603FR-1310RL"
@@ -18505,6 +18740,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18631,6 +18867,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -18639,6 +18876,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0740K2L"
@@ -18647,6 +18885,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18844,6 +19083,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -18852,6 +19092,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07100KL"
@@ -18860,6 +19101,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18973,7 +19215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 39.37 176.53 0)
 			(effects
 				(font
@@ -19015,6 +19257,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -19023,6 +19266,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19177,6 +19421,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LT1678CS8#PBF"
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -19394,6 +19647,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -19402,6 +19656,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07100KL"
@@ -19410,6 +19665,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19536,6 +19792,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -19544,6 +19801,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD074K75L"
@@ -19552,6 +19810,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19678,6 +19937,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -19686,6 +19946,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD074K02L"
@@ -19694,6 +19955,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20093,7 +20355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 156.21 185.42 0)
 			(effects
 				(font
@@ -20135,6 +20397,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -20143,6 +20406,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20269,6 +20533,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -20277,6 +20542,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD074K75L"
@@ -20285,6 +20551,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20470,7 +20737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 66.04 162.56 0)
 			(effects
 				(font
@@ -20512,6 +20779,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -20520,6 +20788,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20738,6 +21007,30 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/BAT43W-7-F/749953"
+			(at 33.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 33.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAT43W-7-F"
+			(at 33.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "36bdf958-9a9f-4640-8ae8-0f635e92e314")
 		)
@@ -20862,6 +21155,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -20870,6 +21164,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD074K75L"
@@ -20878,6 +21173,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21025,6 +21321,30 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/BAT43W-7-F/749953"
+			(at 33.02 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 33.02 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAT43W-7-F"
+			(at 33.02 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8b43c7bb-5492-4b70-8e6d-63358e025f3e")
 		)
@@ -21149,6 +21469,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -21157,6 +21478,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD074K02L"
@@ -21165,6 +21487,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21291,6 +21614,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -21299,6 +21623,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07100KL"
@@ -21307,6 +21632,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21420,7 +21746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 81.28 185.42 0)
 			(effects
 				(font
@@ -21462,6 +21788,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -21470,6 +21797,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21654,7 +21982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 39.37 40.64 0)
 			(effects
 				(font
@@ -21696,6 +22024,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -21704,6 +22033,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21811,7 +22141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 66.04 53.34 0)
 			(effects
 				(font
@@ -21853,6 +22183,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -21861,6 +22192,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22059,6 +22391,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -22067,6 +22400,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603BRD0740K2L"
@@ -22075,6 +22409,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22475,7 +22810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 156.21 119.38 0)
 			(effects
 				(font
@@ -22517,6 +22852,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -22525,6 +22861,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22709,7 +23046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 66.04 195.58 0)
 			(effects
 				(font
@@ -22751,6 +23088,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -22759,6 +23097,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22913,6 +23252,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM211DRG4"
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

@@ -578,7 +578,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -666,9 +666,21 @@
         },
         {
           "group_by": false,
+          "label": "Manufacturer Number",
+          "name": "Manufacturer Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFN",
+          "name": "MFN",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -680,18 +692,6 @@
           "group_by": false,
           "label": "Link",
           "name": "Link",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MFN",
-          "name": "MFN",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer Number",
-          "name": "Manufacturer Number",
           "show": true
         },
         {
@@ -728,7 +728,7 @@
           "group_by": false,
           "label": "Temperature Coefficient",
           "name": "Temperature Coefficient",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -747,8 +747,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Manufacturer Number"
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

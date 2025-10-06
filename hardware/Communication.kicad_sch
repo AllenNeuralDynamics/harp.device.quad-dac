@@ -5887,6 +5887,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -5895,6 +5896,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
@@ -5903,6 +5905,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6020,6 +6023,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -6028,6 +6032,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0603FR-0724RL"
@@ -6036,6 +6041,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6201,6 +6207,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD441DPLR"
+			(at 46.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6589,6 +6605,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD441DPLR"
+			(at 66.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6786,6 +6812,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -6794,6 +6821,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07100KL"
@@ -6802,6 +6830,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6915,7 +6944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 49.53 107.95 0)
 			(effects
 				(font
@@ -6957,6 +6986,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -6965,6 +6995,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7083,6 +7114,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7247,6 +7279,15 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
+			(at 199.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD441DPLR"
 			(at 199.39 58.42 0)
 			(effects
 				(font
@@ -7775,6 +7816,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -7783,6 +7825,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0603FR-0724RL"
@@ -7791,6 +7834,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7917,6 +7961,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -7925,6 +7970,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
@@ -7933,6 +7979,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7971,6 +8018,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "0"
@@ -7979,6 +8027,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -8059,6 +8108,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -8067,6 +8117,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603JR-070RL"
@@ -8075,6 +8126,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8586,6 +8638,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -8594,6 +8647,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603JR-070RL"
@@ -8602,6 +8656,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8786,7 +8841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 264.16 66.04 0)
 			(effects
 				(font
@@ -8819,6 +8874,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" "C0603C104K5RACTU"
@@ -8827,6 +8883,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -8835,6 +8892,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8970,6 +9028,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603JR-070RL"
@@ -8978,6 +9037,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9100,6 +9160,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07330RL"
@@ -9108,6 +9169,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9219,6 +9281,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -9227,6 +9290,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0603FR-0724RL"
@@ -9235,6 +9299,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9571,7 +9636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X5R"
+		(property "Temperature Coefficient" ""
 			(at 255.27 66.04 0)
 			(effects
 				(font
@@ -9595,6 +9660,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "C1608X7R1H105K080AB"
@@ -9603,6 +9669,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" "C1608X7R1H105K080AB"
@@ -9611,6 +9678,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "TDK Corporation"
@@ -9619,6 +9687,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9736,6 +9805,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
@@ -9744,6 +9814,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0603FR-0724RL"
@@ -9752,6 +9823,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10515,7 +10587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 181.61 66.04 0)
 			(effects
 				(font
@@ -10548,6 +10620,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" "C0603C104K5RACTU"
@@ -10556,6 +10629,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -10564,6 +10638,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10703,6 +10778,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "XZCDGK53W-1VF"
+			(at 126.746 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0274f3dd-4679-4656-bc05-420b66ada7a3")
 		)
@@ -10823,7 +10907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X5R"
+		(property "Temperature Coefficient" ""
 			(at 189.23 66.04 0)
 			(effects
 				(font
@@ -10847,6 +10931,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "C1608X7R1H105K080AB"
@@ -10855,6 +10940,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" "C1608X7R1H105K080AB"
@@ -10863,6 +10949,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "TDK Corporation"
@@ -10871,6 +10958,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11126,7 +11214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "X7R"
+		(property "Temperature Coefficient" ""
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -11168,6 +11256,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
@@ -11176,6 +11265,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11410,6 +11500,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" "CDDFN10-3324P"
@@ -11418,6 +11509,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
