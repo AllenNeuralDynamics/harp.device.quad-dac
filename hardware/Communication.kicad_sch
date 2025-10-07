@@ -3816,7 +3816,7 @@
 	)
 	(text "voltage level 5V"
 		(exclude_from_sim no)
-		(at 64.77 67.31 0)
+		(at 70.358 68.072 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3869,7 +3869,7 @@
 	)
 	(text "Debug Serial Port"
 		(exclude_from_sim no)
-		(at 44.45 67.31 0)
+		(at 48.26 68.072 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6294,6 +6294,51 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "n/a"
+			(at 35.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "n/a"
+			(at 35.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "n/a"
+			(at 35.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "n/a"
+			(at 35.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "n/a"
+			(at 35.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c0f7f227-3912-49de-b028-f5c6d86c90fe")
 		)
@@ -7539,7 +7584,7 @@
 		(dnp no)
 		(uuid "4dcd06ac-9328-40e8-85f3-789d4fe61da0")
 		(property "Reference" "J2"
-			(at 37.592 65.786 0)
+			(at 37.084 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7547,12 +7592,12 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Male"
-			(at 36.195 66.04 0)
+			(at 35.56 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" "harp.device.quad.dac.kicad:PinHeader_1x03_P2.54mm_Vertical"
@@ -7619,6 +7664,33 @@
 			)
 		)
 		(property "Manufacturer Number" "n/a"
+			(at 35.56 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "n/a"
+			(at 35.56 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "n/a"
+			(at 35.56 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "n/a"
 			(at 35.56 71.12 0)
 			(effects
 				(font
@@ -8387,7 +8459,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "70572fc5-493e-4eba-8e17-80ec0ac8a4e7")
 		(property "Reference" "J3"
 			(at 156.21 67.31 0)
@@ -8398,12 +8469,11 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 156.21 67.31 0)
+			(at 155.956 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "harp.device.quad.dac.kicad:USB_C_Receptacle_JAE_DX07S016JA1R1500"
@@ -8461,6 +8531,33 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/DX07S016JA1R1500/10895/"
+			(at 156.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DX07S016JA1R1500"
+			(at 156.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DX07S016JA1R1500"
+			(at 156.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JAE Electronics"
 			(at 156.21 87.63 0)
 			(effects
 				(font

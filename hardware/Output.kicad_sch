@@ -3386,7 +3386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " TE Connectivity Linx"
+		(property "Manufacturer" "TE Connectivity Linx"
 			(at 132.08 125.73 0)
 			(effects
 				(font
@@ -3396,6 +3396,33 @@
 			)
 		)
 		(property "Manufacturer Number" "CONSMA002-SMD-G-T"
+			(at 132.08 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CONSMA002-SMD-G-T"
+			(at 132.08 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity Linx"
+			(at 132.08 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CONSMA002-SMD-G-T"
 			(at 132.08 125.73 0)
 			(effects
 				(font
@@ -3783,7 +3810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " TE Connectivity Linx"
+		(property "Manufacturer" "TE Connectivity Linx"
 			(at 205.74 62.23 0)
 			(effects
 				(font
@@ -3793,6 +3820,33 @@
 			)
 		)
 		(property "Manufacturer Number" "CONSMA002-SMD-G-T"
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CONSMA002-SMD-G-T"
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity Linx"
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CONSMA002-SMD-G-T"
 			(at 205.74 62.23 0)
 			(effects
 				(font
@@ -3880,7 +3934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " TE Connectivity Linx"
+		(property "Manufacturer" "TE Connectivity Linx"
 			(at 205.74 125.73 0)
 			(effects
 				(font
@@ -3890,6 +3944,33 @@
 			)
 		)
 		(property "Manufacturer Number" "CONSMA002-SMD-G-T"
+			(at 205.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CONSMA002-SMD-G-T"
+			(at 205.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity Linx"
+			(at 205.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CONSMA002-SMD-G-T"
 			(at 205.74 125.73 0)
 			(effects
 				(font
@@ -4237,7 +4318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " TE Connectivity Linx"
+		(property "Manufacturer" "TE Connectivity Linx"
 			(at 132.08 62.23 0)
 			(effects
 				(font
@@ -4247,6 +4328,33 @@
 			)
 		)
 		(property "Manufacturer Number" "CONSMA002-SMD-G-T"
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CONSMA002-SMD-G-T"
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity Linx"
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CONSMA002-SMD-G-T"
 			(at 132.08 62.23 0)
 			(effects
 				(font
@@ -4334,7 +4442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " TE Connectivity Linx"
+		(property "Manufacturer" "TE Connectivity Linx"
 			(at 132.08 93.98 0)
 			(effects
 				(font
@@ -4344,6 +4452,33 @@
 			)
 		)
 		(property "Manufacturer Number" "CONSMA002-SMD-G-T"
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CONSMA002-SMD-G-T"
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity Linx"
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CONSMA002-SMD-G-T"
 			(at 132.08 93.98 0)
 			(effects
 				(font
@@ -4431,7 +4566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " TE Connectivity Linx"
+		(property "Manufacturer" "TE Connectivity Linx"
 			(at 205.74 93.98 0)
 			(effects
 				(font
@@ -4441,6 +4576,33 @@
 			)
 		)
 		(property "Manufacturer Number" "CONSMA002-SMD-G-T"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CONSMA002-SMD-G-T"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity Linx"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CONSMA002-SMD-G-T"
 			(at 205.74 93.98 0)
 			(effects
 				(font
@@ -5182,7 +5344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " TE Connectivity Linx"
+		(property "Manufacturer" "TE Connectivity Linx"
 			(at 132.08 30.48 0)
 			(effects
 				(font
@@ -5192,6 +5354,33 @@
 			)
 		)
 		(property "Manufacturer Number" "CONSMA002-SMD-G-T"
+			(at 132.08 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CONSMA002-SMD-G-T"
+			(at 132.08 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity Linx"
+			(at 132.08 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CONSMA002-SMD-G-T"
 			(at 132.08 30.48 0)
 			(effects
 				(font
@@ -5814,7 +6003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " TE Connectivity Linx"
+		(property "Manufacturer" "TE Connectivity Linx"
 			(at 205.74 30.48 0)
 			(effects
 				(font
@@ -5824,6 +6013,33 @@
 			)
 		)
 		(property "Manufacturer Number" "CONSMA002-SMD-G-T"
+			(at 205.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CONSMA002-SMD-G-T"
+			(at 205.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity Linx"
+			(at 205.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CONSMA002-SMD-G-T"
 			(at 205.74 30.48 0)
 			(effects
 				(font
