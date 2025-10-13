@@ -8573,7 +8573,7 @@
 			)
 		)
 	)
-	(global_label "MC_USB_DM"
+	(global_label "MC_USB-"
 		(shape input)
 		(at 161.29 44.45 0)
 		(fields_autoplaced yes)
@@ -8585,7 +8585,7 @@
 		)
 		(uuid "14a76fda-156c-4dad-86b9-087815f4ee36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.4632 44.45 0)
+			(at 173.3466 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9035,7 +9035,7 @@
 			)
 		)
 	)
-	(global_label "MC_USB_DP"
+	(global_label "MC_USB+"
 		(shape input)
 		(at 161.29 41.91 0)
 		(fields_autoplaced yes)
@@ -9047,7 +9047,7 @@
 		)
 		(uuid "c204498e-6ea1-4be4-8740-e30e1aa2083e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.2818 41.91 0)
+			(at 173.3466 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)

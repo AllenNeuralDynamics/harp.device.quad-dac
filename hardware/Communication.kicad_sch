@@ -5590,6 +5590,26 @@
 		)
 		(uuid "fddf312b-ac2f-458b-8e75-1b63cea452ed")
 	)
+	(label "DD-"
+		(at 246.4062 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40d7c678-da32-4153-a70f-eccf59a3ad36")
+	)
+	(label "DD+"
+		(at 246.38 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4127e336-ce70-4b20-959c-0dee39fc137d")
+	)
 	(label "UART0_RXD"
 		(at 71.12 128.27 0)
 		(effects
@@ -5600,7 +5620,17 @@
 		)
 		(uuid "6243056d-05a2-405d-acae-f6d7e3326a16")
 	)
-	(label "PC_USB_DM"
+	(label "UD+"
+		(at 215.9 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73abc18f-3c53-4301-bea1-d9060b4b0bfa")
+	)
+	(label "PC_USB-"
 		(at 196.85 87.63 0)
 		(effects
 			(font
@@ -5620,7 +5650,7 @@
 		)
 		(uuid "c55b4cef-ac16-4a76-a3d2-bab24f8ddb88")
 	)
-	(label "PC_USB_DP"
+	(label "PC_USB+"
 		(at 196.85 85.09 0)
 		(effects
 			(font
@@ -5629,6 +5659,16 @@
 			(justify left bottom)
 		)
 		(uuid "dd81cc7b-fb71-43c7-b403-621c48efcef2")
+	)
+	(label "UD-"
+		(at 215.9 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3bc6727-aa8b-4679-afc5-6ae13e612ecf")
 	)
 	(global_label "SWDIO"
 		(shape input)
@@ -5696,7 +5736,7 @@
 			)
 		)
 	)
-	(global_label "MC_USB_DM"
+	(global_label "MC_USB-"
 		(shape input)
 		(at 262.89 87.63 0)
 		(fields_autoplaced yes)
@@ -5708,7 +5748,7 @@
 		)
 		(uuid "8d959ae8-b32d-4ab0-9bbd-8a76bc1eb67d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.0632 87.63 0)
+			(at 274.9466 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +5758,7 @@
 			)
 		)
 	)
-	(global_label "MC_USB_DP"
+	(global_label "MC_USB+"
 		(shape input)
 		(at 262.89 85.09 0)
 		(fields_autoplaced yes)
@@ -5730,7 +5770,7 @@
 		)
 		(uuid "92bb5372-cb1b-4f5a-ad86-298084c4053f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.8818 85.09 0)
+			(at 274.9466 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
