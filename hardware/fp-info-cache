@@ -1,4 +1,4 @@
-24876237317469551
+24877997681535085
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99616,6 +99616,13 @@ mounting hole 3.2mm no annular m3 din965
 0
 0
 0
+harp.device.quad.dac.kicad
+PESD12VL1BSLAZ
+PESD12VL1BSLAZ-2
+TVS Diode (Bi-directional)
+0
+2
+2
 harp.device.quad.dac.kicad
 PTV47BM384A
 SMP (DO-220AA)

@@ -11482,7 +11482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDDFN103324P"
+		(property "Footprint" "harp.device.quad.dac.kicad:CDDFN103324P"
 			(at 80.01 35.56 0)
 			(effects
 				(font

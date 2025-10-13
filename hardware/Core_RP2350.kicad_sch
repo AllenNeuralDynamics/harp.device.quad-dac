@@ -20357,7 +20357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P237X112-3N"
+		(property "Footprint" "harp.device.quad.dac.kicad:SOT95P237X112-3N"
 			(at 182.88 25.4 0)
 			(effects
 				(font

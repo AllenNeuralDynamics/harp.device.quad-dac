@@ -913,9 +913,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "harp.device.quad.dac:ESDSB12VLB-TP"
+		(symbol "harp.device.quad.dac:PESD12VL1BSLAZ"
 			(pin_names
-				(offset 0.762)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -929,7 +929,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "ESDSB12VLB-TP"
+			(property "Value" "PESD12VL1BSLAZ"
 				(at 12.7 6.35 0)
 				(effects
 					(font
@@ -938,8 +938,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "harp.device.quad.dac.kicad:ESDSB12VLBTP"
-				(at 12.7 3.81 0)
+			(property "Footprint" "harp.device.quad.dac.kicad:PESD12VL1BSLAZ"
+				(at 12.7 -93.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -948,8 +948,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mccsemi.com/pdf/Products/ESDSB12VLB(DFN1006-2).pdf"
-				(at 12.7 1.27 0)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD12VL1BSL.pdf"
+				(at 12.7 -193.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -958,7 +958,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "28.6V Clamp 11A (8/20s) Ipp Tvs Diode Surface Mount SOD-323"
+			(property "Description" "ESD Suppressors / TVS Diodes PESD12VL1BSL/SO2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -967,8 +967,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "28.6V Clamp 11A (8/20s) Ipp Tvs Diode Surface Mount SOD-323"
-				(at 12.7 -1.27 0)
+			(property "Height" "0.45"
+				(at 12.7 -393.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -977,8 +977,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.55"
-				(at 12.7 -3.81 0)
+			(property "Manufacturer_Name" "Nexperia"
+				(at 12.7 -493.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -987,8 +987,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "MCC"
-				(at 12.7 -6.35 0)
+			(property "Manufacturer_Part_Number" "PESD12VL1BSLAZ"
+				(at 12.7 -593.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -997,8 +997,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "ESDSB12VLB-TP"
-				(at 12.7 -8.89 0)
+			(property "Mouser Part Number" "771-PESD12VL1BSLAZ"
+				(at 12.7 -693.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1007,8 +1007,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" ""
-				(at 12.7 -11.43 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD12VL1BSLAZ?qs=Li%252BoUPsLEnsvnACK22XOiQ%3D%3D"
+				(at 12.7 -793.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1017,8 +1017,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" ""
-				(at 12.7 -13.97 0)
+			(property "Arrow Part Number" "PESD12VL1BSLAZ"
+				(at 12.7 -893.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1027,8 +1027,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" ""
-				(at 12.7 -16.51 0)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pesd12vl1bslaz/nexperia?region=nac"
+				(at 12.7 -993.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1037,21 +1037,119 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" ""
-				(at 12.7 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "PESD12VL1BSLAZ_1_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
 					)
-					(justify left bottom)
-					(hide yes)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
 				)
-			)
-			(symbol "ESDSB12VLB-TP_0_0"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 2.54) (xy 10.16 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.032) (xy 10.16 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.032) (xy 11.176 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 2.54) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 2.54) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "~"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1069,7 +1167,7 @@
 				(pin passive line
 					(at 20.32 0 180)
 					(length 5.08)
-					(name "~"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1082,68 +1180,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "ESDSB12VLB-TP_0_1"
-				(polyline
-					(pts
-						(xy 9.144 2.54) (xy 10.16 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 5.08 -2.54) (xy 5.08 2.54) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 15.24 -2.54) (xy 15.24 2.54) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.032) (xy 10.16 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.032) (xy 11.176 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -6364,7 +6400,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:ESDSB12VLB-TP")
+		(lib_id "harp.device.quad.dac:PESD12VL1BSLAZ")
 		(at 184.15 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6381,17 +6417,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESDSB12VLB-TP"
-			(at 186.69 106.426 90)
+		(property "Value" "PESD12VL1BSLAZ"
+			(at 190.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "harp.device.quad.dac.kicad:ESDSB12VLBTP"
-			(at 187.96 107.95 0)
+		(property "Footprint" "harp.device.quad.dac.kicad:PESD12VL1BSLAZ"
+			(at 90.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6400,8 +6436,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/ESDSB12VLB(DFN1006-2).pdf"
-			(at 185.42 107.95 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD12VL1BSL.pdf"
+			(at -9.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6410,7 +6446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "28.6V Clamp 11A (8/20s) Ipp Tvs Diode Surface Mount SOD-323"
+		(property "Description" "ESD Suppressors / TVS Diodes PESD12VL1BSL/SO2"
 			(at 184.15 95.25 0)
 			(effects
 				(font
@@ -6429,8 +6465,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 180.34 107.95 0)
+		(property "Height" "0.45"
+			(at -209.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,8 +6475,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "MCC"
-			(at 177.8 107.95 0)
+		(property "Manufacturer_Name" "Nexperia"
+			(at -309.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6449,8 +6485,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESDSB12VLB-TP"
-			(at 175.26 107.95 0)
+		(property "Manufacturer_Part_Number" "PESD12VL1BSLAZ"
+			(at -409.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,8 +6495,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 172.72 107.95 0)
+		(property "Mouser Part Number" "771-PESD12VL1BSLAZ"
+			(at -509.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,8 +6505,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 170.18 107.95 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD12VL1BSLAZ?qs=Li%252BoUPsLEnsvnACK22XOiQ%3D%3D"
+			(at -609.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6479,8 +6515,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 167.64 107.95 0)
+		(property "Arrow Part Number" "PESD12VL1BSLAZ"
+			(at -709.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6489,8 +6525,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 165.1 107.95 0)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pesd12vl1bslaz/nexperia?region=nac"
+			(at -809.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,7 +6968,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:ESDSB12VLB-TP")
+		(lib_id "harp.device.quad.dac:PESD12VL1BSLAZ")
 		(at 184.15 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6949,17 +6985,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESDSB12VLB-TP"
-			(at 186.69 42.926 90)
+		(property "Value" "PESD12VL1BSLAZ"
+			(at 190.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "harp.device.quad.dac.kicad:ESDSB12VLBTP"
-			(at 187.96 44.45 0)
+		(property "Footprint" "harp.device.quad.dac.kicad:PESD12VL1BSLAZ"
+			(at 90.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6968,8 +7004,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/ESDSB12VLB(DFN1006-2).pdf"
-			(at 185.42 44.45 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD12VL1BSL.pdf"
+			(at -9.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,7 +7014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "28.6V Clamp 11A (8/20s) Ipp Tvs Diode Surface Mount SOD-323"
+		(property "Description" "ESD Suppressors / TVS Diodes PESD12VL1BSL/SO2"
 			(at 184.15 31.75 0)
 			(effects
 				(font
@@ -6997,8 +7033,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 180.34 44.45 0)
+		(property "Height" "0.45"
+			(at -209.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,8 +7043,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "MCC"
-			(at 177.8 44.45 0)
+		(property "Manufacturer_Name" "Nexperia"
+			(at -309.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7017,8 +7053,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESDSB12VLB-TP"
-			(at 175.26 44.45 0)
+		(property "Manufacturer_Part_Number" "PESD12VL1BSLAZ"
+			(at -409.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7027,8 +7063,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 172.72 44.45 0)
+		(property "Mouser Part Number" "771-PESD12VL1BSLAZ"
+			(at -509.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7037,8 +7073,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 170.18 44.45 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD12VL1BSLAZ?qs=Li%252BoUPsLEnsvnACK22XOiQ%3D%3D"
+			(at -609.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7047,8 +7083,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 167.64 44.45 0)
+		(property "Arrow Part Number" "PESD12VL1BSLAZ"
+			(at -709.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7057,8 +7093,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 165.1 44.45 0)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pesd12vl1bslaz/nexperia?region=nac"
+			(at -809.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7399,7 +7435,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:ESDSB12VLB-TP")
+		(lib_id "harp.device.quad.dac:PESD12VL1BSLAZ")
 		(at 184.15 127 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7416,17 +7452,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESDSB12VLB-TP"
-			(at 186.69 138.176 90)
+		(property "Value" "PESD12VL1BSLAZ"
+			(at 190.5 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "harp.device.quad.dac.kicad:ESDSB12VLBTP"
-			(at 187.96 139.7 0)
+		(property "Footprint" "harp.device.quad.dac.kicad:PESD12VL1BSLAZ"
+			(at 90.5 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7435,8 +7471,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/ESDSB12VLB(DFN1006-2).pdf"
-			(at 185.42 139.7 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD12VL1BSL.pdf"
+			(at -9.5 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7445,7 +7481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "28.6V Clamp 11A (8/20s) Ipp Tvs Diode Surface Mount SOD-323"
+		(property "Description" "ESD Suppressors / TVS Diodes PESD12VL1BSL/SO2"
 			(at 184.15 127 0)
 			(effects
 				(font
@@ -7464,8 +7500,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 180.34 139.7 0)
+		(property "Height" "0.45"
+			(at -209.5 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,8 +7510,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "MCC"
-			(at 177.8 139.7 0)
+		(property "Manufacturer_Name" "Nexperia"
+			(at -309.5 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7484,8 +7520,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESDSB12VLB-TP"
-			(at 175.26 139.7 0)
+		(property "Manufacturer_Part_Number" "PESD12VL1BSLAZ"
+			(at -409.5 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7494,8 +7530,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 172.72 139.7 0)
+		(property "Mouser Part Number" "771-PESD12VL1BSLAZ"
+			(at -509.5 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7504,8 +7540,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 170.18 139.7 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD12VL1BSLAZ?qs=Li%252BoUPsLEnsvnACK22XOiQ%3D%3D"
+			(at -609.5 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,8 +7550,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 167.64 139.7 0)
+		(property "Arrow Part Number" "PESD12VL1BSLAZ"
+			(at -709.5 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,8 +7560,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 165.1 139.7 0)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pesd12vl1bslaz/nexperia?region=nac"
+			(at -809.5 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,7 +7893,7 @@
 		)
 	)
 	(symbol
-		(lib_id "harp.device.quad.dac:ESDSB12VLB-TP")
+		(lib_id "harp.device.quad.dac:PESD12VL1BSLAZ")
 		(at 184.15 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7874,17 +7910,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESDSB12VLB-TP"
-			(at 186.69 74.676 90)
+		(property "Value" "PESD12VL1BSLAZ"
+			(at 190.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "harp.device.quad.dac.kicad:ESDSB12VLBTP"
-			(at 187.96 76.2 0)
+		(property "Footprint" "harp.device.quad.dac.kicad:PESD12VL1BSLAZ"
+			(at 90.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,8 +7929,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/ESDSB12VLB(DFN1006-2).pdf"
-			(at 185.42 76.2 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD12VL1BSL.pdf"
+			(at -9.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7903,7 +7939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "28.6V Clamp 11A (8/20s) Ipp Tvs Diode Surface Mount SOD-323"
+		(property "Description" "ESD Suppressors / TVS Diodes PESD12VL1BSL/SO2"
 			(at 184.15 63.5 0)
 			(effects
 				(font
@@ -7922,8 +7958,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 180.34 76.2 0)
+		(property "Height" "0.45"
+			(at -209.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7932,8 +7968,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "MCC"
-			(at 177.8 76.2 0)
+		(property "Manufacturer_Name" "Nexperia"
+			(at -309.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7942,8 +7978,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESDSB12VLB-TP"
-			(at 175.26 76.2 0)
+		(property "Manufacturer_Part_Number" "PESD12VL1BSLAZ"
+			(at -409.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7952,8 +7988,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 172.72 76.2 0)
+		(property "Mouser Part Number" "771-PESD12VL1BSLAZ"
+			(at -509.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7962,8 +7998,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 170.18 76.2 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD12VL1BSLAZ?qs=Li%252BoUPsLEnsvnACK22XOiQ%3D%3D"
+			(at -609.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7972,8 +8008,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 167.64 76.2 0)
+		(property "Arrow Part Number" "PESD12VL1BSLAZ"
+			(at -709.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7982,8 +8018,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 165.1 76.2 0)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pesd12vl1bslaz/nexperia?region=nac"
+			(at -809.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

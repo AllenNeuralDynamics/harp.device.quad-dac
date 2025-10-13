@@ -7863,7 +7863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PTV47BM384A"
+		(property "Footprint" "harp.device.quad.dac.kicad:PTV47BM384A"
 			(at 234.95 128.27 0)
 			(effects
 				(font
@@ -10703,7 +10703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PTV47BM384A"
+		(property "Footprint" "harp.device.quad.dac.kicad:PTV47BM384A"
 			(at 92.71 57.15 0)
 			(effects
 				(font
@@ -16014,7 +16014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PTV56BM384A"
+		(property "Footprint" "harp.device.quad.dac.kicad:PTV47BM384A"
 			(at 167.64 57.15 0)
 			(effects
 				(font
@@ -18785,7 +18785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PTV47BM384A"
+		(property "Footprint" "harp.device.quad.dac.kicad:PTV47BM384A"
 			(at 234.95 146.05 0)
 			(effects
 				(font

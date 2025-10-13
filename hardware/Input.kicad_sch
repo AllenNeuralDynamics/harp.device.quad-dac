@@ -5785,7 +5785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESD441DPLR"
+		(property "Footprint" "harp.device.quad.dac.kicad:ESD441DPLR"
 			(at 50.8 90.17 0)
 			(effects
 				(font
@@ -8805,7 +8805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESD441DPLR"
+		(property "Footprint" "harp.device.quad.dac.kicad:ESD441DPLR"
 			(at 50.8 33.02 0)
 			(effects
 				(font
@@ -9470,7 +9470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESD441DPLR"
+		(property "Footprint" "harp.device.quad.dac.kicad:ESD441DPLR"
 			(at 266.7 38.1 0)
 			(effects
 				(font
@@ -10189,7 +10189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESD441DPLR"
+		(property "Footprint" "harp.device.quad.dac.kicad:ESD441DPLR"
 			(at 50.8 172.72 0)
 			(effects
 				(font
@@ -13235,7 +13235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESD441DPLR"
+		(property "Footprint" "harp.device.quad.dac.kicad:ESD441DPLR"
 			(at 50.8 60.96 0)
 			(effects
 				(font
@@ -13789,7 +13789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESD441DPLR"
+		(property "Footprint" "harp.device.quad.dac.kicad:ESD441DPLR"
 			(at 50.8 120.65 0)
 			(effects
 				(font
