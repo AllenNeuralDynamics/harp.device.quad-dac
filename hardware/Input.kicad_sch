@@ -5958,7 +5958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal"
+		(property "Footprint" "harp.device.quad.dac.kicad:BarrelJack_CUI_PJ-102AH_Horizontal"
 			(at 207.01 124.206 0)
 			(effects
 				(font
