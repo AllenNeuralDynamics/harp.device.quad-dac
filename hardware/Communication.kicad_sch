@@ -5867,7 +5867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thick Film 0603 5.1K Ohm 1% 0.1W(1/10W) ±100ppm/C Pad SMD T/R"
 			(at 176.53 80.01 0)
 			(effects
 				(font
@@ -5913,15 +5913,6 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/RT0402FRE075K1L/449762/"
-			(at 176.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-075K1L"
 			(at 176.53 80.01 0)
 			(effects
 				(font
@@ -6012,7 +6003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thick Film 0603 24 Ohm 1% 0.1W(1/10W) ±100ppm/C Pad SMD Automotive T/R"
 			(at 254 87.63 0)
 			(effects
 				(font
@@ -6049,15 +6040,6 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 254 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-0724RL"
 			(at 254 87.63 0)
 			(effects
 				(font
@@ -6250,15 +6232,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ESD441DPLR"
-			(at 46.99 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/ESD441DPLR/21298753"
 			(at 46.99 72.39 0)
 			(effects
@@ -6334,7 +6307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "HDR 1X4 TH 100MIL SP  336H AU 100L"
 			(at 35.56 29.21 0)
 			(effects
 				(font
@@ -6361,7 +6334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "n/a"
+		(property "Manufacturer_Part_Number" "TSW-104-07-G-S"
 			(at 35.56 29.21 0)
 			(effects
 				(font
@@ -6370,16 +6343,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "n/a"
-			(at 35.56 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "n/a"
+		(property "Manufacturer_Name" "SAMTEC"
 			(at 35.56 29.21 0)
 			(effects
 				(font
@@ -6702,15 +6666,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ESD441DPLR"
-			(at 66.04 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/ESD441DPLR/21298753"
 			(at 66.04 72.39 0)
 			(effects
@@ -6855,7 +6810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "100Mw Thick Film Resistors 100Ppm/ 1% 100K 0603 Chip Resistor Surface Mount Rohs"
 			(at 35.56 114.3 0)
 			(effects
 				(font
@@ -6901,15 +6856,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 35.56 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-07100KL"
 			(at 35.56 114.3 0)
 			(effects
 				(font
@@ -7002,7 +6948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 49.53 107.95 0)
 			(effects
 				(font
@@ -7075,15 +7021,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 49.53 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 49.53 107.95 0)
 			(effects
 				(font
@@ -7212,15 +7149,6 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 185.42 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TPD2EUSB30DRTR"
 			(at 185.42 102.87 0)
 			(effects
 				(font
@@ -7400,15 +7328,6 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 199.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ESD441DPLR"
 			(at 199.39 58.42 0)
 			(effects
 				(font
@@ -7677,7 +7596,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Male"
+		(property "Value" "5-146281-3"
 			(at 35.56 65.024 0)
 			(effects
 				(font
@@ -7704,7 +7623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Conn Unshrouded Header HDR 3 POS 2.54mm Solder ST Top Entry Thru-Hole Carton"
 			(at 35.56 71.12 0)
 			(effects
 				(font
@@ -7758,7 +7677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "n/a"
+		(property "Manufacturer_Part_Number" "5-146281-3"
 			(at 35.56 71.12 0)
 			(effects
 				(font
@@ -7767,16 +7686,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "n/a"
-			(at 35.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "n/a"
+		(property "Manufacturer_Name" "TE Connectivity"
 			(at 35.56 71.12 0)
 			(effects
 				(font
@@ -7923,7 +7833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thick Film 0603 24 Ohm 1% 0.1W(1/10W) ±100ppm/C Pad SMD Automotive T/R"
 			(at 210.82 87.63 0)
 			(effects
 				(font
@@ -7960,15 +7870,6 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 210.82 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-0724RL"
 			(at 210.82 87.63 0)
 			(effects
 				(font
@@ -8059,7 +7960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thick Film 0603 5.1K Ohm 1% 0.1W(1/10W) ±100ppm/C Pad SMD T/R"
 			(at 176.53 77.47 0)
 			(effects
 				(font
@@ -8105,15 +8006,6 @@
 			)
 		)
 		(property "PCBWay Link" "https://www.pcbway.com/components/detail/RT0402FRE075K1L/449762/"
-			(at 176.53 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-075K1L"
 			(at 176.53 77.47 0)
 			(effects
 				(font
@@ -8260,15 +8152,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603JR-070RL"
-			(at 74.93 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Yageo"
 			(at 74.93 147.32 0)
 			(effects
@@ -8357,15 +8240,6 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/TXB0102DCUT/1910149"
-			(at 59.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TXB0102DCUT"
 			(at 59.69 121.92 0)
 			(effects
 				(font
@@ -8679,15 +8553,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DX07S016JA1R1500"
-			(at 156.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "JAE Electronics"
 			(at 156.21 87.63 0)
 			(effects
@@ -8806,7 +8671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "GENERAL PURPOSE CHIP RESISTOR Metal Glaze/thick Film, 0.1W, 0ohm, Surface Mount, 0603"
 			(at 35.56 107.95 0)
 			(effects
 				(font
@@ -8852,15 +8717,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603JR-070RL"
 			(at 35.56 107.95 0)
 			(effects
 				(font
@@ -9024,7 +8880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 264.16 66.04 0)
 			(effects
 				(font
@@ -9097,15 +8953,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 264.16 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 264.16 66.04 0)
 			(effects
 				(font
@@ -9241,15 +9088,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603JR-070RL"
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Yageo"
 			(at 50.8 142.24 0)
 			(effects
@@ -9328,7 +9166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "100Mw Thick Film Resistors 100Ppm/ 1% 330 0603 Chip Resistor Surface Mount Rohs"
 			(at 129.54 77.47 0)
 			(effects
 				(font
@@ -9365,15 +9203,6 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-07330RL"
 			(at 129.54 77.47 0)
 			(effects
 				(font
@@ -9458,7 +9287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thick Film 0603 24 Ohm 1% 0.1W(1/10W) ±100ppm/C Pad SMD Automotive T/R"
 			(at 254 85.09 0)
 			(effects
 				(font
@@ -9495,15 +9324,6 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 254 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-0724RL"
 			(at 254 85.09 0)
 			(effects
 				(font
@@ -9810,7 +9630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 1uF, Surface Mount, 0603"
 			(at 255.27 66.04 0)
 			(effects
 				(font
@@ -9900,15 +9720,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1608X7R1H105K080AB"
-			(at 255.27 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "TDK"
 			(at 255.27 66.04 0)
 			(effects
@@ -9982,7 +9793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thick Film 0603 24 Ohm 1% 0.1W(1/10W) ±100ppm/C Pad SMD Automotive T/R"
 			(at 210.82 85.09 0)
 			(effects
 				(font
@@ -10019,15 +9830,6 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 210.82 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-0724RL"
 			(at 210.82 85.09 0)
 			(effects
 				(font
@@ -10520,15 +10322,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ADUM4160BRWZ-RL"
-			(at 233.68 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Analog Devices"
 			(at 233.68 87.63 0)
 			(effects
@@ -10797,7 +10590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 181.61 66.04 0)
 			(effects
 				(font
@@ -10870,15 +10663,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 181.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 181.61 66.04 0)
 			(effects
 				(font
@@ -10961,7 +10745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED Uni-Color True Green 530nm 2-Pin Chip 0603(1608Metric) T/R"
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -11015,25 +10799,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "XZCDGK53W-1VF"
-			(at 129.54 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "SunLED"
-			(at 129.54 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XZCDGK53W-1VF"
+		(property "Manufacturer_Part_Number" "VLMTG1300-GS08"
 			(at 126.746 92.456 0)
 			(effects
 				(font
@@ -11042,7 +10808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "SunLED"
+		(property "Manufacturer_Name" "Vishay"
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -11117,7 +10883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 1uF, Surface Mount, 0603"
 			(at 189.23 66.04 0)
 			(effects
 				(font
@@ -11199,15 +10965,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C1608X7R1H105K080AB"
-			(at 189.23 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C1608X7R1H105K080AB"
 			(at 189.23 66.04 0)
 			(effects
 				(font
@@ -11433,7 +11190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -11506,15 +11263,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 69.85 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -11759,15 +11507,6 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CDDFN10-3324P"
 			(at 48.26 38.1 0)
 			(effects
 				(font

@@ -3262,7 +3262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thick Film 0603 10 Ohm 1% 0.1W(1/10W) ±200ppm/C Epoxy Pad SMD Automotive T/R"
 			(at 90.17 120.65 0)
 			(effects
 				(font
@@ -3308,15 +3308,6 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 90.17 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-1310RL"
 			(at 90.17 120.65 0)
 			(effects
 				(font
@@ -3432,15 +3423,6 @@
 			)
 		)
 		(property "Manufacturer Number" "CONSMA002-SMD-G-T"
-			(at 132.08 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CONSMA002-SMD-G-T"
 			(at 132.08 125.73 0)
 			(effects
 				(font
@@ -3693,15 +3675,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ESD441DPLR"
-			(at 110.49 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/ESD441DPLR/21298753"
 			(at 110.49 95.25 0)
 			(effects
@@ -3873,15 +3846,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CONSMA002-SMD-G-T"
-			(at 205.74 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "TE Connectivity Linx"
 			(at 205.74 62.23 0)
 			(effects
@@ -3989,15 +3953,6 @@
 			)
 		)
 		(property "Manufacturer Number" "CONSMA002-SMD-G-T"
-			(at 205.74 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CONSMA002-SMD-G-T"
 			(at 205.74 125.73 0)
 			(effects
 				(font
@@ -4381,15 +4336,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CONSMA002-SMD-G-T"
-			(at 132.08 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "TE Connectivity Linx"
 			(at 132.08 62.23 0)
 			(effects
@@ -4505,15 +4451,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CONSMA002-SMD-G-T"
-			(at 132.08 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "TE Connectivity Linx"
 			(at 132.08 93.98 0)
 			(effects
@@ -4621,15 +4558,6 @@
 			)
 		)
 		(property "Manufacturer Number" "CONSMA002-SMD-G-T"
-			(at 205.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CONSMA002-SMD-G-T"
 			(at 205.74 93.98 0)
 			(effects
 				(font
@@ -5012,15 +4940,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ESD441DPLR"
-			(at 110.49 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/ESD441DPLR/21298753"
 			(at 110.49 31.75 0)
 			(effects
@@ -5090,7 +5009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 85.09 40.64 0)
 			(effects
 				(font
@@ -5163,15 +5082,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 85.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 85.09 40.64 0)
 			(effects
 				(font
@@ -5416,15 +5326,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CONSMA002-SMD-G-T"
-			(at 132.08 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "TE Connectivity Linx"
 			(at 132.08 30.48 0)
 			(effects
@@ -5548,15 +5449,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "74LVCH2T45DC,125"
-			(at 74.93 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "74LVCH2T45DC,125"
 			(at 74.93 118.11 0)
 			(effects
@@ -5644,7 +5536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 66.04 40.64 0)
 			(effects
 				(font
@@ -5717,15 +5609,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 66.04 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 66.04 40.64 0)
 			(effects
 				(font
@@ -5978,15 +5861,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "74LVCH2T45DC,125"
-			(at 74.93 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "74LVCH2T45DC,125"
 			(at 74.93 54.61 0)
 			(effects
@@ -6103,15 +5977,6 @@
 			)
 		)
 		(property "Manufacturer Number" "CONSMA002-SMD-G-T"
-			(at 205.74 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CONSMA002-SMD-G-T"
 			(at 205.74 30.48 0)
 			(effects
 				(font
@@ -6291,15 +6156,6 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ESD441DPLR"
 			(at 110.49 127 0)
 			(effects
 				(font
@@ -6607,15 +6463,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PESD12VL1BSLAZ"
-			(at 184.15 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD12VL1BSLAZ/16021611"
 			(at 184.15 95.25 0)
 			(effects
@@ -6683,7 +6530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thick Film 0603 10 Ohm 1% 0.1W(1/10W) ±200ppm/C Epoxy Pad SMD Automotive T/R"
 			(at 90.17 115.57 0)
 			(effects
 				(font
@@ -6729,15 +6576,6 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 90.17 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-1310RL"
 			(at 90.17 115.57 0)
 			(effects
 				(font
@@ -7184,15 +7022,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PESD12VL1BSLAZ"
-			(at 184.15 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD12VL1BSLAZ/16021611"
 			(at 184.15 31.75 0)
 			(effects
@@ -7262,7 +7091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 66.04 104.14 0)
 			(effects
 				(font
@@ -7343,15 +7172,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C104K5RACTU"
-			(at 66.04 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "KEMET"
 			(at 66.04 104.14 0)
 			(effects
@@ -7419,7 +7239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thick Film 0603 10 Ohm 1% 0.1W(1/10W) ±200ppm/C Epoxy Pad SMD Automotive T/R"
 			(at 90.17 57.15 0)
 			(effects
 				(font
@@ -7465,15 +7285,6 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 90.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-1310RL"
 			(at 90.17 57.15 0)
 			(effects
 				(font
@@ -7660,15 +7471,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PESD12VL1BSLAZ"
-			(at 184.15 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD12VL1BSLAZ/16021611"
 			(at 184.15 127 0)
 			(effects
@@ -7803,7 +7605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -7876,15 +7678,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 85.09 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -8127,15 +7920,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PESD12VL1BSLAZ"
-			(at 184.15 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD12VL1BSLAZ/16021611"
 			(at 184.15 63.5 0)
 			(effects
@@ -8268,7 +8052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thick Film 0603 10 Ohm 1% 0.1W(1/10W) ±200ppm/C Epoxy Pad SMD Automotive T/R"
 			(at 90.17 52.07 0)
 			(effects
 				(font
@@ -8314,15 +8098,6 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 90.17 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-1310RL"
 			(at 90.17 52.07 0)
 			(effects
 				(font
@@ -8502,15 +8277,6 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 110.49 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ESD441DPLR"
 			(at 110.49 66.04 0)
 			(effects
 				(font

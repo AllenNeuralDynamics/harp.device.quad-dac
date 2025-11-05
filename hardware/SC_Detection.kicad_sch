@@ -6383,7 +6383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 135.89 144.78 0)
 			(effects
 				(font
@@ -6456,15 +6456,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 135.89 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 135.89 144.78 0)
 			(effects
 				(font
@@ -6546,7 +6537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 10K Ohm 0.1% 1/10W ¦25ppm/¦C SMD Paper T/R"
 			(at 156.21 147.32 0)
 			(effects
 				(font
@@ -6592,15 +6583,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 156.21 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0710KL"
 			(at 156.21 147.32 0)
 			(effects
 				(font
@@ -6764,7 +6746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 66.04 96.52 0)
 			(effects
 				(font
@@ -6837,15 +6819,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 66.04 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 66.04 96.52 0)
 			(effects
 				(font
@@ -6929,7 +6902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -7002,15 +6975,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 114.3 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -7092,7 +7056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 10K Ohm 0.1% 1/10W ¦25ppm/¦C SMD Paper T/R"
 			(at 66.04 92.71 0)
 			(effects
 				(font
@@ -7138,15 +7102,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 66.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0710KL"
 			(at 66.04 92.71 0)
 			(effects
 				(font
@@ -7453,7 +7408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 156.21 152.4 0)
 			(effects
 				(font
@@ -7526,15 +7481,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 156.21 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 156.21 152.4 0)
 			(effects
 				(font
@@ -7616,7 +7562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thick Film 0603 10 Ohm 1% 0.1W(1/10W) ±200ppm/C Epoxy Pad SMD Automotive T/R"
 			(at 140.97 185.42 0)
 			(effects
 				(font
@@ -7662,15 +7608,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 140.97 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-1310RL"
 			(at 140.97 185.42 0)
 			(effects
 				(font
@@ -7761,7 +7698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 4.02K Ohm 0.1% 1/10W ±25ppm/°C Molded SMD SMD Paper T/R"
 			(at 146.05 22.86 0)
 			(effects
 				(font
@@ -7807,15 +7744,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 146.05 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD074K02L"
 			(at 146.05 22.86 0)
 			(effects
 				(font
@@ -7906,7 +7834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Fixed Resistor, Thin Film, 0.1W, 47500ohm, 75V, 0.1% +/-Tol, 25ppm/Cel, Surface Mount, 0603"
 			(at 66.04 72.39 0)
 			(effects
 				(font
@@ -7952,15 +7880,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 66.04 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0747K5L"
 			(at 66.04 72.39 0)
 			(effects
 				(font
@@ -8124,7 +8043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 66.04 27.94 0)
 			(effects
 				(font
@@ -8197,15 +8116,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 66.04 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 66.04 27.94 0)
 			(effects
 				(font
@@ -8287,7 +8197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Fixed Resistor, Thin Film, 0.1W, 47500ohm, 75V, 0.1% +/-Tol, 25ppm/Cel, Surface Mount, 0603"
 			(at 66.04 138.43 0)
 			(effects
 				(font
@@ -8333,15 +8243,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 66.04 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0747K5L"
 			(at 66.04 138.43 0)
 			(effects
 				(font
@@ -8575,7 +8476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 4.02K Ohm 0.1% 1/10W ±25ppm/°C Molded SMD SMD Paper T/R"
 			(at 146.05 48.26 0)
 			(effects
 				(font
@@ -8621,15 +8522,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD074K02L"
 			(at 146.05 48.26 0)
 			(effects
 				(font
@@ -8720,7 +8612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 4.02K Ohm 0.1% 1/10W ±25ppm/°C Molded SMD SMD Paper T/R"
 			(at 146.05 55.88 0)
 			(effects
 				(font
@@ -8766,15 +8658,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 146.05 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD074K02L"
 			(at 146.05 55.88 0)
 			(effects
 				(font
@@ -8936,7 +8819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 4.02K Ohm 0.1% 1/10W ±25ppm/°C Molded SMD SMD Paper T/R"
 			(at 29.21 27.94 0)
 			(effects
 				(font
@@ -8982,15 +8865,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 29.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD074K02L"
 			(at 29.21 27.94 0)
 			(effects
 				(font
@@ -9081,7 +8955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 10K Ohm 0.1% 1/10W ¦25ppm/¦C SMD Paper T/R"
 			(at 66.04 191.77 0)
 			(effects
 				(font
@@ -9127,15 +9001,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 66.04 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0710KL"
 			(at 66.04 191.77 0)
 			(effects
 				(font
@@ -9389,15 +9254,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LM211DRG4"
-			(at 90.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM211DRG4/1509962"
 			(at 90.17 144.78 0)
 			(effects
@@ -9498,7 +9354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 4.75K Ohm 0.1% 0.1W(1/10W) ±25ppm/C Pad SMD T/R"
 			(at 55.88 105.41 0)
 			(effects
 				(font
@@ -9544,15 +9400,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 55.88 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD074K75L"
 			(at 55.88 105.41 0)
 			(effects
 				(font
@@ -9787,7 +9634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 66.04 129.54 0)
 			(effects
 				(font
@@ -9860,15 +9707,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 66.04 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 66.04 129.54 0)
 			(effects
 				(font
@@ -9950,7 +9788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 40.2K Ohm 0.1% 0.1W(1/10W) ±25ppm/C Pad SMD T/R"
 			(at 135.89 30.48 0)
 			(effects
 				(font
@@ -9996,15 +9834,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 135.89 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0740K2L"
 			(at 135.89 30.48 0)
 			(effects
 				(font
@@ -10169,7 +9998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "15 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 39.37 58.42 0)
 			(effects
 				(font
@@ -10250,15 +10079,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C150K5RACTU"
-			(at 39.37 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "KEMET"
 			(at 39.37 58.42 0)
 			(effects
@@ -10328,7 +10148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 81.28 152.4 0)
 			(effects
 				(font
@@ -10401,15 +10221,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 81.28 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 81.28 152.4 0)
 			(effects
 				(font
@@ -10491,7 +10302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 40.2K Ohm 0.1% 0.1W(1/10W) ±25ppm/C Pad SMD T/R"
 			(at 39.37 53.34 0)
 			(effects
 				(font
@@ -10537,15 +10348,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 39.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0740K2L"
 			(at 39.37 53.34 0)
 			(effects
 				(font
@@ -10710,7 +10512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "15 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 135.89 43.18 0)
 			(effects
 				(font
@@ -10791,15 +10593,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C150K5RACTU"
-			(at 135.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "KEMET"
 			(at 135.89 43.18 0)
 			(effects
@@ -10867,7 +10660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 10K Ohm 0.1% 1/10W ¦25ppm/¦C SMD Paper T/R"
 			(at 66.04 125.73 0)
 			(effects
 				(font
@@ -10913,15 +10706,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0710KL"
 			(at 66.04 125.73 0)
 			(effects
 				(font
@@ -11085,7 +10869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 39.37 77.47 0)
 			(effects
 				(font
@@ -11158,15 +10942,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 39.37 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 39.37 77.47 0)
 			(effects
 				(font
@@ -11339,15 +11114,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LM211DRG4"
-			(at 90.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM211DRG4/1509962"
 			(at 90.17 111.76 0)
 			(effects
@@ -11448,7 +11214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 10K Ohm 0.1% 1/10W ¦25ppm/¦C SMD Paper T/R"
 			(at 156.21 114.3 0)
 			(effects
 				(font
@@ -11494,15 +11260,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 156.21 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0710KL"
 			(at 156.21 114.3 0)
 			(effects
 				(font
@@ -11595,7 +11352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 39.37 110.49 0)
 			(effects
 				(font
@@ -11668,15 +11425,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 39.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 39.37 110.49 0)
 			(effects
 				(font
@@ -11758,7 +11506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thick Film 0603 10 Ohm 1% 0.1W(1/10W) ±200ppm/C Epoxy Pad SMD Automotive T/R"
 			(at 140.97 86.36 0)
 			(effects
 				(font
@@ -11804,15 +11552,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 140.97 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-1310RL"
 			(at 140.97 86.36 0)
 			(effects
 				(font
@@ -11903,7 +11642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 10K Ohm 0.1% 1/10W ¦25ppm/¦C SMD Paper T/R"
 			(at 156.21 81.28 0)
 			(effects
 				(font
@@ -11949,15 +11688,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 156.21 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0710KL"
 			(at 156.21 81.28 0)
 			(effects
 				(font
@@ -12261,7 +11991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 4.75K Ohm 0.1% 0.1W(1/10W) ±25ppm/C Pad SMD T/R"
 			(at 55.88 171.45 0)
 			(effects
 				(font
@@ -12307,15 +12037,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 55.88 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD074K75L"
 			(at 55.88 171.45 0)
 			(effects
 				(font
@@ -12406,7 +12127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Fixed Resistor, Thin Film, 0.1W, 47500ohm, 75V, 0.1% +/-Tol, 25ppm/Cel, Surface Mount, 0603"
 			(at 66.04 171.45 0)
 			(effects
 				(font
@@ -12452,15 +12173,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 66.04 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0747K5L"
 			(at 66.04 171.45 0)
 			(effects
 				(font
@@ -12694,7 +12406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Fixed Resistor, Thin Film, 0.1W, 47500ohm, 75V, 0.1% +/-Tol, 25ppm/Cel, Surface Mount, 0603"
 			(at 66.04 105.41 0)
 			(effects
 				(font
@@ -12740,15 +12452,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 66.04 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0747K5L"
 			(at 66.04 105.41 0)
 			(effects
 				(font
@@ -12841,7 +12544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 40.2K Ohm 0.1% 0.1W(1/10W) ±25ppm/C Pad SMD T/R"
 			(at 135.89 22.86 0)
 			(effects
 				(font
@@ -12887,15 +12590,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 135.89 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0740K2L"
 			(at 135.89 22.86 0)
 			(effects
 				(font
@@ -13131,7 +12825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 81.28 119.38 0)
 			(effects
 				(font
@@ -13204,15 +12898,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 81.28 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 81.28 119.38 0)
 			(effects
 				(font
@@ -13440,7 +13125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 81.28 86.36 0)
 			(effects
 				(font
@@ -13513,15 +13198,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 81.28 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 81.28 86.36 0)
 			(effects
 				(font
@@ -13710,15 +13386,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT43W-7-F"
-			(at 33.02 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
 			(at 33.02 171.45 0)
 			(effects
@@ -13792,7 +13459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 40.2K Ohm 0.1% 0.1W(1/10W) ±25ppm/C Pad SMD T/R"
 			(at 135.89 55.88 0)
 			(effects
 				(font
@@ -13838,15 +13505,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 135.89 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0740K2L"
 			(at 135.89 55.88 0)
 			(effects
 				(font
@@ -13937,7 +13595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 4.75K Ohm 0.1% 0.1W(1/10W) ±25ppm/C Pad SMD T/R"
 			(at 55.88 92.71 0)
 			(effects
 				(font
@@ -13983,15 +13641,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 55.88 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD074K75L"
 			(at 55.88 92.71 0)
 			(effects
 				(font
@@ -14153,7 +13802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 10K Ohm 0.1% 1/10W ¦25ppm/¦C SMD Paper T/R"
 			(at 156.21 180.34 0)
 			(effects
 				(font
@@ -14199,15 +13848,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 156.21 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0710KL"
 			(at 156.21 180.34 0)
 			(effects
 				(font
@@ -14389,15 +14029,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LM211DRG4"
-			(at 90.17 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM211DRG4/1509962"
 			(at 90.17 177.8 0)
 			(effects
@@ -14498,7 +14129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 10K Ohm 0.1% 1/10W ¦25ppm/¦C SMD Paper T/R"
 			(at 66.04 158.75 0)
 			(effects
 				(font
@@ -14544,15 +14175,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 66.04 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0710KL"
 			(at 66.04 158.75 0)
 			(effects
 				(font
@@ -14643,7 +14265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "100Mw Thick Film Resistors 100Ppm/ 1% 100K 0603 Chip Resistor Surface Mount Rohs"
 			(at 48.26 77.47 0)
 			(effects
 				(font
@@ -14689,15 +14311,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 48.26 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-07100KL"
 			(at 48.26 77.47 0)
 			(effects
 				(font
@@ -14790,7 +14403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 39.37 143.51 0)
 			(effects
 				(font
@@ -14863,15 +14476,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 39.37 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 39.37 143.51 0)
 			(effects
 				(font
@@ -15027,7 +14631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "15 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 135.89 17.78 0)
 			(effects
 				(font
@@ -15100,15 +14704,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C150K5RACTU"
-			(at 135.89 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C150K5RACTU"
 			(at 135.89 17.78 0)
 			(effects
 				(font
@@ -15328,7 +14923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "15 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 135.89 35.56 0)
 			(effects
 				(font
@@ -15401,15 +14996,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C150K5RACTU"
-			(at 135.89 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C150K5RACTU"
 			(at 135.89 35.56 0)
 			(effects
 				(font
@@ -15573,15 +15159,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LT1678CS8#PBF"
-			(at 76.2 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -15756,7 +15333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 4.02K Ohm 0.1% 1/10W ±25ppm/°C Molded SMD SMD Paper T/R"
 			(at 29.21 53.34 0)
 			(effects
 				(font
@@ -15802,15 +15379,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 29.21 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD074K02L"
 			(at 29.21 53.34 0)
 			(effects
 				(font
@@ -15903,7 +15471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 156.21 86.36 0)
 			(effects
 				(font
@@ -15976,15 +15544,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 156.21 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 156.21 86.36 0)
 			(effects
 				(font
@@ -16211,7 +15770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 114.3 20.32 0)
 			(effects
 				(font
@@ -16284,15 +15843,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 114.3 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 114.3 20.32 0)
 			(effects
 				(font
@@ -16446,7 +15996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 4.75K Ohm 0.1% 0.1W(1/10W) ±25ppm/C Pad SMD T/R"
 			(at 55.88 72.39 0)
 			(effects
 				(font
@@ -16492,15 +16042,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 55.88 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD074K75L"
 			(at 55.88 72.39 0)
 			(effects
 				(font
@@ -16591,7 +16132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 40.2K Ohm 0.1% 0.1W(1/10W) ±25ppm/C Pad SMD T/R"
 			(at 39.37 27.94 0)
 			(effects
 				(font
@@ -16637,15 +16178,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 39.37 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0740K2L"
 			(at 39.37 27.94 0)
 			(effects
 				(font
@@ -16738,7 +16270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 135.89 78.74 0)
 			(effects
 				(font
@@ -16811,15 +16343,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 135.89 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 135.89 78.74 0)
 			(effects
 				(font
@@ -16903,7 +16426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 135.89 177.8 0)
 			(effects
 				(font
@@ -16976,15 +16499,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 135.89 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 135.89 177.8 0)
 			(effects
 				(font
@@ -17283,7 +16797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "15 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 135.89 60.96 0)
 			(effects
 				(font
@@ -17356,15 +16870,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C150K5RACTU"
-			(at 135.89 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C150K5RACTU"
 			(at 135.89 60.96 0)
 			(effects
 				(font
@@ -17442,7 +16947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "15 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 39.37 33.02 0)
 			(effects
 				(font
@@ -17515,15 +17020,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C150K5RACTU"
-			(at 39.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C150K5RACTU"
 			(at 39.37 33.02 0)
 			(effects
 				(font
@@ -17676,7 +17172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 4.02K Ohm 0.1% 1/10W ±25ppm/°C Molded SMD SMD Paper T/R"
 			(at 29.21 45.72 0)
 			(effects
 				(font
@@ -17722,15 +17218,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 29.21 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD074K02L"
 			(at 29.21 45.72 0)
 			(effects
 				(font
@@ -17821,7 +17308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thick Film 0603 10 Ohm 1% 0.1W(1/10W) ±200ppm/C Epoxy Pad SMD Automotive T/R"
 			(at 140.97 152.4 0)
 			(effects
 				(font
@@ -17867,15 +17354,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 140.97 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-1310RL"
 			(at 140.97 152.4 0)
 			(effects
 				(font
@@ -18002,15 +17480,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT43W-7-F"
-			(at 33.02 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
 			(at 33.02 138.43 0)
 			(effects
@@ -18086,7 +17555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "15 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 39.37 15.24 0)
 			(effects
 				(font
@@ -18159,15 +17628,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C150K5RACTU"
-			(at 39.37 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C150K5RACTU"
 			(at 39.37 15.24 0)
 			(effects
 				(font
@@ -18249,7 +17709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 4.75K Ohm 0.1% 0.1W(1/10W) ±25ppm/C Pad SMD T/R"
 			(at 55.88 191.77 0)
 			(effects
 				(font
@@ -18295,15 +17755,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 55.88 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD074K75L"
 			(at 55.88 191.77 0)
 			(effects
 				(font
@@ -18396,7 +17847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 135.89 111.76 0)
 			(effects
 				(font
@@ -18469,15 +17920,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 135.89 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 135.89 111.76 0)
 			(effects
 				(font
@@ -18631,7 +18073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 40.2K Ohm 0.1% 0.1W(1/10W) ±25ppm/C Pad SMD T/R"
 			(at 39.37 20.32 0)
 			(effects
 				(font
@@ -18677,15 +18119,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 39.37 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0740K2L"
 			(at 39.37 20.32 0)
 			(effects
 				(font
@@ -18776,7 +18209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thick Film 0603 10 Ohm 1% 0.1W(1/10W) ±200ppm/C Epoxy Pad SMD Automotive T/R"
 			(at 140.97 119.38 0)
 			(effects
 				(font
@@ -18822,15 +18255,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 140.97 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AC0603FR-1310RL"
 			(at 140.97 119.38 0)
 			(effects
 				(font
@@ -18921,7 +18345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 40.2K Ohm 0.1% 0.1W(1/10W) ±25ppm/C Pad SMD T/R"
 			(at 39.37 45.72 0)
 			(effects
 				(font
@@ -18967,15 +18391,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 39.37 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0740K2L"
 			(at 39.37 45.72 0)
 			(effects
 				(font
@@ -19137,7 +18552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "100Mw Thick Film Resistors 100Ppm/ 1% 100K 0603 Chip Resistor Surface Mount Rohs"
 			(at 48.26 110.49 0)
 			(effects
 				(font
@@ -19183,15 +18598,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 48.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-07100KL"
 			(at 48.26 110.49 0)
 			(effects
 				(font
@@ -19284,7 +18690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 39.37 176.53 0)
 			(effects
 				(font
@@ -19357,15 +18763,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 39.37 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 39.37 176.53 0)
 			(effects
 				(font
@@ -19535,15 +18932,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LT1678CS8#PBF"
-			(at 76.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -19719,7 +19107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "100Mw Thick Film Resistors 100Ppm/ 1% 100K 0603 Chip Resistor Surface Mount Rohs"
 			(at 48.26 143.51 0)
 			(effects
 				(font
@@ -19765,15 +19153,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 48.26 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-07100KL"
 			(at 48.26 143.51 0)
 			(effects
 				(font
@@ -19864,7 +19243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 4.75K Ohm 0.1% 0.1W(1/10W) ±25ppm/C Pad SMD T/R"
 			(at 55.88 138.43 0)
 			(effects
 				(font
@@ -19910,15 +19289,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 55.88 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD074K75L"
 			(at 55.88 138.43 0)
 			(effects
 				(font
@@ -20009,7 +19379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 4.02K Ohm 0.1% 1/10W ±25ppm/°C Molded SMD SMD Paper T/R"
 			(at 29.21 20.32 0)
 			(effects
 				(font
@@ -20055,15 +19425,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 29.21 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD074K02L"
 			(at 29.21 20.32 0)
 			(effects
 				(font
@@ -20442,7 +19803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 156.21 185.42 0)
 			(effects
 				(font
@@ -20515,15 +19876,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 156.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 156.21 185.42 0)
 			(effects
 				(font
@@ -20605,7 +19957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 4.75K Ohm 0.1% 0.1W(1/10W) ±25ppm/C Pad SMD T/R"
 			(at 55.88 158.75 0)
 			(effects
 				(font
@@ -20651,15 +20003,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 55.88 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD074K75L"
 			(at 55.88 158.75 0)
 			(effects
 				(font
@@ -20824,7 +20167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 66.04 162.56 0)
 			(effects
 				(font
@@ -20897,15 +20240,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 66.04 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 66.04 162.56 0)
 			(effects
 				(font
@@ -21166,15 +20500,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT43W-7-F"
-			(at 33.02 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
 			(at 33.02 72.39 0)
 			(effects
@@ -21248,7 +20573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 4.75K Ohm 0.1% 0.1W(1/10W) ±25ppm/C Pad SMD T/R"
 			(at 55.88 125.73 0)
 			(effects
 				(font
@@ -21294,15 +20619,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 55.88 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD074K75L"
 			(at 55.88 125.73 0)
 			(effects
 				(font
@@ -21501,15 +20817,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT43W-7-F"
-			(at 33.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
 			(at 33.02 105.41 0)
 			(effects
@@ -21583,7 +20890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 4.02K Ohm 0.1% 1/10W ±25ppm/°C Molded SMD SMD Paper T/R"
 			(at 146.05 30.48 0)
 			(effects
 				(font
@@ -21629,15 +20936,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 146.05 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD074K02L"
 			(at 146.05 30.48 0)
 			(effects
 				(font
@@ -21728,7 +21026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "100Mw Thick Film Resistors 100Ppm/ 1% 100K 0603 Chip Resistor Surface Mount Rohs"
 			(at 48.26 176.53 0)
 			(effects
 				(font
@@ -21774,15 +21072,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 48.26 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-07100KL"
 			(at 48.26 176.53 0)
 			(effects
 				(font
@@ -21875,7 +21164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 81.28 185.42 0)
 			(effects
 				(font
@@ -21948,15 +21237,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 81.28 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 81.28 185.42 0)
 			(effects
 				(font
@@ -22111,7 +21391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "15 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 39.37 40.64 0)
 			(effects
 				(font
@@ -22192,15 +21472,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C150K5RACTU"
-			(at 39.37 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "KEMET"
 			(at 39.37 40.64 0)
 			(effects
@@ -22270,7 +21541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 66.04 53.34 0)
 			(effects
 				(font
@@ -22343,15 +21614,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 66.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 66.04 53.34 0)
 			(effects
 				(font
@@ -22505,7 +21767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thin Film 0603 40.2K Ohm 0.1% 0.1W(1/10W) ±25ppm/C Pad SMD T/R"
 			(at 135.89 48.26 0)
 			(effects
 				(font
@@ -22551,15 +21813,6 @@
 			)
 		)
 		(property "PCBWay Link" ""
-			(at 135.89 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRD0740K2L"
 			(at 135.89 48.26 0)
 			(effects
 				(font
@@ -22939,7 +22192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 156.21 119.38 0)
 			(effects
 				(font
@@ -23012,15 +22265,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 156.21 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 156.21 119.38 0)
 			(effects
 				(font
@@ -23175,7 +22419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor, Ceramic, Multilayer, 50 V, X7R, 0.1 Uf, Surface Mount, 0603"
 			(at 66.04 195.58 0)
 			(effects
 				(font
@@ -23248,15 +22492,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at 66.04 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACTU"
 			(at 66.04 195.58 0)
 			(effects
 				(font
@@ -23426,15 +22661,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LM211DRG4"
-			(at 90.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
