@@ -2238,6 +2238,16 @@
 		)
 		(uuid "1751ce2d-ac26-4e10-a381-2e125c8f7a84")
 	)
+	(text "Green"
+		(exclude_from_sim no)
+		(at 44.704 80.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1f70068f-83ab-40d2-845c-4d34100d7293")
+	)
 	(text "gain=40.2/10=4.02"
 		(exclude_from_sim no)
 		(at 177.8 81.28 0)
@@ -2259,6 +2269,26 @@
 			(justify bottom)
 		)
 		(uuid "2786f26c-3319-410c-8507-2d15f9733ef0")
+	)
+	(text "Green"
+		(exclude_from_sim no)
+		(at 44.704 41.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2f51296b-e5fd-4d91-a1a4-28d8c191bc5e")
+	)
+	(text "Green"
+		(exclude_from_sim no)
+		(at 44.196 120.142 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "415e3ca6-fc53-4185-9c08-cbbe3dfa45f8")
 	)
 	(text "digital to analog\nconverter"
 		(exclude_from_sim no)
@@ -2324,6 +2354,16 @@
 			(justify bottom)
 		)
 		(uuid "a6c5b0b9-2f35-498c-b897-97ae521285e4")
+	)
+	(text "Green"
+		(exclude_from_sim no)
+		(at 44.704 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca6923f6-10ed-49b9-ab76-6889a2a4fb77")
 	)
 	(text "gain=40.2/10=4.02"
 		(exclude_from_sim no)
@@ -7536,6 +7576,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/LT1461CIS8-2-5-PBF/961463"
+			(at 116.84 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 116.84 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "c3bbe9eb-baf5-4273-b2f1-fc84e7c51683")
 		)
@@ -8996,7 +9054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 149.86 186.69 0)
 			(effects
 				(font
@@ -9059,7 +9117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 149.86 186.69 0)
 			(effects
 				(font
@@ -11853,6 +11911,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC2642ACDD-16-PBF/1931489"
+			(at 41.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 41.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba9f40fb-7f06-410e-9985-8912f1ac601e")
 		)
@@ -12535,6 +12611,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/LT1678CS8-PBF/962972"
+			(at 116.84 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 116.84 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4977ca49-3a72-4445-8289-73f6cc8a0774")
 		)
@@ -12655,7 +12749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 101.6 186.69 0)
 			(effects
 				(font
@@ -12718,7 +12812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 101.6 186.69 0)
 			(effects
 				(font
@@ -14085,6 +14179,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/LT1678CS8-PBF/962972"
+			(at 116.84 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 116.84 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0cb337fa-4637-48af-9eef-c7c4eb71fa2a")
 		)
@@ -14912,6 +15024,15 @@
 		)
 		(property "Manufacturer_Part_Number" "XZCDGK53W-1VF"
 			(at 37.592 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SunLED"
+			(at 40.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16418,6 +16539,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "SunLED"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1efe23ec-03c0-458b-9adb-703cc9bc091a")
 		)
@@ -17700,7 +17830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 157.48 186.69 0)
 			(effects
 				(font
@@ -17763,7 +17893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 157.48 186.69 0)
 			(effects
 				(font
@@ -18008,6 +18138,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/LT1678CS8-PBF/962972"
+			(at 116.84 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 116.84 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d0983fe9-b0e4-4aea-abd7-34502b9458b5")
 		)
@@ -18166,6 +18314,15 @@
 		)
 		(property "Manufacturer_Part_Number" "XZCDGK53W-1VF"
 			(at 38.862 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SunLED"
+			(at 40.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18477,6 +18634,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC2642ACDD-16-PBF/1931489"
+			(at 41.91 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 41.91 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19352,6 +19528,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC2642ACDD-16-PBF/1931489"
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1d463f4-8412-4679-9398-83e166c0940e")
 		)
@@ -19519,6 +19713,15 @@
 		)
 		(property "Manufacturer_Part_Number" "XZCDGK53W-1VF"
 			(at 34.798 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SunLED"
+			(at 37.338 162.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21184,6 +21387,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/LT1678CS8-PBF/962972"
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa9303e2-4f32-4ded-a1d2-778ea1b705e6")
 		)
@@ -21358,6 +21579,24 @@
 			)
 		)
 		(property "MPN" "LTC2642ACDD-16#PBF"
+			(at 41.91 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC2642ACDD-16-PBF/1931489"
+			(at 41.91 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
 			(at 41.91 138.43 0)
 			(effects
 				(font
@@ -21660,7 +21899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 69.85 186.69 0)
 			(effects
 				(font
@@ -21723,7 +21962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 69.85 186.69 0)
 			(effects
 				(font

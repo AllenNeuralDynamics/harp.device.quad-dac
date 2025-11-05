@@ -4263,6 +4263,16 @@
 		)
 		(uuid "94e5f8ab-2f74-4964-9e5a-c7e5fd49a661")
 	)
+	(text "10uH, 1.83A"
+		(exclude_from_sim no)
+		(at 241.046 21.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9673bd16-0e11-4b9e-892a-eecdc53a0db8")
+	)
 	(text "two schottky diodes"
 		(exclude_from_sim no)
 		(at 39.878 43.942 0)
@@ -4293,6 +4303,16 @@
 			)
 		)
 		(uuid "bb2a9035-ce07-45ee-95c3-fbc363a0c333")
+	)
+	(text "Yellow"
+		(exclude_from_sim no)
+		(at 48.514 58.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c2d43fdf-7c5a-450b-ab46-2dded82acce9")
 	)
 	(text "connect jumber or solder this 0 Ohm resistor\nto power boost/inverting converter"
 		(exclude_from_sim no)
@@ -4358,6 +4378,16 @@
 			(justify left bottom)
 		)
 		(uuid "f436a1e0-54ab-4108-9bde-3634970f0a4a")
+	)
+	(text "3.3uH, 8A"
+		(exclude_from_sim no)
+		(at 88.9 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7988e02-c4b2-43aa-99ed-11f145ba6651")
 	)
 	(text_box "in this sheet:\nunless otherwise noted\ncapacitors: 25V rated \nresistors: 0603, 0.1W"
 		(exclude_from_sim no)
@@ -7978,6 +8008,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/PTV15B-M3-84A/4494801"
+			(at 231.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2247f819-e5c5-4093-a3d9-d1f86199aa78")
 		)
@@ -8296,7 +8335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 92.71 135.89 0)
 			(effects
 				(font
@@ -8341,7 +8380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 92.71 135.89 0)
 			(effects
 				(font
@@ -9573,6 +9612,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/744778910/1638582"
+			(at 251.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2379690a-6027-4211-89fd-e6a32bf3a03e")
 		)
@@ -9795,6 +9843,24 @@
 			)
 		)
 		(property "MPN" "LTC3115IDHD-2#WPBF"
+			(at 223.52 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC3115IDHD-2-PBF/4356512"
+			(at 223.52 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
 			(at 223.52 29.21 0)
 			(effects
 				(font
@@ -10818,6 +10884,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/PTV33B-M3-84A/4494817"
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74e7f2d1-4513-4f03-b275-c0c4f7d30ba1")
 		)
@@ -10977,6 +11052,15 @@
 			)
 		)
 		(property "MPN" "XAL6030-332MEC"
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/coilcraft/XAL6030-332MEC/21381831"
 			(at 99.06 118.11 0)
 			(effects
 				(font
@@ -11438,7 +11522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 193.04 123.19 0)
 			(effects
 				(font
@@ -11501,7 +11585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 193.04 123.19 0)
 			(effects
 				(font
@@ -12360,6 +12444,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "SunLED"
+			(at 54.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50a58f7d-7647-46c4-82ee-bf30408656e1")
 		)
@@ -12947,7 +13040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Harwin Inc."
+		(property "Manufacturer" "Harwin"
 			(at 63.5 16.51 0)
 			(effects
 				(font
@@ -12956,7 +13049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Harwin Inc."
+		(property "Manufacturer_Name" "Harwin"
 			(at 63.5 16.51 0)
 			(effects
 				(font
@@ -14029,7 +14122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 105.41 105.41 0)
 			(effects
 				(font
@@ -14092,7 +14185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 105.41 105.41 0)
 			(effects
 				(font
@@ -14527,7 +14620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 116.84 46.99 0)
 			(effects
 				(font
@@ -14590,7 +14683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 116.84 46.99 0)
 			(effects
 				(font
@@ -14971,7 +15064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 193.04 146.05 0)
 			(effects
 				(font
@@ -15034,7 +15127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 193.04 146.05 0)
 			(effects
 				(font
@@ -15438,7 +15531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 260.35 55.88 0)
 			(effects
 				(font
@@ -15483,7 +15576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 260.35 55.88 0)
 			(effects
 				(font
@@ -15531,7 +15624,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2990SX-12"
+		(property "Value" "LM2990S-12/NOPB"
 			(at 255.27 154.94 0)
 			(effects
 				(font
@@ -15558,6 +15651,51 @@
 			)
 		)
 		(property "Description" "Three termianl low-dropout 1A negative voltage regulator, Input -6V to -26V, Out -12V"
+			(at 255.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM2990S-12-NOPB/363899"
+			(at 255.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM2990S-12/NOPB"
+			(at 255.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 255.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 255.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM2990S-12/NOPB"
 			(at 255.27 151.13 0)
 			(effects
 				(font
@@ -15844,7 +15982,7 @@
 				)
 			)
 		)
-		(property "Value" "NCP1117-3.3_SOT223"
+		(property "Value" "NCV1117ST33T3G"
 			(at 255.27 93.218 0)
 			(effects
 				(font
@@ -15871,6 +16009,51 @@
 			)
 		)
 		(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
+			(at 255.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/onsemi/NCV1117ST33T3G/1483937"
+			(at 255.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCV1117ST33T3G"
+			(at 255.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Onsemi"
+			(at 255.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Onsemi"
+			(at 255.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NCV1117ST33T3G"
 			(at 255.27 96.52 0)
 			(effects
 				(font
@@ -16121,6 +16304,15 @@
 			)
 		)
 		(property "MPN" "PTV5.6B-M3/84A"
+			(at 163.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/PTV5-6B-M3-84A/4494827"
 			(at 163.83 46.99 0)
 			(effects
 				(font
@@ -17505,7 +17697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 72.39 46.99 0)
 			(effects
 				(font
@@ -17568,7 +17760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 72.39 46.99 0)
 			(effects
 				(font
@@ -18900,6 +19092,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/PTV15B-M3-84A/4494801"
+			(at 231.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8f5064a4-b67c-4765-851d-e2c563b1077f")
 		)
@@ -19074,7 +19275,7 @@
 				)
 			)
 		)
-		(property "Value" "NCP1117-12_SOT223"
+		(property "Value" "NCV1117ST12T3G"
 			(at 255.016 115.062 0)
 			(effects
 				(font
@@ -19101,6 +19302,51 @@
 			)
 		)
 		(property "Description" "1A Low drop-out regulator, Fixed Output 12V, SOT-223"
+			(at 255.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/onsemi/NCV1117ST12T3G/1483929"
+			(at 255.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCV1117ST12T3G"
+			(at 255.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Onsemi"
+			(at 255.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Onsemi"
+			(at 255.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NCV1117ST12T3G"
 			(at 255.27 118.11 0)
 			(effects
 				(font
@@ -20436,7 +20682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Harwin Inc."
+		(property "Manufacturer" "Harwin"
 			(at 64.77 106.68 0)
 			(effects
 				(font
@@ -20445,7 +20691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Harwin Inc."
+		(property "Manufacturer_Name" "Harwin"
 			(at 64.77 106.68 0)
 			(effects
 				(font
@@ -22248,7 +22494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 80.01 46.99 0)
 			(effects
 				(font
@@ -22284,7 +22530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 80.01 46.99 0)
 			(effects
 				(font
@@ -23471,6 +23717,24 @@
 			)
 		)
 		(property "MPN" "LTC3122HMSE#PBF"
+			(at 101.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC3122HMSE-PBF/4356515"
+			(at 101.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
 			(at 101.6 118.11 0)
 			(effects
 				(font

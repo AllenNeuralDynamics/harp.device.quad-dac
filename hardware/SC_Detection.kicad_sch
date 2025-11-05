@@ -9398,6 +9398,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM211DRG4/1509962"
+			(at 90.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 90.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "982161bb-6960-495f-9c75-2650de195c6f")
 		)
@@ -11322,6 +11340,24 @@
 			)
 		)
 		(property "MPN" "LM211DRG4"
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM211DRG4/1509962"
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 90.17 111.76 0)
 			(effects
 				(font
@@ -14362,6 +14398,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM211DRG4/1509962"
+			(at 90.17 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 90.17 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "bb590316-7686-4177-89ff-74522c83398e")
 		)
@@ -15523,6 +15577,24 @@
 			)
 		)
 		(property "MPN" "LT1678CS8#PBF"
+			(at 76.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/LT1678CS8-PBF/962972"
+			(at 76.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
 			(at 76.2 20.32 0)
 			(effects
 				(font
@@ -19475,6 +19547,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/LT1678CS8-PBF/962972"
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "559eb4cd-f068-44dd-953f-1c8e0c98719f")
 		)
@@ -23340,6 +23430,24 @@
 			)
 		)
 		(property "MPN" "LM211DRG4"
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM211DRG4/1509962"
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 90.17 78.74 0)
 			(effects
 				(font

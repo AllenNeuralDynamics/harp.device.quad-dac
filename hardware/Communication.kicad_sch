@@ -6259,6 +6259,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/ESD441DPLR/21298753"
+			(at 46.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1a831b32-8d12-49c1-aff0-8c620c029b23")
 		)
@@ -6694,6 +6703,15 @@
 			)
 		)
 		(property "MPN" "ESD441DPLR"
+			(at 66.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/ESD441DPLR/21298753"
 			(at 66.04 72.39 0)
 			(effects
 				(font
@@ -7202,6 +7220,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TPD2EUSB30DRTR"
+			(at 185.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPD2EUSB30DRTR"
+			(at 185.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19774fd4-a275-4481-ba79-2c4d10f4a6cc")
 		)
@@ -7378,6 +7414,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/ESD441DPLR/21298753"
+			(at 199.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8274,7 +8320,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXB0102DCT"
+		(property "Value" "TXB0102DCUT"
 			(at 62.23 135.89 0)
 			(effects
 				(font
@@ -8302,6 +8348,51 @@
 			)
 		)
 		(property "Description" "2-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, TSSOP-8"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/TXB0102DCUT/1910149"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0102DCUT"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TXB0102DCUT"
 			(at 59.69 121.92 0)
 			(effects
 				(font
@@ -9755,7 +9846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 255.27 66.04 0)
 			(effects
 				(font
@@ -9818,7 +9909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 255.27 66.04 0)
 			(effects
 				(font
@@ -10420,7 +10511,34 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Analog Devices Inc."
+		(property "Manufacturer" "Analog Devices"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ADUM4160BRWZ-RL"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ADUM4160BRWZ-RL"
 			(at 233.68 87.63 0)
 			(effects
 				(font
@@ -10924,6 +11042,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "SunLED"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0274f3dd-4679-4656-bc05-420b66ada7a3")
 		)
@@ -11026,7 +11153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 189.23 66.04 0)
 			(effects
 				(font
@@ -11089,7 +11216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 189.23 66.04 0)
 			(effects
 				(font
@@ -11641,6 +11768,15 @@
 			)
 		)
 		(property "MPN" "CDDFN10-3324P"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/bourns-inc/CDDFN10-3324P/5019648"
 			(at 48.26 38.1 0)
 			(effects
 				(font

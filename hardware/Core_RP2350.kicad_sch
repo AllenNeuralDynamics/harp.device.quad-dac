@@ -3917,6 +3917,16 @@
 		)
 		(uuid "6551cafb-b31c-4e77-ace7-db9610022c5d")
 	)
+	(text "Red"
+		(exclude_from_sim no)
+		(at 204.47 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "68f83406-8224-4b49-926c-f450306d3238")
+	)
 	(text "additional\nflash memory"
 		(exclude_from_sim no)
 		(at 271.526 128.778 0)
@@ -3983,6 +3993,16 @@
 		)
 		(uuid "7d1c4a56-b82a-43c8-94fd-bc0f4283bf96")
 	)
+	(text "Red"
+		(exclude_from_sim no)
+		(at 204.47 109.474 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c76433f-8bb3-488e-9139-7a5f29f657be")
+	)
 	(text "cut off\nfrequency\nfc=1.25kHz"
 		(exclude_from_sim no)
 		(at 67.31 39.37 0)
@@ -4026,6 +4046,16 @@
 			(justify left bottom)
 		)
 		(uuid "b143ddd5-6dd4-4e3c-bfda-b0318f9f8ff4")
+	)
+	(text "Red"
+		(exclude_from_sim no)
+		(at 204.47 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bff8dcd9-792e-435a-a057-dd85d2fb5af2")
 	)
 	(text "UART0TX"
 		(exclude_from_sim no)
@@ -10212,8 +10242,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 25.4 123.19 0)
+		(property "Value" "SPST-NO"
+			(at 25.654 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,6 +10305,33 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "435451019820 "
+			(at 25.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/435451019820/18735367"
+			(at 25.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 25.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
 			(at 25.4 123.19 0)
 			(effects
 				(font
@@ -10691,6 +10748,15 @@
 		)
 		(property "Manufacturer_Part_Number" "XZCDGK53W-1VF"
 			(at 204.47 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SunLED"
+			(at 207.01 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12419,7 +12485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 72.39 30.48 0)
 			(effects
 				(font
@@ -12464,7 +12530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 72.39 30.48 0)
 			(effects
 				(font
@@ -12541,6 +12607,51 @@
 		)
 		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
 			(at 262.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "W25Q128JVSIQ TR"
+			(at 262.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Winbond Electronics"
+			(at 262.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Winbond Electronics"
+			(at 262.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "W25Q128JVSIQ TR"
+			(at 262.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/winbond-electronics/W25Q128JVSIQ-TR/5803944"
+			(at 262.89 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12706,6 +12817,15 @@
 		)
 		(property "Manufacturer_Part_Number" "XZCDGK53W-1VF"
 			(at 201.168 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SunLED"
+			(at 207.01 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13636,6 +13756,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/coilcraft/XGL3530-332MEC/16634565"
+			(at 67.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6f58f0e-18e6-461a-bbf3-dfa6f640a50c")
 		)
@@ -13947,6 +14076,51 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "W25Q128JVSIQ TR"
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Winbond Electronics"
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Winbond Electronics"
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "W25Q128JVSIQ TR"
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/winbond-electronics/W25Q128JVSIQ-TR/5803944"
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "b6d8bcd8-d624-45f6-8d00-d0ac700ace80")
 		)
@@ -14160,8 +14334,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 25.4 105.41 0)
+		(property "Value" "SPST-NO"
+			(at 25.4 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14223,6 +14397,33 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "435451019820 "
+			(at 25.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/435451019820/18735367"
+			(at 25.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 25.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
 			(at 25.4 105.41 0)
 			(effects
 				(font
@@ -15547,6 +15748,51 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "W25Q128JVSIQ TR"
+			(at 262.89 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Winbond Electronics"
+			(at 262.89 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Winbond Electronics"
+			(at 262.89 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "W25Q128JVSIQ TR"
+			(at 262.89 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/winbond-electronics/W25Q128JVSIQ-TR/5803944"
+			(at 262.89 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "e51b0e0f-a7ff-463a-ab5d-0f3415a53e46")
 		)
@@ -15919,6 +16165,15 @@
 		)
 		(property "Manufacturer_Part_Number" "XZCDGK53W-1VF"
 			(at 202.692 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SunLED"
+			(at 207.01 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16935,7 +17190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 34.29 58.42 0)
 			(effects
 				(font
@@ -16998,7 +17253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 34.29 58.42 0)
 			(effects
 				(font
@@ -18320,7 +18575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 140.97 33.02 0)
 			(effects
 				(font
@@ -18365,7 +18620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 140.97 33.02 0)
 			(effects
 				(font
@@ -18743,8 +18998,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 25.4 161.29 0)
+		(property "Value" "SPST-NO"
+			(at 25.4 157.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18806,6 +19061,33 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "435451019820 "
+			(at 25.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/435451019820/18735367"
+			(at 25.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 25.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
 			(at 25.4 161.29 0)
 			(effects
 				(font
@@ -19212,7 +19494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Harwin Inc."
+		(property "Manufacturer" "Harwin"
 			(at 139.7 13.97 0)
 			(effects
 				(font
@@ -19221,7 +19503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Harwin Inc."
+		(property "Manufacturer_Name" "Harwin"
 			(at 139.7 13.97 0)
 			(effects
 				(font
@@ -19576,8 +19858,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 25.4 139.7 0)
+		(property "Value" "SPST-NO"
+			(at 25.4 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19639,6 +19921,33 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "435451019820 "
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/435451019820/18735367"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
 			(at 25.4 139.7 0)
 			(effects
 				(font
@@ -19995,6 +20304,33 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SC1510-A4"
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/raspberry-pi/SC1510-A4/26241109"
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Raspberry Pi"
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Raspberry Pi"
 			(at 115.57 102.87 0)
 			(effects
 				(font
@@ -20484,6 +20820,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM4040A30IDBZR/1216467"
+			(at 161.29 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5bb53745-ac95-4b65-9cb2-3a07fbe834be")
 		)
@@ -20526,8 +20871,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 25.4 182.88 0)
+		(property "Value" "SPST-NO"
+			(at 25.654 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20589,6 +20934,33 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "435451019820 "
+			(at 25.4 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/435451019820/18735367"
+			(at 25.4 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 25.4 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
 			(at 25.4 182.88 0)
 			(effects
 				(font
@@ -21330,7 +21702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 34.29 31.75 0)
 			(effects
 				(font
@@ -21393,7 +21765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "TDK"
 			(at 34.29 31.75 0)
 			(effects
 				(font
@@ -21556,7 +21928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "ECS Inc."
+		(property "Manufacturer" "ECS"
 			(at 50.8 86.36 0)
 			(effects
 				(font
@@ -21629,6 +22001,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ECS-TXO-2016-33-120-TR"
+			(at 50.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ECS"
 			(at 50.8 86.36 0)
 			(effects
 				(font
