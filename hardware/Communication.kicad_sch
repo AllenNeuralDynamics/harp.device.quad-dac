@@ -6271,7 +6271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17f96e42-773f-4b82-98fe-807da0cf38dd")
-		(property "Reference" "J1"
+		(property "Reference" "J18"
 			(at 35.56 22.098 0)
 			(effects
 				(font
@@ -6367,7 +6367,7 @@
 		(instances
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/08506a40-9943-41e4-b528-13f6a4c7e855"
-					(reference "J1")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -7588,7 +7588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4dcd06ac-9328-40e8-85f3-789d4fe61da0")
-		(property "Reference" "J2"
+		(property "Reference" "J17"
 			(at 37.084 62.484 0)
 			(effects
 				(font
@@ -7707,7 +7707,7 @@
 		(instances
 			(project "harp.device.quad.dac"
 				(path "/6b47c519-21c4-43bd-9777-b273999e4447/08506a40-9943-41e4-b528-13f6a4c7e855"
-					(reference "J2")
+					(reference "J17")
 					(unit 1)
 				)
 			)

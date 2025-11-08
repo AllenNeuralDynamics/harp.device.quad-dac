@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.0*%
-%TF.CreationDate,2025-11-05T20:35:52+03:00*%
+%TF.CreationDate,2025-11-08T16:48:47+03:00*%
 %TF.ProjectId,harp.device.quad.dac,68617270-2e64-4657-9669-63652e717561,1.1*%
 %TF.SameCoordinates,PX81941e8PY5f5e100*%
 %TF.FileFunction,Paste,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.0) date 2025-11-05 20:35:52*
+G04 Created by KiCad (PCBNEW 9.0.0) date 2025-11-08 16:48:47*
 %MOMM*%
 %LPD*%
 G01*
@@ -637,8 +637,8 @@ X90060000Y55994000D03*
 %TD*%
 D26*
 %TO.C,D4*%
-X61867000Y50597000D03*
-X65167000Y50597000D03*
+X61850000Y51308000D03*
+X65150000Y51308000D03*
 %TD*%
 D17*
 %TO.C,C66*%
