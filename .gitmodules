@@ -1,0 +1,3 @@
+[submodule "firmware/libs"]
+	path = firmware/libs
+	url = https://github.com/harp-tech/core.pico.git

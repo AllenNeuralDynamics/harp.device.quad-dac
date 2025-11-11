@@ -1,0 +1,381 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6b47c519-21c4-43bd-9777-b273999e4447")
+	(paper "A4")
+	(title_block
+		(title "harp device quad dac")
+		(date "2025-07-15")
+		(rev "1.1")
+		(company "The Allen Institute")
+		(comment 1 "Hexabitz")
+	)
+	(lib_symbols)
+	(sheet
+		(at 210.82 30.48)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.6096)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(color 255 255 160 1.0000)
+		)
+		(uuid "08506a40-9943-41e4-b528-13f6a4c7e855")
+		(property "Sheetname" "Communication"
+			(at 210.82 29.1334 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Communication.kicad_sch"
+			(at 210.82 56.4646 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 67.31)
+		(size 50.8 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.6096)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(color 255 255 160 1.0000)
+		)
+		(uuid "0ccdaeff-cab2-4ff1-b218-5d9a4a178a6f")
+		(property "Sheetname" "Block_Diagram"
+			(at 210.82 65.9634 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Block_Diagram.kicad_sch"
+			(at 210.82 92.0246 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 67.31)
+		(size 50.8 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.6096)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(color 255 255 160 1.0000)
+		)
+		(uuid "1783abfe-3faf-469b-a509-8e70c13c0682")
+		(property "Sheetname" "Output"
+			(at 152.4 65.9634 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Output.kicad_sch"
+			(at 152.4 92.0246 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 30.48)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.6096)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(color 255 255 160 1.0000)
+		)
+		(uuid "1945aa77-a929-44fd-b3b6-12787633d2f2")
+		(property "Sheetname" "SC_Detection"
+			(at 152.4 29.1334 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SC_Detection.kicad_sch"
+			(at 152.4 56.4646 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 30.48)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.6096)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(color 255 255 160 1.0000)
+		)
+		(uuid "50574cb8-ffd5-42a3-a56c-0f0945fbd245")
+		(property "Sheetname" "DACs"
+			(at 92.71 28.9048 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DACs.kicad_sch"
+			(at 92.71 56.6932 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 30.48)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.6096)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(color 255 255 160 1.0000)
+		)
+		(uuid "5973743b-c3fc-4963-acef-26c8fa426708")
+		(property "Sheetname" "Core_RP2350"
+			(at 33.02 28.9048 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Core_RP2350.kicad_sch"
+			(at 33.02 56.6932 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 67.31)
+		(size 50.8 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.6096)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(color 255 255 160 1.0000)
+		)
+		(uuid "8b495cef-3a6a-4801-9796-978978016448")
+		(property "Sheetname" "Input"
+			(at 33.02 65.9634 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Input.kicad_sch"
+			(at 33.02 92.0246 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 67.31)
+		(size 50.8 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.6096)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(color 255 255 160 1.0000)
+		)
+		(uuid "df92df4e-37ce-471e-93c1-358fcc45baf3")
+		(property "Sheetname" "Power_Supply"
+			(at 92.71 65.9634 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply.kicad_sch"
+			(at 92.71 92.0246 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "harp.device.quad.dac"
+				(path "/6b47c519-21c4-43bd-9777-b273999e4447"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
