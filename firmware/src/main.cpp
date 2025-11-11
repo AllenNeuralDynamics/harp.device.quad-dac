@@ -56,7 +56,7 @@ const uint16_t serial_number = 0xCAFE;
 
 absolute_time_t time_current;
 // Harp App Register Setup.
-const size_t reg_count = 17;
+const size_t reg_count = 18;
 
 void write_any_channel(msg_t& msg);
 void erase_flash_memory(msg_t& msg);
@@ -69,6 +69,36 @@ void specific_any_waveform(msg_t& msg);
 #define ALARM_3_PERIOD_US 50000  // 50 ms
 
 // Global state tracking and periods - periods must be volatile
+
+// Define register contents.
+#pragma pack(push, 1)
+struct app_regs_t
+{
+    volatile uint8_t start_channel_1;  // app register 0
+    volatile uint8_t start_channel_2;
+    volatile uint8_t start_channel_3; 
+    volatile uint8_t start_channel_4;
+
+    volatile uint8_t stop_channel_1;
+    volatile uint8_t stop_channel_2;
+    volatile uint8_t stop_channel_3; 
+    volatile uint8_t stop_channel_4;
+
+    volatile uint8_t one_shot_continous;
+    
+    volatile uint32_t update_rate_1;
+    volatile uint32_t update_rate_2;
+    volatile uint32_t update_rate_3; 
+    volatile uint32_t update_rate_4; 
+
+    volatile uint32_t samples_wave_1;
+    volatile uint32_t samples_wave_2;
+    volatile uint32_t samples_wave_3; 
+    volatile uint32_t samples_wave_4; 
+
+    volatile uint8_t erase_flash;
+} app_regs;
+#pragma pack(pop)
 
 // This array now holds the current, modifiable periods
 volatile uint32_t alarm_periods[4] = {
@@ -102,6 +132,14 @@ static void timer_alarm_0_handler(void) {
     time_current = get_absolute_time();
     target_time[0] += alarm_periods[0];
     timer_hw->alarm[0] = target_time[0];
+    if (app_regs.one_shot_continous == 1)
+    {
+        // send data one shot
+    }
+    else
+    {
+        // send data one continously
+    }
 
 }
 
@@ -111,6 +149,14 @@ static void timer_alarm_1_handler(void) {
     time_current = get_absolute_time();
     target_time[1] += alarm_periods[1];
     timer_hw->alarm[1] = target_time[1];
+    if (app_regs.one_shot_continous == 1)
+    {
+        // send data one shot
+    }
+    else
+    {
+        // send data one continously
+    }
 
 }
 
@@ -119,6 +165,14 @@ static void timer_alarm_2_handler(void) {
     hw_clear_bits(&timer_hw->intr, 1u << 2);
     target_time[2] += alarm_periods[2];
     timer_hw->alarm[2] = target_time[2];
+    if (app_regs.one_shot_continous == 1)
+    {
+        // send data one shot
+    }
+    else
+    {
+        // send data one continously
+    }
 
 }
 
@@ -127,6 +181,14 @@ static void timer_alarm_3_handler(void) {
     hw_clear_bits(&timer_hw->intr, 1u << 3);
     target_time[3] += alarm_periods[3];
     timer_hw->alarm[3] = target_time[3];
+    if (app_regs.one_shot_continous == 1)
+    {
+        // send data one shot
+    }
+    else
+    {
+        // send data one continously
+    }
 
 }
 
@@ -153,33 +215,7 @@ static void call_flash_range_program(void *params) {
     uintptr_t *p = (uintptr_t *)params;
     flash_range_program(p[0], (const uint8_t*)p[1], TOTAL_DATA_SIZE);
 }
-// Define register contents.
-#pragma pack(push, 1)
-struct app_regs_t
-{
-    volatile uint8_t start_channel_1;  // app register 0
-    volatile uint8_t start_channel_2;
-    volatile uint8_t start_channel_3; 
-    volatile uint8_t start_channel_4;
 
-    volatile uint8_t stop_channel_1;
-    volatile uint8_t stop_channel_2;
-    volatile uint8_t stop_channel_3; 
-    volatile uint8_t stop_channel_4;
-    
-    volatile uint32_t update_rate_1;
-    volatile uint32_t update_rate_2;
-    volatile uint32_t update_rate_3; 
-    volatile uint32_t update_rate_4; 
-
-    volatile uint32_t samples_wave_1;
-    volatile uint32_t samples_wave_2;
-    volatile uint32_t samples_wave_3; 
-    volatile uint32_t samples_wave_4; 
-
-    volatile uint8_t erase_flash;
-} app_regs;
-#pragma pack(pop)
 
 // Define register "specs."
 RegSpecs app_reg_specs[reg_count]
@@ -192,6 +228,8 @@ RegSpecs app_reg_specs[reg_count]
     {(uint8_t*)&app_regs.stop_channel_2, sizeof(app_regs.stop_channel_2), U8},
     {(uint8_t*)&app_regs.stop_channel_3, sizeof(app_regs.stop_channel_3), U8},
     {(uint8_t*)&app_regs.stop_channel_4, sizeof(app_regs.stop_channel_4), U8},
+    {(uint8_t*)&app_regs.one_shot_continous, sizeof(app_regs.one_shot_continous), U8},
+
     {(uint8_t*)&app_regs.update_rate_1, sizeof(app_regs.update_rate_1), U32},
     {(uint8_t*)&app_regs.update_rate_2, sizeof(app_regs.update_rate_2), U32},
     {(uint8_t*)&app_regs.update_rate_3, sizeof(app_regs.update_rate_3), U32},
@@ -213,6 +251,8 @@ RegFnPair reg_handler_fns[reg_count]
     {&HarpCore::read_reg_generic, write_any_channel},
     {&HarpCore::read_reg_generic, write_any_channel},
     {&HarpCore::read_reg_generic, write_any_channel},
+    {&HarpCore::read_reg_generic, write_any_channel},
+
     {&HarpCore::read_reg_generic, write_any_channel},
     
     {&HarpCore::read_reg_generic, specific_any_waveform},
