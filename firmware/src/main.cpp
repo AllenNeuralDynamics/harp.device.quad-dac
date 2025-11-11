@@ -4,8 +4,17 @@
 #include <core_registers.h>
 #include <reg_types.h>
 #include <config.h>
+#include <stdio.h>
 #include <cstdio> // for printf
 #include "hardware/flash.h"
+#include "hardware/timer.h"
+#include "hardware/clocks.h"
+#include "hardware/pll.h"
+#include "hardware/clocks.h"
+#include "hardware/structs/pll.h"
+#include "hardware/structs/clocks.h"
+#include "hardware/irq.h"
+
 #ifdef DEBUG
     #include <pico/stdlib.h> // for uart printing
     #include <cstdio> // for printf
@@ -28,9 +37,12 @@ bool write_to_flash = false;
 static uint32_t bytes_received = 0;
 static uint16_t words_received = 0;
 uint32_t count;
+
+uint32_t clock_sys;
 // Buffers for data transfer
 uint8_t read_data_buffer[100];
 
+uint8_t channel_index_wave;
 // Create device name array.
 const uint16_t who_am_i = 1234;
 const uint8_t hw_version_major = 0;
@@ -42,12 +54,98 @@ const uint8_t fw_version_major = 0;
 const uint8_t fw_version_minor = 0;
 const uint16_t serial_number = 0xCAFE;
 
+absolute_time_t time_current;
 // Harp App Register Setup.
 const size_t reg_count = 17;
 
 void write_any_channel(msg_t& msg);
 void erase_flash_memory(msg_t& msg);
 void specific_any_waveform(msg_t& msg);
+
+// Define the initial periods for the four alarms in microseconds (µs)
+#define ALARM_0_PERIOD_US 500000 // 500 ms
+#define ALARM_1_PERIOD_US 250000 // 250 ms
+#define ALARM_2_PERIOD_US 100000 // 100 ms 
+#define ALARM_3_PERIOD_US 50000  // 50 ms
+
+// Global state tracking and periods - periods must be volatile
+
+// This array now holds the current, modifiable periods
+volatile uint32_t alarm_periods[4] = {
+    ALARM_0_PERIOD_US, ALARM_1_PERIOD_US, ALARM_2_PERIOD_US, ALARM_3_PERIOD_US
+};
+
+// Next target time for each alarm
+static uint64_t target_time[4];
+
+// --- Helper Function to Dynamically Change the Interrupt Time ---
+void set_alarm_period(int alarm_num, uint32_t new_period_us) {
+    if (alarm_num < 0 || alarm_num > 3) return;
+
+    // Disable interrupts briefly to ensure an atomic update
+    uint32_t save = save_and_disable_interrupts();
+    
+    // Update the global period variable for the specified alarm
+    alarm_periods[alarm_num] = new_period_us;
+    
+    // Re-enable interrupts
+    restore_interrupts(save);
+
+    printf("Alarm %d period changed to %u us.\n", alarm_num, new_period_us);
+}
+
+// --- Alarm Interrupt Service Routines (ISRs) ---
+
+// --- Alarm 0 Interrupt Service Routine (ISR) ---
+static void timer_alarm_0_handler(void) {
+    hw_clear_bits(&timer_hw->intr, 1u << 0);
+    time_current = get_absolute_time();
+    target_time[0] += alarm_periods[0];
+    timer_hw->alarm[0] = target_time[0];
+
+}
+
+// --- Alarm 1 Interrupt Service Routine (ISR) ---
+static void timer_alarm_1_handler(void) {
+    hw_clear_bits(&timer_hw->intr, 1u << 1);
+    time_current = get_absolute_time();
+    target_time[1] += alarm_periods[1];
+    timer_hw->alarm[1] = target_time[1];
+
+}
+
+// --- Alarm 2 Interrupt Service Routine (ISR) ---
+static void timer_alarm_2_handler(void) {
+    hw_clear_bits(&timer_hw->intr, 1u << 2);
+    target_time[2] += alarm_periods[2];
+    timer_hw->alarm[2] = target_time[2];
+
+}
+
+// --- Alarm 3 Interrupt Service Routine (ISR) ---
+static void timer_alarm_3_handler(void) {
+    hw_clear_bits(&timer_hw->intr, 1u << 3);
+    target_time[3] += alarm_periods[3];
+    timer_hw->alarm[3] = target_time[3];
+
+}
+
+
+void init_alarm(int alarm_num, void (*handler_fn)(void), uint32_t period_us) {
+    
+    // Use the value stored in the global array for initial setup
+    target_time[alarm_num] = timer_hw->timerawl + alarm_periods[alarm_num];
+    timer_hw->alarm[alarm_num] = target_time[alarm_num];
+
+    // Set the interrupt handler and enable the IRQ
+    irq_set_exclusive_handler(TIMER_IRQ_0 + alarm_num, handler_fn);
+    irq_set_enabled(TIMER_IRQ_0 + alarm_num, true);
+
+    // Tell the timer hardware to fire an interrupt (set the interrupt enable bit)
+    timer_hw->inte |= 1u << alarm_num;
+}
+
+
 
 // Function to call the flash programming
 // Note: The flash programming function still works with 8-bit bytes
@@ -138,6 +236,16 @@ void write_any_channel(msg_t& msg)
 void specific_any_waveform(msg_t& msg)
 {
     HarpCore::copy_msg_payload_to_register(msg);
+    channel_index_wave = msg.header.address - APP_REG_START_ADDRESS;
+    if(channel_index_wave == 8)
+        set_alarm_period(0, app_regs.update_rate_1);
+    else if(channel_index_wave == 9)
+        set_alarm_period(1, app_regs.update_rate_2);
+    else if(channel_index_wave == 10)
+        set_alarm_period(2, app_regs.update_rate_3);
+    else if(channel_index_wave == 11)
+        set_alarm_period(3, app_regs.update_rate_4);
+    printf("Set Interrupt Time intervals for Update Rate !\r\n");
 }
 
 void erase_flash_memory(msg_t& msg)
@@ -259,9 +367,20 @@ int main()
     stdio_uart_init_full(uart0, 921600, UART_TX_PIN, -1); // use uart1 tx only.
     printf("Hello, from Quad DAC!\r\n");
 #endif
+
+// Re init uart now that clk_peri has changed
+stdio_init_all();
+
+// --- Timer Setup ---
+// Initialize all four alarms with their initial periods
+init_alarm(0, timer_alarm_0_handler, ALARM_0_PERIOD_US);
+init_alarm(1, timer_alarm_1_handler, ALARM_1_PERIOD_US);
+init_alarm(2, timer_alarm_2_handler, ALARM_2_PERIOD_US);
+init_alarm(3, timer_alarm_3_handler, ALARM_3_PERIOD_US);
+
     while(true)
     {
-        printf("Hello, from Quad DAC!\r\n");
+        // printf("Hello, from Quad DAC!\r\n");
 
         if (tud_vendor_available()) {
             uint32_t count = tud_vendor_read(rx_packet_buffer, sizeof(rx_packet_buffer));
@@ -318,6 +437,10 @@ int main()
             words_received = 0;
             write_to_flash = false;
         }
-        app.run();
+            app.run();
+        // time_current = get_absolute_time();
+        // time_current = get_absolute_time();
+        // clock_sys = frequency_count_khz(CLOCKS_FC0_SRC_VALUE_CLK_SYS);
+        
     }
 }
